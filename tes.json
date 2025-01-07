@@ -2,16 +2,22 @@
   {
     "teams": "PETRONAS Malaysia Open 2025 - COURT 1",
     "time": "08:00",
-    "videoId": "37590"
+    "date": "2025-01-07",
+    "videoId": "37590",
+    "m3u8": "https://example.com/stream2.m3u8"
   },
   {
     "teams": "PETRONAS Malaysia Open 2025 - COURT 2",
     "time": "08:00",
-    "videoId": "39450"
+    "date": "2025-01-07",
+    "videoId": "39450",
+    "m3u8": "https://example.com/stream2.m3u8"
   },
   {
     "teams": "PETRONAS Malaysia Open 2025 - COURT 3",
     "time": "08:00",
-    "videoId": "37290"
+    "date": "2025-01-07",
+    "videoId": "37290",
+    "m3u8": "https://example.com/stream2.m3u8"
   }
 ]
