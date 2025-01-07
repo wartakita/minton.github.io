@@ -18,14 +18,14 @@
         }    
         .navbar-brand {    
             font-weight: bold;    
-            color: #fff !important;    
+            color: #fff;    
         }    
         .navbar-nav .nav-link {    
-            color: #fff !important;    
+            color: #fff;    
             transition: color 0.3s;    
         }    
         .navbar-nav .nav-link:hover {    
-            color: #007bff !important;    
+            color: #007bff;    
         }    
         .card {    
             background-color: #fff;    
@@ -43,65 +43,51 @@
             background-color: #343a40;    
             color: #fff;    
             text-align: center;    
-            padding: 1rem 1.5rem; /* Sesuaikan padding */  
+            padding: 1rem 0;    
             position: fixed;    
             bottom: 0;    
             width: 100%;    
             transition: background-color 0.3s;    
-            box-sizing: border-box; /* Memastikan padding dan border termasuk dalam lebar total */  
         }    
-        .footer p {  
-            margin: 0; /* Menghapus margin default pada paragraf */  
-            font-size: 0.9rem; /* Menyesuaikan ukuran font */  
-        }  
         .footer:hover {    
             background-color: #23272b;    
         }    
-        @media (max-width: 768px) { /* Tablets dan phablets */  
-            .footer {  
-                position: static; /* Mengubah posisi menjadi static di layar kecil */  
-            }  
-            .navbar-brand {  
-                font-size: 1.25rem;  
-            }  
-            .nav-link {  
-                font-size: 0.9rem;  
-            }  
-            .card-title {  
-                font-size: 1.1rem;  
-            }  
-            .footer p {  
-                font-size: 0.8rem;  
-            }  
-        }  
-        @media (max-width: 576px) { /* Smartphones */  
-            .footer p {  
-                font-size: 0.75rem;  
-            }  
-            .navbar-brand {  
-                font-size: 1.1rem;  
-            }  
-            .nav-link {  
-                font-size: 0.8rem;  
-            }  
-            .card-title {  
-                font-size: 1rem;  
-            }  
-        }  
-        @media (min-width: 992px) { /* Laptop */  
-            .footer p {  
-                font-size: 1rem;  
-            }  
-            .navbar-brand {  
-                font-size: 1.5rem;  
-            }  
-            .nav-link {  
-                font-size: 1rem;  
-            }  
-            .card-title {  
-                font-size: 1.2rem;  
-            }  
-        }  
+        @media (max-width: 768px) {    
+            .card {    
+                margin-bottom: 1rem;    
+            }    
+            .footer {    
+                position: static;    
+                padding: 0.5rem 0;    
+            }    
+        }    
+        @media (max-width: 576px) {    
+            .navbar-brand {    
+                font-size: 1.25rem;    
+            }    
+            .nav-link {    
+                font-size: 0.9rem;    
+            }    
+            .card-title {    
+                font-size: 1.1rem;    
+            }    
+        }    
+        @media (max-width: 320px) {    
+            .navbar-brand {    
+                font-size: 1rem;    
+            }    
+            .nav-link {    
+                font-size: 0.8rem;    
+            }    
+            .card-title {    
+                font-size: 1rem;    
+            }    
+        }    
+        @media (min-width: 1200px) {    
+            .container {    
+                max-width: 1400px;    
+            }    
+        }    
     </style>    
 </head>    
 <body>    
