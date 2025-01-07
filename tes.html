@@ -1,0 +1,282 @@
+<!DOCTYPE html>    
+<html lang="en">    
+<head>    
+    <meta charset="UTF-8">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <meta name="description" content="Watch live badminton matches and stay updated with upcoming matches.">    
+    <meta name="keywords" content="badminton, live streaming, matches, upcoming">    
+    <title>Badminton Streaming</title>    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">    
+    <style>    
+        body {    
+            background-color: #f8f9fa;    
+            font-family: 'Arial', sans-serif;    
+        }    
+        .navbar {    
+            background-color: #343a40;    
+        }    
+        .navbar-brand {    
+            font-weight: bold;    
+            color: #fff !important;    
+        }    
+        .navbar-nav .nav-link {    
+            color: #fff !important;    
+            transition: color 0.3s;    
+        }    
+        .navbar-nav .nav-link:hover {    
+            color: #007bff !important;    
+        }    
+        .card {    
+            background-color: #fff;    
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);    
+            margin-bottom: 1rem;    
+            transition: transform 0.2s;    
+        }    
+        .card:hover {    
+            transform: translateY(-5px);    
+        }    
+        .card-title {    
+            color: #343a40;    
+        }    
+        .footer {    
+            background-color: #343a40;    
+            color: #fff;    
+            text-align: center;    
+            padding: 1rem 1.5rem; /* Sesuaikan padding */  
+            position: fixed;    
+            bottom: 0;    
+            width: 100%;    
+            transition: background-color 0.3s;    
+            box-sizing: border-box; /* Memastikan padding dan border termasuk dalam lebar total */  
+        }    
+        .footer p {  
+            margin: 0; /* Menghapus margin default pada paragraf */  
+            font-size: 0.9rem; /* Menyesuaikan ukuran font */  
+        }  
+        .footer:hover {    
+            background-color: #23272b;    
+        }    
+        @media (max-width: 768px) { /* Tablets dan phablets */  
+            .footer {  
+                position: static; /* Mengubah posisi menjadi static di layar kecil */  
+            }  
+            .navbar-brand {  
+                font-size: 1.25rem;  
+            }  
+            .nav-link {  
+                font-size: 0.9rem;  
+            }  
+            .card-title {  
+                font-size: 1.1rem;  
+            }  
+            .footer p {  
+                font-size: 0.8rem;  
+            }  
+        }  
+        @media (max-width: 576px) { /* Smartphones */  
+            .footer p {  
+                font-size: 0.75rem;  
+            }  
+            .navbar-brand {  
+                font-size: 1.1rem;  
+            }  
+            .nav-link {  
+                font-size: 0.8rem;  
+            }  
+            .card-title {  
+                font-size: 1rem;  
+            }  
+        }  
+        @media (min-width: 992px) { /* Laptop */  
+            .footer p {  
+                font-size: 1rem;  
+            }  
+            .navbar-brand {  
+                font-size: 1.5rem;  
+            }  
+            .nav-link {  
+                font-size: 1rem;  
+            }  
+            .card-title {  
+                font-size: 1.2rem;  
+            }  
+        }  
+    </style>    
+</head>    
+<body>    
+    
+    <!-- Navbar -->    
+    <header>    
+        <nav class="navbar navbar-expand-lg navbar-dark">    
+            <div class="container">    
+                <a class="navbar-brand" href="#"><i class="fas fa-volleyball-ball"></i> Badminton Live</a>    
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">    
+                    <span class="navbar-toggler-icon"></span>    
+                </button>    
+                <div class="collapse navbar-collapse" id="navbarNav">    
+                    <ul class="navbar-nav ms-auto">    
+                        <li class="nav-item">    
+                            <a class="nav-link" href="#"><i class="fas fa-home"></i> Home</a>    
+                        </li>    
+                        <li class="nav-item">    
+                            <a class="nav-link" href="#"><i class="fas fa-table-tennis"></i> Matches</a>    
+                        </li>    
+                        <li class="nav-item">    
+                            <a class="nav-link" href="#"><i class="fas fa-envelope"></i> Contact</a>    
+                        </li>    
+                    </ul>    
+                </div>    
+            </div>    
+        </nav>    
+    </header>    
+    
+    <!-- Main Content -->    
+    <div class="container mt-5">    
+        <div class="row">    
+            <div class="col-lg-8 col-md-12">    
+                <div class="card" id="player-card">    
+                    <div class="card-body">    
+                        <h5 class="card-title" id="match-title">Live Badminton Match</h5>    
+                        <div id="player" style="height: 400px;"></div>    
+                    </div>    
+                </div>    
+            </div>    
+            <div class="col-lg-4 col-md-12">    
+                <div class="card mb-3">    
+                    <div class="card-body">    
+                        <h5 class="card-title"><i class="fas fa-list"></i> Matches</h5>    
+                        <ul id="matches-list" class="list-group">    
+                            <!-- Dynamic Matches Will Be Loaded Here -->    
+                        </ul>    
+                    </div>    
+                </div>    
+                <div class="card">    
+                    <div class="card-body">    
+                        <h5 class="card-title"><i class="fas fa-share-alt"></i> Follow Us</h5>    
+                        <a href="#" class="btn btn-primary btn-sm me-2" aria-label="Follow us on Facebook"><i class="fab fa-facebook"></i> Facebook</a>    
+                        <a href="#" class="btn btn-info btn-sm me-2" aria-label="Follow us on Twitter"><i class="fab fa-twitter"></i> Twitter</a>    
+                        <a href="#" class="btn btn-success btn-sm me-2" aria-label="Follow us on Telegram"><i class="fab fa-telegram"></i> Telegram</a>    
+                        <a href="#" class="btn btn-warning btn-sm" aria-label="Follow us on WhatsApp"><i class="fab fa-whatsapp"></i> WhatsApp</a>    
+                    </div>    
+                </div>    
+            </div>    
+        </div>    
+    </div>    
+    
+    <!-- Footer -->    
+    <div class="footer">    
+        <p>&copy; 2025 Badminton Live. All rights reserved.</p>    
+    </div>    
+    
+    <!-- Scripts -->    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>    
+    <script src="https://content.jwplatform.com/libraries/KB5zFt7A.js"></script>    
+    <script>    
+        // Function to get videoId dynamically from URL parameters    
+        function getVideoId() {    
+            const params = new URLSearchParams(window.location.search);    
+            return params.get('videoId'); // No default fallback    
+        }    
+    
+        // Function to update match title    
+        function updateMatchTitle(title) {    
+            const matchTitle = document.getElementById('match-title');    
+            matchTitle.textContent = title;    
+        }    
+    
+        // Initialize JWPlayer dynamically with videoId or M3U8    
+        function initializePlayer(videoId, m3u8, title) {    
+            const videoUrl = `https://tvpull.careryun.com/live/ballbar_${videoId}.m3u8`;    
+            jwplayer("player").setup({    
+                file: videoUrl,    
+                image: "https://da.gd/oeye", // Ganti dengan URL gambar yang benar    
+                width: "100%",    
+                height: "100%"    
+            });    
+            jwplayer().on('error', function() {    
+                console.error('Error with videoId, switching to M3U8');    
+                jwplayer("player").setup({    
+                    file: m3u8,    
+                    image: "https://da.gd/oeye", // Ganti dengan URL gambar yang benar    
+                    width: "100%",    
+                    height: "100%"    
+                });    
+            });    
+            updateMatchTitle(title);    
+            scrollToPlayer();    
+        }    
+    
+        // Function to scroll to the player section    
+        function scrollToPlayer() {    
+            const playerCard = document.getElementById('player-card');    
+            playerCard.scrollIntoView({ behavior: 'smooth', block: 'start' });    
+        }    
+    
+        // Function to format date from YYYY-MM-DD to DD-Month-YYYY    
+        function formatDate(dateString) {    
+            const options = { day: '2-digit', month: 'long', year: 'numeric' };    
+            return new Date(dateString).toLocaleDateString('en-US', options);    
+        }    
+    
+        // Load matches from JSON    
+        function loadMatches() {    
+            const matchesList = document.getElementById('matches-list');    
+            fetch('https://wartakita.github.io/minton.github.io/tes.json') // Ganti dengan URL file JSON Anda    
+                .then(response => {    
+                    if (!response.ok) {    
+                        throw new Error('Network response was not ok ' + response.statusText);    
+                    }    
+                    return response.json();    
+                })    
+                .then(data => {    
+                    data.forEach(match => {    
+                        const listItem = document.createElement('li');    
+                        listItem.className = 'list-group-item list-group-item-action';    
+                        listItem.innerHTML = `${match.teams} - ${match.time} <br><small>${formatDate(match.date)}</small>`;    
+                        listItem.dataset.videoId = match.videoId; // Menyimpan videoId sebagai atribut data    
+                        listItem.dataset.m3u8 = match.m3u8; // Menyimpan URL M3U8 sebagai atribut data    
+                        listItem.dataset.title = match.teams; // Menyimpan judul pertandingan sebagai atribut data    
+                        listItem.addEventListener('click', () => {    
+                            initializePlayer(match.videoId, match.m3u8, match.teams);    
+                        });    
+                        matchesList.appendChild(listItem);    
+                    });    
+                })    
+                .catch(error => {    
+                    console.error('Error fetching matches:', error);    
+                    const errorMessage = document.createElement('li');    
+                    errorMessage.className = 'list-group-item text-danger';    
+                    errorMessage.textContent = 'Failed to load matches. Please try again later.';    
+                    matchesList.appendChild(errorMessage);    
+                });    
+        }    
+    
+        // Initialize on DOMContentLoaded    
+        document.addEventListener('DOMContentLoaded', function () {    
+            const videoId = getVideoId();    
+            if (videoId) {    
+                fetch('https://wartakita.github.io/minton.github.io/tes.json') // Ganti dengan URL file JSON Anda    
+                    .then(response => {    
+                        if (!response.ok) {    
+                            throw new Error('Network response was not ok ' + response.statusText);    
+                        }    
+                        return response.json();    
+                    })    
+                    .then(data => {    
+                        const match = data.find(m => m.videoId === videoId);    
+                        if (match) {    
+                            initializePlayer(match.videoId, match.m3u8, match.teams);    
+                        } else {    
+                            console.error('Match not found for videoId:', videoId);    
+                        }    
+                    })    
+                    .catch(error => {    
+                        console.error('Error fetching matches:', error);    
+                    });    
+            }    
+            loadMatches();    
+        });    
+    </script>    
+</body>    
+</html>  
