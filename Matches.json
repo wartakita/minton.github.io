@@ -4,20 +4,20 @@
     "time": "08:00",
     "date": "2025-01-09",
     "videoId": "36100",
-    "m3u8": "https://hlslive-tx-cdn.ysp.cctv.cn/2026098301.m3u8"
+    "m3u8": "https://hlslive-tx-cdn.ysp.cctv.cn/2026092701.m3u8"
   },
   {
     "teams": "PETRONAS Malaysia Open 2025 - COURT 2",
     "time": "08:00",
     "date": "2025-01-09",
     "videoId": "36450",
-    "m3u8": "https://hlslive-tx-cdn.ysp.cctv.cn/2026098401.m3u8"
+    "m3u8": "https://hlslive-tx-cdn.ysp.cctv.cn/2026097401.m3u8"
   },
   {
     "teams": "PETRONAS Malaysia Open 2025 - COURT 3",
     "time": "08:00",
     "date": "2025-01-09",
     "videoId": "34190",
-    "m3u8": "https://hlslive-tx-cdn.ysp.cctv.cn/2026098501.m3u8"
+    "m3u8": "https://hlslive-tx-cdn.ysp.cctv.cn/2026097501.m3u8"
   }
 ]
