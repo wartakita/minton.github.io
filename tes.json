@@ -1,23 +1,26 @@
 [
   {
-    "teams": "PETRONAS Malaysia Open 2025 - COURT 1",
-    "time": "08:00",
-    "date": "2025-01-07",
-    "videoId": "37590",
-    "m3u8": "https://example.com/stream2.m3u8"
+    "videoId": "1",
+    "m3u8": "https://example.com/stream1.m3u8",
+    "embedLink": "https://www.youtube.com/embed/ormagDl6q7M",
+    "teams": "YONEX-SUNRISE India Open 2025 - COURT 1",
+    "date": "2025-01-16",
+    "time": "10:30"
   },
   {
-    "teams": "PETRONAS Malaysia Open 2025 - COURT 2",
-    "time": "08:00",
-    "date": "2025-01-07",
-    "videoId": "39450",
-    "m3u8": "https://example.com/stream2.m3u8"
+    "videoId": "2",
+    "m3u8": "https://example.com/stream2.m3u8",
+    "embedLink": "https://www.youtube.com/embed/01Nm9saIisE",
+    "teams": "YONEX-SUNRISE India Open 2025 - COURT 2",
+    "date": "2025-01-16",
+    "time": "10:30"
   },
   {
-    "teams": "PETRONAS Malaysia Open 2025 - COURT 3",
-    "time": "08:00",
-    "date": "2025-01-07",
-    "videoId": "37290",
-    "m3u8": "https://example.com/stream2.m3u8"
+    "videoId": "3",
+    "m3u8": "https://example.com/stream3.m3u8",
+    "embedLink": "https://www.youtube.com/embed/l9zoDmhqcBQ",
+    "teams": "YONEX-SUNRISE India Open 2025 - COURT 3",
+    "date": "2025-01-16",
+    "time": "10:30"
   }
 ]
