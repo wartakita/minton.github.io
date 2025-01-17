@@ -2,7 +2,7 @@
   {
     "videoId": "12440",
     "m3u8": "https://example.com/stream1.m3u8",
-    "embedLink": "https://www.youtube.com/embed/ormagDl6q7M",
+    "embedLink": "https://www.youtube.com/embed/ajuiyflBI40",
     "teams": "YONEX-SUNRISE India Open 2025 - COURT 1",
     "date": "2025-01-17",
     "time": "13:30"
@@ -10,7 +10,7 @@
   {
     "videoId": "39160",
     "m3u8": "https://example.com/stream2.m3u8",
-    "embedLink": "https://www.youtube.com/embed/01Nm9saIisE",
+    "embedLink": "https://www.youtube.com/embed/h7fj9xhn9n4",
     "teams": "YONEX-SUNRISE India Open 2025 - COURT 2",
     "date": "2025-01-17",
     "time": "13:30"
@@ -18,7 +18,7 @@
   {
     "videoId": "31810",
     "m3u8": "https://example.com/stream3.m3u8",
-    "embedLink": "https://www.youtube.com/embed/l9zoDmhqcBQ",
+    "embedLink": "https://www.youtube.com/embed/QO4tSnRauCA",
     "teams": "YONEX-SUNRISE India Open 2025 - COURT 3",
     "date": "2025-01-17",
     "time": "13:30"
