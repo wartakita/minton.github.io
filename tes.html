@@ -1,38 +1,219 @@
 <!DOCTYPE html>  
 <html lang="en">  
-  
 <head>  
-    <meta charset="UTF-8">  
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
-    <!-- Docs styles -->  
-    <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />  
-    <script src="https://cdn.plyr.io/3.7.8/plyr.js"></script>  
-    <script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>  
+  <meta charset="UTF-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <title>NetPlay - Watch Live Sports</title>  
+  <!-- Bootstrap CSS -->  
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">  
+  <!-- Font Awesome CSS -->  
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">  
+  <script src="https://cdn.jwplayer.com/libraries/IDzF9Zmk.js"></script>  
+  <style>  
+    /* General Styling */  
+    body {  
+      margin: 0;  
+      font-family: Arial, sans-serif;  
+      display: flex;  
+      flex-direction: row;  
+      height: 100vh;  
+      background-color: #000;  
+      color: #fff;  
+    }  
+    #video-container {  
+      flex: 3;  
+      display: flex;  
+      justify-content: center;  
+      align-items: center;  
+      background-color: #000;  
+    }  
+    #sidebar {  
+      flex: 1;  
+      background: #292929;  
+      overflow-y: auto;  
+      padding: 10px;  
+    }  
+    .event {  
+      margin: 10px 0;  
+      padding: 10px;  
+      border: 1px solid #444;  
+      border-radius: 5px;  
+      background: #333;  
+      cursor: pointer;  
+    }  
+    .event:hover {  
+      background: #444;  
+    }  
+    .event-title {  
+      font-size: 16px;  
+      font-weight: bold;  
+    }  
+    .event-time {  
+      font-size: 14px;  
+      color: #bbb;  
+    }  
+    .event-category {  
+      font-size: 12px;  
+      color: #fdd835;  
+      margin-top: 5px;  
+    }  
+    /* Responsive Styling */  
+    @media (max-width: 768px) {  
+      body {  
+        flex-direction: column;  
+      }  
+      #video-container, #sidebar {  
+        flex: unset;  
+        width: 100%;  
+        height: auto;  
+      }  
+      #sidebar {  
+        padding: 20px;  
+      }  
+      .event {  
+        margin: 15px 0;  
+        padding: 15px;  
+      }  
+      .event-title {  
+        font-size: 18px;  
+      }  
+      .event-time {  
+        font-size: 14px;  
+      }  
+      .event-category {  
+        font-size: 12px;  
+      }  
+    }  
+  
+    @media (max-width: 480px) {  
+      #sidebar {  
+        padding: 10px;  
+      }  
+      .event-title {  
+        font-size: 16px;  
+      }  
+      .event-time {  
+        font-size: 12px;  
+      }  
+      .event-category {  
+        font-size: 10px;  
+      }  
+    }  
+  </style>  
 </head>  
-  
 <body>  
-    <div style="width: 100%;" class="plyr__video-embed" id="player">  
-        <iframe id="video-iframe" src="" allowfullscreen allowtransparency allow="autoplay">  
-        </iframe>  
+  <!-- Video Container -->  
+  <div id="video-container">  
+    <div id="my-player"></div>  
+  </div>  
+  
+  <!-- Sidebar -->  
+  <div id="sidebar">  
+    <div class="event" data-video="https://www.example.com/video1.mp4">  
+      <div class="event-title">Persebaya Surabaya vs Malut United</div>  
+      <div class="event-time">Today 15:30 WIB</div>  
+      <div class="event-category">Liga 1</div>  
     </div>  
-    <script src="https://cdn.plyr.io/3.7.8/demo.js"></script>  
-    <script>  
-        function getParameterByName(name, url = window.location.href) {  
-            name = name.replace(/[$$$$]/g, '\\$&');  
-            var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),  
-                results = regex.exec(url);  
-            if (!results) return null;  
-            if (!results[2]) return '';  
-            return decodeURIComponent(results[2].replace(/\+/g, ' '));  
-        }  
+    <div class="event" data-video="https://www.example.com/video2.mp4">  
+      <div class="event-title">Hyundai Hillstate vs IBK Altos</div>  
+      <div class="event-time">Today 17:00 WIB</div>  
+      <div class="event-category">Liga 1</div>  
+    </div>  
+    <div class="event" data-video="https://www.example.com/video3.mp4">  
+      <div class="event-title">Persib Bandung vs Dewa United FC</div>  
+      <div class="event-time">Today 19:00 WIB</div>  
+      <div class="event-category">Liga 1</div>  
+    </div>  
+    <div class="event" data-video="https://www.example.com/video4.mp4">  
+      <div class="event-title">Atakas Hatayspor vs Galatasaray</div>  
+      <div class="event-time">18 Jan 2025 00:00 WIB</div>  
+      <div class="event-category">Turkish Super Lig</div>  
+    </div>  
+    <!-- Tambahkan lebih banyak pertandingan jika diperlukan -->  
+    <div class="event" data-video="https://www.example.com/video5.mp4">  
+      <div class="event-title">Pertandingan 5</div>  
+      <div class="event-time">18 Jan 2025 02:00 WIB</div>  
+      <div class="event-category">Liga 1</div>  
+    </div>  
+    <div class="event" data-video="https://www.example.com/video6.mp4">  
+      <div class="event-title">Pertandingan 6</div>  
+      <div class="event-time">18 Jan 2025 04:00 WIB</div>  
+      <div class="event-category">Liga 1</div>  
+    </div>  
+    <div class="event" data-video="https://www.example.com/video7.mp4">  
+      <div class="event-title">Pertandingan 7</div>  
+      <div class="event-time">18 Jan 2025 06:00 WIB</div>  
+      <div class="event-category">Liga 1</div>  
+    </div>  
+    <div class="event" data-video="https://www.example.com/video8.mp4">  
+      <div class="event-title">Pertandingan 8</div>  
+      <div class="event-time">18 Jan 2025 08:00 WIB</div>  
+      <div class="event-category">Liga 1</div>  
+    </div>  
+    <div class="event" data-video="https://www.example.com/video9.mp4">  
+      <div class="event-title">Pertandingan 9</div>  
+      <div class="event-time">18 Jan 2025 10:00 WIB</div>  
+      <div class="event-category">Liga 1</div>  
+    </div>  
+    <div class="event" data-video="https://www.example.com/video10.mp4">  
+      <div class="event-title">Pertandingan 10</div>  
+      <div class="event-time">18 Jan 2025 12:00 WIB</div>  
+      <div class="event-category">Liga 1</div>  
+    </div>  
+    <div class="event" data-video="https://www.example.com/video11.mp4">  
+      <div class="event-title">Pertandingan 11</div>  
+      <div class="event-time">18 Jan 2025 14:00 WIB</div>  
+      <div class="event-category">Liga 1</div>  
+    </div>  
+    <div class="event" data-video="https://www.example.com/video12.mp4">  
+      <div class="event-title">Pertandingan 12</div>  
+      <div class="event-time">18 Jan 2025 16:00 WIB</div>  
+      <div class="event-category">Liga 1</div>  
+    </div>  
+    <div class="event" data-video="https://www.example.com/video13.mp4">  
+      <div class="event-title">Pertandingan 13</div>  
+      <div class="event-time">18 Jan 2025 18:00 WIB</div>  
+      <div class="event-category">Liga 1</div>  
+    </div>  
+    <div class="event" data-video="https://www.example.com/video14.mp4">  
+      <div class="event-title">Pertandingan 14</div>  
+      <div class="event-time">18 Jan 2025 20:00 WIB</div>  
+      <div class="event-category">Liga 1</div>  
+    </div>  
+    <div class="event" data-video="https://www.example.com/video15.mp4">  
+      <div class="event-title">Pertandingan 15</div>  
+      <div class="event-time">18 Jan 2025 22:00 WIB</div>  
+      <div class="event-category">Liga 1</div>  
+    </div>  
+  </div>  
   
-        var videoId = getParameterByName('v');  
-        if (videoId) {  
-            document.getElementById('video-iframe').src = 'https://www.youtube.com/embed/' + videoId;  
-        } else {  
-            document.getElementById('video-iframe').src = 'https://www.youtube.com/embed/DOOrIxw5xOw'; // Default video ID  
-        }  
-    </script>  
+  <script>  
+    // JWPlayer Setup  
+    const player = jwplayer("my-player").setup({  
+      file: "https://www.example.com/sample.mp4",  // Replace with your video link  
+      image: "https://via.placeholder.com/1280x720.png?text=NetPlay+Preview",  
+      width: "100%",  
+      aspectratio: "16:9",  
+      autostart: false,  
+    });  
+  
+    // Add event listener to each event div  
+    document.querySelectorAll('.event').forEach(event => {  
+      event.addEventListener('click', function() {  
+        const videoUrl = this.getAttribute('data-video');  
+        player.load({  
+          file: videoUrl,  
+          image: "https://via.placeholder.com/1280x720.png?text=NetPlay+Preview",  
+          width: "100%",  
+          aspectratio: "16:9",  
+          autostart: true,  
+        });  
+      });  
+    });  
+  </script>  
+  <!-- Bootstrap JS and dependencies -->  
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>  
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>  
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.2/js/bootstrap.min.js"></script>  
 </body>  
-  
 </html>  
