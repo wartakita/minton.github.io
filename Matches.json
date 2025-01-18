@@ -1,26 +1,10 @@
 [
   {
-    "videoId": "12440",
-    "m3u8": "https://hlslive-tx-cdn.ysp.cctv.cn/pecintaminton/2026157801.m3u8",
+    "videoId": "39770",
+    "m3u8": "https://hlslive-tx-cdn.ysp.cctv.cn/pecintaminton/2026160001.m3u8",
     "embedLink": "https://www.youtube.com/embed/ajuiyflBI40",
     "teams": "YONEX-SUNRISE India Open 2025 - COURT 1",
-    "date": "2025-01-17",
+    "date": "2025-01-18",
     "time": "13:30"
-  },
-  {
-    "videoId": "39160",
-    "m3u8": "https://hlslive-tx-cdn.ysp.cctv.cn/pecintaminton/2026157901.m3u8",
-    "embedLink": "https://www.youtube.com/embed/h7fj9xhn9n4",
-    "teams": "YONEX-SUNRISE India Open 2025 - COURT 2",
-    "date": "2025-01-17",
-    "time": "13:30"
-  },
-  {
-    "videoId": "31810",
-    "m3u8": "https://example.com/stream3.m3u8",
-    "embedLink": "https://www.youtube.com/embed/QO4tSnRauCA",
-    "teams": "YONEX-SUNRISE India Open 2025 - COURT 3",
-    "date": "2025-01-17",
-    "time": "14:30"
   }
 ]
