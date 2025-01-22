@@ -1,14 +1,14 @@
 [
   {
-    "videoId": "34250",
-    "m3u8": "https://hlslive-tx-cdn.ysp.cctv.cn/pecintaminton/2026207901.m3u8",
+    "videoId": "32040",
+    "m3u8": "https://hlslive-tx-cdn.ysp.cctv.cn/pecintaminton/2026208301.m3u8",
     "embedLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4",
     "teams": "DAIHATSU Indonesia Masters 2025 - COURT 1",
     "date": "2025-01-22",
     "time": "08:00"
   },
   {
-    "videoId": "36800",
+    "videoId": "32830",
     "m3u8": "https://hlslive-tx-cdn.ysp.cctv.cn/pecintaminton/2026208101.m3u8",
     "embedLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4",
     "teams": "DAIHATSU Indonesia Masters 2025 - COURT 2",
@@ -16,7 +16,7 @@
     "time": "08:00"
   },
   {
-    "videoId": "27020",
+    "videoId": "25540",
     "m3u8": "https://hlslive-tx-cdn.ysp.cctv.cn/pecintaminton/2026208201.m3u8",
     "embedLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4",
     "teams": "DAIHATSU Indonesia Masters 2025 - COURT 3",
