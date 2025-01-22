@@ -11,7 +11,7 @@
   {
     "title": "CNN Indonesia",
     "category": "news",
-    "file": "https://live.cnnindonesia.com/livecn/smil:cnntv.smil/playlist.m3u8",
+    "file": "https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/playlist.m3u8",
     "type": "hls",
     "iframeLink": "https://www.cnnindonesia.com/tv/embed?smartautoplay=true"
   },
