@@ -1,26 +1,22 @@
-[
-  {
-    "videoId": "1",
-    "m3u8": "https://example.com/stream1.m3u8",
-    "embedLink": "https://player.kick.com/demisux",
-    "teams": "YONEX-SUNRISE India Open 2025 - COURT 1",
-    "date": "2025-01-16",
-    "time": "10:30"
-  },
-  {
-    "videoId": "2",
-    "m3u8": "https://example.com/stream2.m3u8",
-    "embedLink": "https://www.youtube.com/embed/01Nm9saIisE",
-    "teams": "YONEX-SUNRISE India Open 2025 - COURT 2",
-    "date": "2025-01-16",
-    "time": "10:30"
-  },
-  {
-    "videoId": "3",
-    "m3u8": "https://example.com/stream3.m3u8",
-    "embedLink": "https://www.youtube.com/embed/l9zoDmhqcBQ",
-    "teams": "YONEX-SUNRISE India Open 2025 - COURT 3",
-    "date": "2025-01-16",
-    "time": "10:30"
-  }
-]
+[  
+    {  
+        "name": "Channel 1",  
+        "videoId": "channel1",  
+        "m3u8": "https://atemecdnbalancer-voe.sysln.id/live/eds/IndosiarHD/mpd/IndosiarHD.mpd",  
+        "drm": {  
+            "type": "clearkey",  
+            "key": "881afa67ea57b41c1822d745d67559e6",  
+            "keyId": "5eaddccd893a47ac8b65f9b31963a3ae"  
+        }  
+    },  
+    {  
+        "name": "Channel 2",  
+        "videoId": "channel2",  
+        "m3u8": "https://example.com/channel2.m3u8",  
+        "drm": {  
+            "type": "clearkey",  
+            "key": "your-clearkey-here",  
+            "keyId": "your-key-id-here"  
+        }  
+    }  
+]  
