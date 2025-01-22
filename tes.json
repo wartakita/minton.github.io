@@ -26,7 +26,7 @@
   },
   {
     "title": "History",
-    "category": "Documentary",
+    "category": "documentary",
     "file": "https://av-ch-cdn.mncnow.id/live/eds/History/sa_dash_vmx/History.mpd",
     "type": "dash",
     "keyId": "2ccaa7d9731c2e69fa5344c5a547b836",
@@ -96,8 +96,8 @@
   },
   {
     "title": "Music Channel",
-    "category": "Music",
-    "file": "https://av-ch-cdn.mncnow.id/live/eds/MusicChannel/sa_dash_vmx/MusicChannel.mpd",
+    "category": "music",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/musicChannel/sa_dash_vmx/musicChannel.mpd",
     "type": "dash",
     "keyId": "0bea88ab972e06760a04712cc423d841",
     "key": "4039d607f88f1b1f677e4beb6ee66637",
@@ -105,7 +105,7 @@
   },
   {
     "title": "TVMU",
-    "category": "Religion",
+    "category": "religion",
     "file": "https://av-ch-cdn.mncnow.id/live/eds/TVMuhammadiyah/sa_dash_vmx/TVMuhammadiyah.mpd",
     "type": "dash",
     "keyId": "2fa7625e3470d5e9429f64150614f9a5",
@@ -114,7 +114,7 @@
   },
   {
     "title": "Reformed 21",
-    "category": "Religion",
+    "category": "religion",
     "file": "https://av-ch-cdn.mncnow.id/live/eds/Reformed21/sa_dash_vmx/Reformed21.mpd",
     "type": "dash",
     "keyId": "1acfe74d40e91e0368324b074c256bab",
@@ -123,8 +123,8 @@
   },
   {
     "title": "Kids Channel",
-    "category": "Kids",
-    "file": "https://av-ch-cdn.mncnow.id/live/eds/KidsChannel/sa_dash_vmx/KidsChannel.mpd",
+    "category": "kids",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/kidsChannel/sa_dash_vmx/kidsChannel.mpd",
     "type": "dash",
     "keyId": "17340c4223a4674b1b7da8d8d9e11174",
     "key": "11a73aad2c75ddf338840b08fb915993",
