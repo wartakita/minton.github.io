@@ -1,7 +1,7 @@
 [
   {
     "title": "Indosiar HD",
-    "category": "General",
+    "category": "general",
     "file": "https://atemecdnbalancer-voe.sysln.id/live/eds/IndosiarHD/mpd/IndosiarHD.mpd",
     "type": "dash",
     "keyId": "5eaddccd893a47ac8b65f9b31963a3ae",
@@ -10,14 +10,14 @@
   },
   {
     "title": "CNN Indonesia",
-    "category": "News",
+    "category": "news",
     "file": "https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/playlist.m3u8",
     "type": "hls",
     "iframeLink": "https://www.cnnindonesia.com/tv/embed?smartautoplay=true"
   },
   {
-    "title": "Bein Sports 1",
-    "category": "Sports",
+    "title": "Bein sports 1",
+    "category": "sports",
     "file": "https://av-ch-cdn.mncnow.id/live/eds/BEIN01/sa_dash_vmx/BEIN01.mpd",
     "type": "dash",
     "keyId": "57d2ac9210cfbca3596cc679a01c8b29",
@@ -35,15 +35,15 @@
   },
   {
     "title": "Metro TV",
-    "category": "News",
+    "category": "news",
     "file": "https://op-group1-swiftservehd-1.dens.tv/h/h12/index.m3u8",
     "type": "hls",
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   },
   {
-    "title": "iNews",
-    "category": "News",
-    "file": "https://av-ch-cdn.mncnow.id/live/eds/iNewsTV-HDD/sa_dash_vmx/iNewsTV-HDD.mpd",
+    "title": "inews",
+    "category": "news",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/inewsTV-HDD/sa_dash_vmx/inewsTV-HDD.mpd",
     "type": "dash",
     "keyId": "a31cf5136789514b7e12b9cc99307c84",
     "key": "980e54d671ffc2b2f4cf54e75cae0ac2",
@@ -51,7 +51,7 @@
   },
   {
     "title": "MNCTV",
-    "category": "General",
+    "category": "general",
     "file": "https://av-ch-cdn.mncnow.id/live/eds/MNCTV-HD/sa_dash_vmx/MNCTV-HD.mpd",
     "type": "dash",
     "keyId": "828e0aba9825c3546a2831e4c0c36f7f",
@@ -60,7 +60,7 @@
   },
   {
     "title": "TRANS7",
-    "category": "General",
+    "category": "general",
     "file": "https://av-ch-cdn.mncnow.id/live/eds/Trans7-2/sa_dash_vmx/Trans7-2.mpd",
     "type": "dash",
     "keyId": "26bd60e03bbed7819eea0b27075a1897",
@@ -69,7 +69,7 @@
   },
   {
     "title": "TRANS TV",
-    "category": "General",
+    "category": "general",
     "file": "https://av-ch-cdn.mncnow.id/live/eds/TransTV-2/sa_dash_vmx/TransTV-2.mpd",
     "type": "dash",
     "keyId": "334950781f60a66f5e58324b70ac675d",
@@ -78,7 +78,7 @@
   },
   {
     "title": "GTV",
-    "category": "General",
+    "category": "general",
     "file": "https://av-ch-cdn.mncnow.id/live/eds/GTV-HD/sa_dash_vmx/GTV-HD.mpd",
     "type": "dash",
     "keyId": "88f6c7cbd793374cb5f12d7e26dcd63b",
@@ -87,7 +87,7 @@
   },
   {
     "title": "RCTI",
-    "category": "General",
+    "category": "general",
     "file": "https://av-ch-cdn.mncnow.id/live/eds/RCTI-DD/sa_dash_vmx/RCTI-DD.mpd",
     "type": "dash",
     "keyId": "9ba3e153ef8956d6e2b0684fcf74f58f",
@@ -131,24 +131,24 @@
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   },
   {
-    "title": "Fight Sports",
-    "category": "Sports",
-    "file": "https://av-ch-cdn.mncnow.id/live/eds/FightSports/sa_dash_vmx/FightSports.mpd",
+    "title": "Fight sports",
+    "category": "sports",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/Fightsports/sa_dash_vmx/Fightsports.mpd",
     "type": "dash",
     "keyId": "d2159ffe3be22ed4916a6abe4d58d265",
     "key": "3e4efcec08d5d5c18a403b7048a43638",
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   },
   {
-    "title": "TVRI Sports",
-    "category": "Sports",
+    "title": "TVRI sports",
+    "category": "sports",
     "file": "https://op-group1-swiftservesd-1.dens.tv/s/s107/index.m3u8",
     "type": "hls",
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   },
   {
     "title": "Infinity+ 1",
-    "category": "Sports",
+    "category": "sports",
     "file": "https://live03p-seg.msf.cdn.mediaset.net/live/ch-u1/u1-dash-widevine.isml/manifest.mpd",
     "type": "dash",
     "keyId": "00f9f3c0783536b832a8f0326fbdc02e",
@@ -157,7 +157,7 @@
   },
   {
     "title": "Infinity+ 2",
-    "category": "Sports",
+    "category": "sports",
     "file": "https://live03p-seg.msf.cdn.mediaset.net/live/ch-u2/u2-dash-widevine.isml/manifest.mpd",
     "type": "dash",
     "keyId": "00f9f3c0783536b834b0f0c2bfee80ac",
@@ -166,7 +166,7 @@
   },
   {
     "title": "Infinity+ 3",
-    "category": "Sports",
+    "category": "sports",
     "file": "https://live03p-seg.msf.cdn.mediaset.net/live/ch-u3/u3-dash-widevine.isml/manifest.mpd",
     "type": "dash",
     "keyId": "00f9f3c0783536b8342d78d46c8c202a",
@@ -175,7 +175,7 @@
   },
   {
     "title": "Infinity+ 4",
-    "category": "Sports",
+    "category": "sports",
     "file": "https://live03p-seg.msf.cdn.mediaset.net/live/ch-u4/u4-dash-widevine.isml/manifest.mpd",
     "type": "dash",
     "keyId": "00f9f3c0783536b834357864bc2ae0a8",
@@ -184,7 +184,7 @@
   },
   {
     "title": "Infinity+ 5",
-    "category": "Sports",
+    "category": "sports",
     "file": "https://live03p-seg.msf.cdn.mediaset.net/live/ch-u5/u5-dash-widevine.isml/manifest.mpd",
     "type": "dash",
     "keyId": "00f9f3c0783536b834b278760c5ba026",
@@ -193,7 +193,7 @@
   },
   {
     "title": "Infinity+ 6",
-    "category": "Sports",
+    "category": "sports",
     "file": "https://live03p-seg.msf.cdn.mediaset.net/live/ch-u6/u6-dash-widevine.isml/manifest.mpd",
     "type": "dash",
     "keyId": "00f9f3c0783536b834ba7888b9f960a4",
@@ -202,7 +202,7 @@
   },
   {
     "title": "Peacock PL TV",
-    "category": "Sports",
+    "category": "sports",
     "file": "https://fsly.stream.peacocktv.com/Content/CMAF_CTR-4s/Live/channel(vc1021n07j)/master.mpd",
     "type": "dash",
     "keyId": "002046c9a49b9ab1cdb6616bec5d26c3",
@@ -210,8 +210,8 @@
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   },
   {
-    "title": "SETANTA Sports 1",
-    "category": "Sports",
+    "title": "SETANTA sports 1",
+    "category": "sports",
     "file": "https://tr.live.cdn.cgates.lt/live/dash/561002/index.mpd",
     "type": "dash",
     "keyId": "8ab2332442854e62b0018eec3ee58484",
@@ -220,7 +220,7 @@
   },
   {
     "title": "DAZN 1",
-    "category": "Sports",
+    "category": "sports",
     "file": "https://live.ll.ww.aiv-cdn.net/OTTB/dub-nitro/live/clients/dash/enc/bmnelo5c7a/out/v1/3ce2cdc4589f46189322bd3717c77957/cenc.mpd",
     "type": "dash",
     "keyId": "44dd9cd370b08a868ead115fe84ecfde",
@@ -229,7 +229,7 @@
   },
   {
     "title": "DAZN 2",
-    "category": "Sports",
+    "category": "sports",
     "file": "https://live.ll.ww.aiv-cdn.net/OTTB/dub-nitro/live/clients/dash/enc/xnk4m9bnxt/out/v1/4ced7b7329a54652b9bb0521ed38bd4d/cenc.mpd",
     "type": "dash",
     "keyId": "0eab5a3f3e3b4ba5d42d40ca30d17571",
@@ -238,7 +238,7 @@
   },
   {
     "title": "DAZN 3",
-    "category": "Sports",
+    "category": "sports",
     "file": "https://live.ll.ww.aiv-cdn.net/OTTB/dub-nitro/live/clients/dash/enc/zy1ee5sshp/out/v1/bdcffa69fa3b4f3bb3569c9c73ee1c01/cenc.mpd",
     "type": "dash",
     "keyId": "bad8efff688c0dbb3711e4a7114c22a3",
@@ -247,7 +247,7 @@
   },
   {
     "title": "DAZN 4",
-    "category": "Sports",
+    "category": "sports",
     "file": "https://live.ll.ww.aiv-cdn.net/OTTB/dub-nitro/live/clients/dash/enc/up7qpwch9b/out/v1/a6d5d1a1287b4893b859c2d6ccf2c65d/cenc.mpd",
     "type": "dash",
     "keyId": "d27104d427e4f87e75b19395a9f8796b",
@@ -256,7 +256,7 @@
   },
   {
     "title": "DAZN F1",
-    "category": "Sports",
+    "category": "sports",
     "file": "https://live.ll.ww.aiv-cdn.net/OTTB/dub-nitro/live/clients/dash/enc/cqbcvgkb83/out/v1/4dbe05ecfb1540448d82d68eeebfbb1c/cenc.mpd",
     "type": "dash",
     "keyId": "1061be12d303247426ec25e8369b2647",
@@ -265,7 +265,7 @@
   },
   {
     "title": "SPORT1+ HD",
-    "category": "Sports",
+    "category": "sports",
     "file": "https://ac-009.live.p7s1video.net/c5c609cf/t_009/sport1plus-de-hd/cenc-default.mpd",
     "type": "dash",
     "keyId": "c1c11c3844b0dffdb9d9831900f1a1da",
@@ -273,8 +273,8 @@
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   },
   {
-    "title": "Unifi Sports",
-    "category": "Sports",
+    "title": "Unifi sports",
+    "category": "sports",
     "file": "https://unifi-live07.secureswiftcontent.com/UnifiHD/live11.mpd",
     "type": "dash",
     "keyId": "cbb673fb120882354735ed57eeb05b4c",
@@ -282,8 +282,8 @@
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   },
   {
-    "title": "Nova Sports 1",
-    "category": "Sports",
+    "title": "Nova sports 1",
+    "category": "sports",
     "file": "https://dash2.antik.sk/stream/nvidia_nova_sport1/playlist_cenc.mpd",
     "type": "dash",
     "keyId": "11223344556677889900112233445566",
@@ -291,8 +291,8 @@
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   },
   {
-    "title": "Nova Sports 2",
-    "category": "Sports",
+    "title": "Nova sports 2",
+    "category": "sports",
     "file": "https://dash2.antik.sk/stream/nvidia_nova_sport2/playlist_cenc.mpd",
     "type": "dash",
     "keyId": "11223344556677889900112233445566",
@@ -300,8 +300,8 @@
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   },
   {
-    "title": "Arena Sports 1",
-    "category": "Sports",
+    "title": "Arena sports 1",
+    "category": "sports",
     "file": "https://webtvstream.bhtelecom.ba/hls6/arena1.mpd",
     "type": "dash",
     "keyId": "c18b6aa739be4c0b774605fcfb5d6b68",
@@ -309,8 +309,8 @@
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   },
   {
-    "title": "Arena Sports 2",
-    "category": "Sports",
+    "title": "Arena sports 2",
+    "category": "sports",
     "file": "https://webtvstream.bhtelecom.ba/hls6/arena2.mpd",
     "type": "dash",
     "keyId": "c18b6aa739be4c0b774605fcfb5d6b68",
@@ -318,8 +318,8 @@
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   },
   {
-    "title": "Arena Sports 3",
-    "category": "Sports",
+    "title": "Arena sports 3",
+    "category": "sports",
     "file": "https://webtvstream.bhtelecom.ba/hls6/arena3.mpd",
     "type": "dash",
     "keyId": "c18b6aa739be4c0b774605fcfb5d6b68",
@@ -327,8 +327,8 @@
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   },
   {
-    "title": "Arena Sports 4",
-    "category": "Sports",
+    "title": "Arena sports 4",
+    "category": "sports",
     "file": "https://webtvstream.bhtelecom.ba/hls6/arena4.mpd",
     "type": "dash",
     "keyId": "c18b6aa739be4c0b774605fcfb5d6b68",
@@ -336,8 +336,8 @@
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   },
   {
-    "title": "Arena Sports 5",
-    "category": "Sports",
+    "title": "Arena sports 5",
+    "category": "sports",
     "file": "https://webtvstream.bhtelecom.ba/hls6/arena5.mpd",
     "type": "dash",
     "keyId": "c18b6aa739be4c0b774605fcfb5d6b68",
@@ -345,8 +345,8 @@
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   },
   {
-    "title": "Arena Sports 6",
-    "category": "Sports",
+    "title": "Arena sports 6",
+    "category": "sports",
     "file": "https://webtvstream.bhtelecom.ba/hls6/arena6.mpd",
     "type": "dash",
     "keyId": "c18b6aa739be4c0b774605fcfb5d6b68",
@@ -354,8 +354,8 @@
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   },
   {
-    "title": "Arena Sports 1x2",
-    "category": "Sports",
+    "title": "Arena sports 1x2",
+    "category": "sports",
     "file": "https://webtvstream.bhtelecom.ba/hls6/arena_1x2.mpd",
     "type": "dash",
     "keyId": "c18b6aa739be4c0b774605fcfb5d6b68",
@@ -363,8 +363,8 @@
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   },
   {
-    "title": "Bein Sports 2",
-    "category": "Sports",
+    "title": "Bein sports 2",
+    "category": "sports",
     "file": "https://av-ch-cdn.mncnow.id/live/eds/BEIN02/sa_dash_vmx/BEIN02.mpd",
     "type": "dash",
     "keyId": "57d2ac9210cfbca3596cc679a01c8b29",
@@ -372,8 +372,8 @@
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   },
   {
-    "title": "Bein Sports 3",
-    "category": "Sports",
+    "title": "Bein sports 3",
+    "category": "sports",
     "file": "https://av-ch-cdn.mncnow.id/live/eds/BEIN03/sa_dash_vmx/BEIN03.mpd",
     "type": "dash",
     "keyId": "57d2ac9210cfbca3596cc679a01c8b29",
@@ -381,8 +381,8 @@
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   },
   {
-    "title": "GO Sports 1",
-    "category": "Sports",
+    "title": "GO sports 1",
+    "category": "sports",
     "file": "https://cdn6.tvplayhome.lt/live/eds/TV3_Sport_HD_HVC/GO3_LIVE_DASH_AVC/TV3_Sport_HD_HVC.mpd",
     "type": "dash",
     "keyId": "610ad79e26a84fc782c987455e21a86b",
@@ -390,8 +390,8 @@
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   },
   {
-    "title": "GO Sports 2",
-    "category": "Sports",
+    "title": "GO sports 2",
+    "category": "sports",
     "file": "https://cdn6.tvplayhome.lt/live/eds/TV3_Sport2_HD_HVC/GO3_LIVE_DASH_AVC/TV3_Sport2_HD_HVC.mpd",
     "type": "dash",
     "keyId": "3fc5ce88ae24460bafa447b53ab5f548",
@@ -399,8 +399,8 @@
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   },
   {
-    "title": "GO Sports 3",
-    "category": "Sports",
+    "title": "GO sports 3",
+    "category": "sports",
     "file": "https://cdn6.tvplayhome.lt/live/eds/TV3_Sport3_HD_HVC/GO3_LIVE_DASH_AVC/TV3_Sport3_HD_HVC.mpd",
     "type": "dash",
     "keyId": "a2a75672057f462089c2849b8184fcb0",
@@ -409,7 +409,7 @@
   },
   {
     "title": "SPOTV 1",
-    "category": "Sports",
+    "category": "sports",
     "file": "https://av-ch-cdn.mncnow.id/live/eds/SPOTV-HD/sa_dash_vmx/SPOTV-HD.mpd",
     "type": "dash",
     "keyId": "57d2ac9210cfbca3596cc679a01c8b29",
@@ -418,7 +418,7 @@
   },
   {
     "title": "SPOTV 2",
-    "category": "Sports",
+    "category": "sports",
     "file": "https://av-ch-cdn.mncnow.id/live/eds/SPOTV2-HD/sa_dash_vmx/SPOTV2-HD.mpd",
     "type": "dash",
     "keyId": "57d2ac9210cfbca3596cc679a01c8b29",
@@ -426,8 +426,8 @@
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   },
   {
-    "title": "SSC Sports 1",
-    "category": "Sports",
+    "title": "SSC sports 1",
+    "category": "sports",
     "file": "https://ssc-1-enc.edgenextcdn.net/out/v1/c696e4819b55414388a1a487e8a45ca1/index.mpd",
     "type": "dash",
     "keyId": "d84c325f36814f39bbe59080272b10c3",
@@ -435,8 +435,8 @@
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   },
   {
-    "title": "SSC Sports 2",
-    "category": "Sports",
+    "title": "SSC sports 2",
+    "category": "sports",
     "file": "https://ssc-2-enc.edgenextcdn.net/out/v1/a16db2ec338a445a82d9c541cc9293f9/index.mpd",
     "type": "dash",
     "keyId": "8bcfc55359e24bd7ad1c5560a96ddd3c",
@@ -444,8 +444,8 @@
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   },
   {
-    "title": "SSC Sports 3",
-    "category": "Sports",
+    "title": "SSC sports 3",
+    "category": "sports",
     "file": "https://ssc-3-enc.edgenextcdn.net/out/v1/42e86125555242aaa2a12056832e7814/index.mpd",
     "type": "dash",
     "keyId": "7de5dd08ad8041d586c2f16ccc9490a1",
@@ -453,8 +453,8 @@
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   },
   {
-    "title": "SSC Sports 4",
-    "category": "Sports",
+    "title": "SSC sports 4",
+    "category": "sports",
     "file": "https://ssc-4-enc.edgenextcdn.net/out/v1/5267ea5772874b0db24559d643eaad93/index.mpd",
     "type": "dash",
     "keyId": "5c672f6b85a94638872d0214f7806ed4",
@@ -462,8 +462,8 @@
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   },
   {
-    "title": "SSC Sports 5",
-    "category": "Sports",
+    "title": "SSC sports 5",
+    "category": "sports",
     "file": "https://ssc-5-enc.edgenextcdn.net/out/v1/99289eac5a7b4319905da595afbd792b/index.mpd",
     "type": "dash",
     "keyId": "c88b512b17ab4f6cb09eb0ff4a1056ed",
@@ -472,7 +472,7 @@
   },
   {
     "title": "SSC Extra 1",
-    "category": "Sports",
+    "category": "sports",
     "file": "https://ssc-extra-1-enc.edgenextcdn.net/out/v1/647c58693f1d46af92bd7e69f17912cb/index.mpd",
     "type": "dash",
     "keyId": "ecbc9e6fe6b145efb6658fb5cf7427f8",
@@ -481,7 +481,7 @@
   },
   {
     "title": "SSC Extra 2",
-    "category": "Sports",
+    "category": "sports",
     "file": "https://ssc-extra-2-enc.edgenextcdn.net/out/v1/8b70de2b70d447ba8a7450ba90926a2d/index.mpd",
     "type": "dash",
     "keyId": "4d89249bd4ca4ebc9e70443265f9507d",
@@ -490,7 +490,7 @@
   },
   {
     "title": "SSC Extra 3",
-    "category": "Sports",
+    "category": "sports",
     "file": "https://ssc-extra3-enc.edgenextcdn.net/out/v1/8f1c6c3f05ef4284a64b342891bd85ae/index.mpd",
     "type": "dash",
     "keyId": "98cfd6fd4812497fb24dc75f7545f2ee",
@@ -498,8 +498,8 @@
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   },
   {
-    "title": "TNT Sports 1",
-    "category": "Sports",
+    "title": "TNT sports 1",
+    "category": "sports",
     "file": "https://live.ll.ww.aiv-cdn.net/OTTB/lhr-nitro/live/clients/dash/enc/wf8usag51e/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd",
     "type": "dash",
     "keyId": "ae26845bd33038a9c0774a0981007294",
@@ -507,8 +507,8 @@
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   },
   {
-    "title": "TNT Sports 2",
-    "category": "Sports",
+    "title": "TNT sports 2",
+    "category": "sports",
     "file": "https://live.ll.ww.aiv-cdn.net/OTTB/lhr-nitro/live/clients/dash/enc/f0qvkrra8j/out/v1/f8fa17f087564f51aa4d5c700be43ec4/cenc.mpd",
     "type": "dash",
     "keyId": "6d1708b185c6c4d7b37600520c7cc93c",
@@ -516,8 +516,8 @@
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   },
   {
-    "title": "TNT Sports 3",
-    "category": "Sports",
+    "title": "TNT sports 3",
+    "category": "sports",
     "file": "https://live.ll.ww.aiv-cdn.net/OTTB/lhr-nitro/live/clients/dash/enc/lsdasbvglv/out/v1/bb548a3626cd4708afbb94a58d71dce9/cenc.mpd",
     "type": "dash",
     "keyId": "4e993aa8c1f295f8b94e8e9e6f6d0bfe",
