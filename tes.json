@@ -1,7 +1,7 @@
 [
   {
     "title": "Indosiar HD",
-    "category": "Nasional",
+    "category": "General",
     "file": "https://atemecdnbalancer-voe.sysln.id/live/eds/IndosiarHD/mpd/IndosiarHD.mpd",
     "type": "dash",
     "keyId": "5eaddccd893a47ac8b65f9b31963a3ae",
@@ -10,23 +10,14 @@
   },
   {
     "title": "CNN Indonesia",
-    "category": "news",
+    "category": "News",
     "file": "https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/playlist.m3u8",
     "type": "hls",
     "iframeLink": "https://www.cnnindonesia.com/tv/embed?smartautoplay=true"
   },
   {
-    "title": "RCTI HD",
-    "category": "entertainment",
-    "file": "https://av-ch-cdn.mncnow.id/live/eds/RCTI-DD/sa_dash_vmx/RCTI-DD.mpd",
-    "type": "dash",
-    "keyId": "9ba3e153ef8956d6e2b0684fcf74f58f",
-    "key": "dbc28cb5c6426080f984a5b6d436bb30",
-    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
-  },
-  {
     "title": "Bein Sports 1",
-    "category": "sports",
+    "category": "Sports",
     "file": "https://av-ch-cdn.mncnow.id/live/eds/BEIN01/sa_dash_vmx/BEIN01.mpd",
     "type": "dash",
     "keyId": "57d2ac9210cfbca3596cc679a01c8b29",
@@ -219,7 +210,7 @@
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   },
   {
-    "title": "SETANTA SPORTS 1",
+    "title": "SETANTA Sports 1",
     "category": "Sports",
     "file": "https://tr.live.cdn.cgates.lt/live/dash/561002/index.mpd",
     "type": "dash",
