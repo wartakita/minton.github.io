@@ -1086,7 +1086,7 @@
   {
     "title": "JAKTV",
     "category": "general",
-    "file": "https://atemeshield1-voe.sysln.id/live/eds/JAKTV/mpd/JAKTV.mpd",
+    "file": "https://cors-proxy.turtlestitch.org/https://noyzs.web.id/get/fmd.php/https://atemeshield1-voe.sysln.id/live/eds/JAKTV/mpd/JAKTV.mpd",
     "type": "dash",
     "keyId": "fee85fded8ea4591b643468412bee3be",
     "key": "7e364f3ffd09c7b51c8d81430819177f",
@@ -1332,10 +1332,19 @@
   {
     "title": "Citra Bioskop",
     "category": "movies",
-    "file": "https://atemecdnbalancer-voe.sysln.id/live/eds/CitraBioskopHD/mpd/CitraBioskopHD.mpd",
+    "file": "https://cors-proxy.turtlestitch.org/https://noyzs.web.id/get/fmd.php/https://atemecdnbalancer-voe.sysln.id/live/eds/CitraBioskopHD/mpd/CitraBioskopHD.mpd",
     "type": "dash",
     "keyId": "94788bc937054090b216dc101e5fa5dc",
     "key": "297c97962ff8d9e99f1da178ea0083ec",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "CCTV 4",
+    "category": "movies",
+    "file": "https://cors-proxy.turtlestitch.org/https://noyzs.web.id/get/fmd.php/https://atemecdnbalancer-voe.sysln.id/live/eds/CCTV4/mpd/CCTV4.mpd",
+    "type": "dash",
+    "keyId": "6224262601de437a81c99fdda7e2ea4a",
+    "key": "7224fae0f679b70d22aca394a9084120",
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   },
   {
