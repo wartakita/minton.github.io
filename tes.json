@@ -397,6 +397,15 @@
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   },
   {
+    "title": "Bein Sports 4",
+    "category": "sports",
+    "file": "https://pop5clustera00de07172379a62d6189.hypp.tv/PLTV/88888888/224/3221227937/3221227937.mpd?rrsip=web.hypp.tv:443&amp;zoneoffset=0&amp;servicetype=1&amp;icpid=&amp;accounttype=1&amp;limitflux=-1&amp;limitdur=-1&amp;accountinfo=U0v281lovZMLWzqtXjPtYuOXwQCoIQRk449J%2BBUCcawRjfkMvdAX9TZ5I%2BbsmfrU7%2B8kYXzOcpo3wc%2BwgB1By0rcymHBIhx5oJP4jv2fPK0%3D%3A20230206102855%3AUTC%2C1003663983%2C115.164.187.20%2C20230206102855%2Curn:Huawei:liveTV:XTV57682031%2C1003663983%2C-1%2C0%2C1%2C%2C%2C2%2C593%2C%2C%2C2%2C1343117%2C0%2C248412%2C47562943%2C%2C%2C2%2C1%2CEND&amp;GuardEncType=2&amp;it=H4sIAAAAAAAAADWOwY6CMBRF_6bLpn10wC660piYTHASGbfmUR6VWKi2QDJ_P6K4vfeemzNGtHTYGRKbPMu0shsAVdu2FlDkYNtMo4RaS5boUQYDzKL33eDK0CzY-bS9SMEFB5BcAquWu71Hty7Lqa8pmuyDnSjOnSXTpJbPmDg6F8nh2IWB_3j8-41-nTCqVjWZF1-5FqoApTQbl7TCdHs27IppG_o7Rmq-g3sBpkWfiN3R3tBRiT2ZYfL-zR1j87T5B0NkEFD0AAAA&amp;tenantId=6001",
+    "type": "dash",
+    "keyId": "c0a4a18611e84807214fbfe033596664",
+    "key": "cf89d462eda84e9ed32c4645977766d4",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
     "title": "GO Sports 1",
     "category": "sports",
     "file": "https://cdn6.tvplayhome.lt/live/eds/TV3_Sport_HD_HVC/GO3_LIVE_DASH_AVC/TV3_Sport_HD_HVC.mpd",
@@ -421,6 +430,38 @@
     "type": "dash",
     "keyId": "a2a75672057f462089c2849b8184fcb0",
     "key": "94899cace4911c617c27d8f878de2b43",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "One Sports Plus",
+    "category": "sports",
+    "file": "https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cg_onesportsplus_hd1.mpd",
+    "type": "dash",
+    "keyId": "322d06e9326f4753a7ec0908030c13d8",
+    "key": "1e3e0ca32d421fbfec86feced0efefda",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "One Sports",
+    "category": "sports",
+    "file": "https://qp-pldt-live-grp-07-prod.akamaized.net/out/u/cg_onesports_hd.mpd",
+    "type": "dash",
+    "keyId": "53c3bf2eba574f639aa21f2d4409ff11",
+    "key": "3de28411cf08a64ea935b9578f6d0edd",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "Star Sports 1 Select",
+    "category": "sports",
+    "file": "https://nayeemparvez.online/novasports/watch.php?id=m8Qg4vII&amp;format=.m3u8",
+    "type": "hls",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "Star Sports 2 Select",
+    "category": "sports",
+    "file": "https://nayeemparvez.online/novasports/watch.php?id=KYrXW2h0&amp;format=.m3u8",
+    "type": "hls",
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   },
   {
