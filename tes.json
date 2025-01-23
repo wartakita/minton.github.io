@@ -13,7 +13,14 @@
     "category": "news",
     "file": "https://op-group1-swiftservehd-1.dens.tv/h/h12/index.m3u8",
     "type": "hls",
-    "iframeLink": "https://www.metrotvnews.com/embed/live"
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "TATV",
+    "category": "general",
+    "file": "https://tatv.siar.us/tatv/live.sdp/playlist.m3u8",
+    "type": "hls",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   },
   {
     "title": "iNews",
@@ -1079,8 +1086,10 @@
   {
     "title": "JAKTV",
     "category": "general",
-    "file": "https://op-group1-swiftservesd-1.dens.tv/s/s123/S4/mnf.m3u8",
-    "type": "hls",
+    "file": "https://atemeshield1-voe.sysln.id/live/eds/JAKTV/mpd/JAKTV.mpd",
+    "type": "dash",
+    "keyId": "fee85fded8ea4591b643468412bee3be",
+    "key": "7e364f3ffd09c7b51c8d81430819177f",
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   },
   {
