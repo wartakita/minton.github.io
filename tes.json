@@ -1330,6 +1330,15 @@
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   },
   {
+    "title": "Citra Bioskop",
+    "category": "movies",
+    "file": "https://atemecdnbalancer-voe.sysln.id/live/eds/CitraBioskopHD/mpd/CitraBioskopHD.mpd",
+    "type": "dash",
+    "keyId": "94788bc937054090b216dc101e5fa5dc",
+    "key": "297c97962ff8d9e99f1da178ea0083ec",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
     "title": "HBO",
     "category": "movies",
     "file": "https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cg_hbohd.mpd",
