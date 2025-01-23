@@ -1,30 +1,5 @@
 [
   {
-    "title": "Indosiar HD",
-    "category": "general",
-    "file": "https://atemecdnbalancer-voe.sysln.id/live/eds/IndosiarHD/mpd/IndosiarHD.mpd",
-    "type": "dash",
-    "keyId": "5eaddccd893a47ac8b65f9b31963a3ae",
-    "key": "881afa67ea57b41c1822d745d67559e6",
-    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
-  },
-  {
-    "title": "CNN Indonesia",
-    "category": "news",
-    "file": "https://live.cnnindonesia.com/livecnn/smil:cnntv.smil/playlist.m3u8",
-    "type": "hls",
-    "iframeLink": "https://www.cnnindonesia.com/tv/embed?smartautoplay=true"
-  },
-  {
-    "title": "Bein sports 1",
-    "category": "sports",
-    "file": "https://av-ch-cdn.mncnow.id/live/eds/BEIN01/sa_dash_vmx/BEIN01.mpd",
-    "type": "dash",
-    "keyId": "57d2ac9210cfbca3596cc679a01c8b29",
-    "key": "d5e35c0f39c76adf24853d7ea18c71e7",
-    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
-  },
-  {
     "title": "History",
     "category": "documentary",
     "file": "https://av-ch-cdn.mncnow.id/live/eds/History/sa_dash_vmx/History.mpd",
@@ -38,19 +13,19 @@
     "category": "news",
     "file": "https://op-group1-swiftservehd-1.dens.tv/h/h12/index.m3u8",
     "type": "hls",
-    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+    "iframeLink": "https://www.metrotvnews.com/embed/live"
   },
   {
-    "title": "inews",
+    "title": "iNews",
     "category": "news",
-    "file": "https://av-ch-cdn.mncnow.id/live/eds/inewsTV-HDD/sa_dash_vmx/inewsTV-HDD.mpd",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/iNewsTV-HDD/sa_dash_vmx/iNewsTV-HDD.mpd",
     "type": "dash",
     "keyId": "a31cf5136789514b7e12b9cc99307c84",
     "key": "980e54d671ffc2b2f4cf54e75cae0ac2",
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   },
   {
-    "title": "MNCTV",
+    "title": "MNC TV",
     "category": "general",
     "file": "https://av-ch-cdn.mncnow.id/live/eds/MNCTV-HD/sa_dash_vmx/MNCTV-HD.mpd",
     "type": "dash",
@@ -97,7 +72,7 @@
   {
     "title": "Music Channel",
     "category": "music",
-    "file": "https://av-ch-cdn.mncnow.id/live/eds/musicChannel/sa_dash_vmx/musicChannel.mpd",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/MusicChannel/sa_dash_vmx/MusicChannel.mpd",
     "type": "dash",
     "keyId": "0bea88ab972e06760a04712cc423d841",
     "key": "4039d607f88f1b1f677e4beb6ee66637",
@@ -124,27 +99,27 @@
   {
     "title": "Kids Channel",
     "category": "kids",
-    "file": "https://av-ch-cdn.mncnow.id/live/eds/kidsChannel/sa_dash_vmx/kidsChannel.mpd",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/KidsChannel/sa_dash_vmx/KidsChannel.mpd",
     "type": "dash",
     "keyId": "17340c4223a4674b1b7da8d8d9e11174",
     "key": "11a73aad2c75ddf338840b08fb915993",
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   },
   {
-    "title": "Fight sports",
+    "title": "Fight Sports",
     "category": "sports",
-    "file": "https://av-ch-cdn.mncnow.id/live/eds/Fightsports/sa_dash_vmx/Fightsports.mpd",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/FightSports/sa_dash_vmx/FightSports.mpd",
     "type": "dash",
     "keyId": "d2159ffe3be22ed4916a6abe4d58d265",
     "key": "3e4efcec08d5d5c18a403b7048a43638",
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   },
   {
-    "title": "TVRI sports",
+    "title": "TVRI Sports",
     "category": "sports",
     "file": "https://op-group1-swiftservesd-1.dens.tv/s/s107/index.m3u8",
     "type": "hls",
-    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+    "iframeLink": "https://tvri.go.id/embed/sports"
   },
   {
     "title": "Infinity+ 1",
@@ -210,7 +185,7 @@
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   },
   {
-    "title": "SETANTA sports 1",
+    "title": "SETANTA SPORTS 1",
     "category": "sports",
     "file": "https://tr.live.cdn.cgates.lt/live/dash/561002/index.mpd",
     "type": "dash",
@@ -237,24 +212,6 @@
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   },
   {
-    "title": "DAZN 3",
-    "category": "sports",
-    "file": "https://live.ll.ww.aiv-cdn.net/OTTB/dub-nitro/live/clients/dash/enc/zy1ee5sshp/out/v1/bdcffa69fa3b4f3bb3569c9c73ee1c01/cenc.mpd",
-    "type": "dash",
-    "keyId": "bad8efff688c0dbb3711e4a7114c22a3",
-    "key": "6ba800673b20776c0c850130d45e1920",
-    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
-  },
-  {
-    "title": "DAZN 4",
-    "category": "sports",
-    "file": "https://live.ll.ww.aiv-cdn.net/OTTB/dub-nitro/live/clients/dash/enc/up7qpwch9b/out/v1/a6d5d1a1287b4893b859c2d6ccf2c65d/cenc.mpd",
-    "type": "dash",
-    "keyId": "d27104d427e4f87e75b19395a9f8796b",
-    "key": "723593c70e2d4c4862754398e80168f8",
-    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
-  },
-  {
     "title": "DAZN F1",
     "category": "sports",
     "file": "https://live.ll.ww.aiv-cdn.net/OTTB/dub-nitro/live/clients/dash/enc/cqbcvgkb83/out/v1/4dbe05ecfb1540448d82d68eeebfbb1c/cenc.mpd",
@@ -273,7 +230,7 @@
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   },
   {
-    "title": "Unifi sports",
+    "title": "Unifi Sports",
     "category": "sports",
     "file": "https://unifi-live07.secureswiftcontent.com/UnifiHD/live11.mpd",
     "type": "dash",
@@ -282,7 +239,7 @@
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   },
   {
-    "title": "Nova sports 1",
+    "title": "Nova Sports 1",
     "category": "sports",
     "file": "https://dash2.antik.sk/stream/nvidia_nova_sport1/playlist_cenc.mpd",
     "type": "dash",
@@ -291,7 +248,7 @@
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   },
   {
-    "title": "Nova sports 2",
+    "title": "Nova Sports 2",
     "category": "sports",
     "file": "https://dash2.antik.sk/stream/nvidia_nova_sport2/playlist_cenc.mpd",
     "type": "dash",
@@ -300,7 +257,7 @@
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   },
   {
-    "title": "Arena sports 1",
+    "title": "Arena Sports 1",
     "category": "sports",
     "file": "https://webtvstream.bhtelecom.ba/hls6/arena1.mpd",
     "type": "dash",
@@ -309,7 +266,7 @@
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   },
   {
-    "title": "Arena sports 2",
+    "title": "Arena Sports 2",
     "category": "sports",
     "file": "https://webtvstream.bhtelecom.ba/hls6/arena2.mpd",
     "type": "dash",
@@ -318,7 +275,7 @@
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   },
   {
-    "title": "Arena sports 3",
+    "title": "Arena Sports 3",
     "category": "sports",
     "file": "https://webtvstream.bhtelecom.ba/hls6/arena3.mpd",
     "type": "dash",
@@ -327,7 +284,7 @@
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   },
   {
-    "title": "Arena sports 4",
+    "title": "Arena Sports 4",
     "category": "sports",
     "file": "https://webtvstream.bhtelecom.ba/hls6/arena4.mpd",
     "type": "dash",
@@ -336,7 +293,7 @@
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   },
   {
-    "title": "Arena sports 5",
+    "title": "Arena Sports 5",
     "category": "sports",
     "file": "https://webtvstream.bhtelecom.ba/hls6/arena5.mpd",
     "type": "dash",
@@ -345,7 +302,7 @@
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   },
   {
-    "title": "Arena sports 6",
+    "title": "Arena Sports 6",
     "category": "sports",
     "file": "https://webtvstream.bhtelecom.ba/hls6/arena6.mpd",
     "type": "dash",
@@ -354,16 +311,16 @@
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   },
   {
-    "title": "Arena sports 1x2",
+    "title": "Bein Sports 1",
     "category": "sports",
-    "file": "https://webtvstream.bhtelecom.ba/hls6/arena_1x2.mpd",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/BEIN01/sa_dash_vmx/BEIN01.mpd",
     "type": "dash",
-    "keyId": "c18b6aa739be4c0b774605fcfb5d6b68",
-    "key": "e41c3a6f7532b2e3a828d9580124c89d",
+    "keyId": "57d2ac9210cfbca3596cc679a01c8b29",
+    "key": "d5e35c0f39c76adf24853d7ea18c71e7",
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   },
   {
-    "title": "Bein sports 2",
+    "title": "Bein Sports 2",
     "category": "sports",
     "file": "https://av-ch-cdn.mncnow.id/live/eds/BEIN02/sa_dash_vmx/BEIN02.mpd",
     "type": "dash",
@@ -372,7 +329,7 @@
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   },
   {
-    "title": "Bein sports 3",
+    "title": "Bein Sports 3",
     "category": "sports",
     "file": "https://av-ch-cdn.mncnow.id/live/eds/BEIN03/sa_dash_vmx/BEIN03.mpd",
     "type": "dash",
@@ -381,7 +338,7 @@
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   },
   {
-    "title": "GO sports 1",
+    "title": "GO Sports 1",
     "category": "sports",
     "file": "https://cdn6.tvplayhome.lt/live/eds/TV3_Sport_HD_HVC/GO3_LIVE_DASH_AVC/TV3_Sport_HD_HVC.mpd",
     "type": "dash",
@@ -390,7 +347,7 @@
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   },
   {
-    "title": "GO sports 2",
+    "title": "GO Sports 2",
     "category": "sports",
     "file": "https://cdn6.tvplayhome.lt/live/eds/TV3_Sport2_HD_HVC/GO3_LIVE_DASH_AVC/TV3_Sport2_HD_HVC.mpd",
     "type": "dash",
@@ -399,7 +356,7 @@
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   },
   {
-    "title": "GO sports 3",
+    "title": "GO Sports 3",
     "category": "sports",
     "file": "https://cdn6.tvplayhome.lt/live/eds/TV3_Sport3_HD_HVC/GO3_LIVE_DASH_AVC/TV3_Sport3_HD_HVC.mpd",
     "type": "dash",
@@ -426,7 +383,7 @@
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   },
   {
-    "title": "SSC sports 1",
+    "title": "SSC Sports 1",
     "category": "sports",
     "file": "https://ssc-1-enc.edgenextcdn.net/out/v1/c696e4819b55414388a1a487e8a45ca1/index.mpd",
     "type": "dash",
@@ -435,7 +392,7 @@
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   },
   {
-    "title": "SSC sports 2",
+    "title": "SSC Sports 2",
     "category": "sports",
     "file": "https://ssc-2-enc.edgenextcdn.net/out/v1/a16db2ec338a445a82d9c541cc9293f9/index.mpd",
     "type": "dash",
@@ -444,7 +401,7 @@
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   },
   {
-    "title": "SSC sports 3",
+    "title": "SSC Sports 3",
     "category": "sports",
     "file": "https://ssc-3-enc.edgenextcdn.net/out/v1/42e86125555242aaa2a12056832e7814/index.mpd",
     "type": "dash",
@@ -453,7 +410,7 @@
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   },
   {
-    "title": "SSC sports 4",
+    "title": "SSC Sports 4",
     "category": "sports",
     "file": "https://ssc-4-enc.edgenextcdn.net/out/v1/5267ea5772874b0db24559d643eaad93/index.mpd",
     "type": "dash",
@@ -462,7 +419,7 @@
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   },
   {
-    "title": "SSC sports 5",
+    "title": "SSC Sports 5",
     "category": "sports",
     "file": "https://ssc-5-enc.edgenextcdn.net/out/v1/99289eac5a7b4319905da595afbd792b/index.mpd",
     "type": "dash",
@@ -498,7 +455,7 @@
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   },
   {
-    "title": "TNT sports 1",
+    "title": "TNT Sports 1",
     "category": "sports",
     "file": "https://live.ll.ww.aiv-cdn.net/OTTB/lhr-nitro/live/clients/dash/enc/wf8usag51e/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd",
     "type": "dash",
@@ -507,7 +464,7 @@
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   },
   {
-    "title": "TNT sports 2",
+    "title": "TNT Sports 2",
     "category": "sports",
     "file": "https://live.ll.ww.aiv-cdn.net/OTTB/lhr-nitro/live/clients/dash/enc/f0qvkrra8j/out/v1/f8fa17f087564f51aa4d5c700be43ec4/cenc.mpd",
     "type": "dash",
@@ -516,12 +473,860 @@
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   },
   {
-    "title": "TNT sports 3",
+    "title": "TNT Sports 3",
     "category": "sports",
     "file": "https://live.ll.ww.aiv-cdn.net/OTTB/lhr-nitro/live/clients/dash/enc/lsdasbvglv/out/v1/bb548a3626cd4708afbb94a58d71dce9/cenc.mpd",
     "type": "dash",
     "keyId": "4e993aa8c1f295f8b94e8e9e6f6d0bfe",
     "key": "86a1ed6e96caab8eb1009fe530d2cf4f",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "TNT Sports 4",
+    "category": "sports",
+    "file": "https://live.ll.ww.aiv-cdn.net/OTTB/lhr-nitro/live/clients/dash/enc/i2pcjr4pe5/out/v1/912e9db56d75403b8a9ac0a719110f36/cenc.mpd",
+    "type": "dash",
+    "keyId": "e31a5a81caff5d07ea2411a571fc2e59",
+    "key": "96c5ef69479732ae734f962748c19729",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "TNT Sports 5",
+    "category": "sports",
+    "file": "https://live.ll.ww.aiv-cdn.net/OTTB/lhr-nitro/live/clients/dash/enc/gesdwrdncn/out/v1/79e752f1eccd4e18b6a8904a0bc01f2d/cenc.mpd",
+    "type": "dash",
+    "keyId": "60c0d9b41475e01db4ffb91ed557fbcc",
+    "key": "36ee40e58948ca15e3caba8d47b8f34b",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "TVRI",
+    "category": "general",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/PemersatuBangsa/sa_dash_vmx/PemersatuBangsa.mpd",
+    "type": "dash",
+    "keyId": "ca65af90adc5e3ddb180e16426bb67da",
+    "key": "b6f87a3a128dbd75ead036f596edeae7",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "MNC Sports 1",
+    "category": "sports",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/MNCSports-HD/sa_dash_vmx/MNCSports-HD.mpd",
+    "type": "dash",
+    "keyId": "531c6d50e3e9f9ba66446f624f492289",
+    "key": "d769d9ae238bdd424f8bcdcdc9a3801f",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "MNC Sports 2",
+    "category": "sports",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/MNCSports2-HD/sa_dash_vmx/MNCSports2-HD.mpd",
+    "type": "dash",
+    "keyId": "45fec91ce1f19b6b1f31d69dcfaaf6cd",
+    "key": "843e228ab109e9aa6c4822ee4ad05d7d",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "MNC Sports 3",
+    "category": "sports",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/Soccer-2/sa_dash_vmx/Soccer-2.mpd",
+    "type": "dash",
+    "keyId": "fadd2720deff5925ab86df0819cd7775",
+    "key": "f67ff08c7ebc779f6a6fcfc83835f65b",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "Soccer Channel",
+    "category": "sports",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/soccerchannel-test/sa_dash_vmx/soccerchannel-test.mpd",
+    "type": "dash",
+    "keyId": "4d38060bf41b3c29df0ec950ece6b5da",
+    "key": "7ee9506b13480491d79b71c062ab5366",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "ANTV",
+    "category": "general",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/ANTV/sa_dash_vmx/ANTV.mpd",
+    "type": "dash",
+    "keyId": "4310edb8b9ffe79abb40bacafa778ec3",
+    "key": "aebb7e86d8a336d9a93d3dd8a41153cf",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "Net TV",
+    "category": "general",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/NetTV-HD/sa_dash_vmx/NetTV-HD.mpd",
+    "type": "dash",
+    "keyId": "6b7bbcf1d511a56e6b3ceda392e4fa33",
+    "key": "d1766244d7c1c44efd4c67aafae3ee7b",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "Galaxy Premium",
+    "category": "entertainment",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/GalaxyPremium-HD/sa_dash_vmx/GalaxyPremium-HD.mpd",
+    "type": "dash",
+    "keyId": "7bc29ff5f405dff971e3a326223fe26c",
+    "key": "06849a953a38da997b31bacf433cc74a",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "Galaxy",
+    "category": "entertainment",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/Galaxy-HD/sa_dash_vmx/Galaxy-HD.mpd",
+    "type": "dash",
+    "keyId": "e5c40292f8d01b1d5f0c6b3904d73104",
+    "key": "bcb2ac12e11c69594ba217bfe8714efe",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "TVN Premium Indonesia",
+    "category": "entertainment",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/tvN/sa_dash_vmx/tvN.mpd",
+    "type": "dash",
+    "keyId": "742131dbcb507c31502eb60b32be6bb8",
+    "key": "209f03c525bbbc9fd8652aa7a9cc5cb0",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "KIX",
+    "category": "entertainment",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/KIX/sa_dash_vmx/KIX.mpd",
+    "type": "dash",
+    "keyId": "fe761e8fac143d40510e70825dad0b20",
+    "key": "eed9fb0b4e254e9104ef98e8a7035387",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "Cinemax Asia",
+    "category": "movies",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/CinemaxHD2/sa_dash_vmx/CinemaxHD2.mpd",
+    "type": "dash",
+    "keyId": "fba45325e2cd8355972ede4981f43b2a",
+    "key": "d88a4bdd67f89cd21eb074c81de1b994",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "Celestial Classic Movies",
+    "category": "movies",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/CelestialClassic/sa_dash_vmx/CelestialClassic.mpd",
+    "type": "dash",
+    "keyId": "12da619438b3748da206142216d0943b",
+    "key": "6958377109d34561ad20645319cec62c",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "Animax Asia",
+    "category": "anime",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/Animax/sa_dash_vmx/Animax.mpd",
+    "type": "dash",
+    "keyId": "6344a8272809245e3fa9d926099528c3",
+    "key": "93b6c4ff420c6864a6294f6d223d9b2c",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "Nickelodeon South East Asia",
+    "category": "kids",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/Nickelodeon/sa_dash_vmx/Nickelodeon.mpd",
+    "type": "dash",
+    "keyId": "785024598882dc751652cea2bce44b8e",
+    "key": "56a40e58acd59965e865947dd719108d",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "Nick Jr Asia",
+    "category": "kids",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/NickJr-HDD/sa_dash_vmx/NickJr-HDD.mpd",
+    "type": "dash",
+    "keyId": "f71ca09f57ea09e27ee63d7d1f0d0e31",
+    "key": "8a07ef45b4a18973ef12f8da482dcec0",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "Miao Mi",
+    "category": "kids",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/MiaoMi/sa_dash_vmx/MiaoMi.mpd",
+    "type": "dash",
+    "keyId": "e179c8d2ae0ddf520b905823d417f028",
+    "key": "327c62356a811a1c0802cf0c4f5a1d50",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "CBeebies Asia",
+    "category": "kids",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/Cbeebies/sa_dash_vmx/Cbeebies.mpd",
+    "type": "dash",
+    "keyId": "194891b41223a5f1ec2beff1c95e2f53",
+    "key": "eeb1fb2ec011f9563653495f9ac427b1",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "Cartoon Network Asia",
+    "category": "kids",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/CartoonNetwork/sa_dash_vmx/CartoonNetwork.mpd",
+    "type": "dash",
+    "keyId": "37ef71f668c1c1126595be0f557587f5",
+    "key": "008df022d78a9ec318a745cf8365b048",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "Boomerang South East Asia",
+    "category": "kids",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/Boomerang/sa_dash_vmx/Boomerang.mpd",
+    "type": "dash",
+    "keyId": "5ff6154f28d6950063f9f5b4db7be009",
+    "key": "93cac38fd15124acce5b658896df0a25",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "Baby TV Asia",
+    "category": "kids",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/BabyTV-NewHD/sa_dash_vmx/BabyTV-NewHD.mpd",
+    "type": "dash",
+    "keyId": "2fc62ba18b44dce828a5fb8a213d6e5b",
+    "key": "02a01282f77edf03e964e713fb447e93",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "NatGeo Wild",
+    "category": "documentary",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/NatGeoWild/sa_dash_vmx/NatGeoWild.mpd",
+    "type": "dash",
+    "keyId": "c3066eaa0984588f78d12dcdb75ef88b",
+    "key": "4e98eb4927941bff51ea526d223fa16d",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "National Geographic Asia",
+    "category": "documentary",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/NatGeoChannel/sa_dash_vmx/NatGeoChannel.mpd",
+    "type": "dash",
+    "keyId": "05457a5e16a76fe666a22cc7ae2c6548",
+    "key": "626e37901bfb985e994d714e9f9de1b5",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "Discovery Channel",
+    "category": "documentary",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/Discovery/sa_dash_vmx/Discovery.mpd",
+    "type": "dash",
+    "keyId": "8b27270c10422acdf2b70c296c8ddb29",
+    "key": "32ca577ab5b577a31cc61eb847642fa8",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "BBC Earth Asia",
+    "category": "documentary",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/BBCEarth-HD/sa_dash_vmx/BBCEarth-HD.mpd",
+    "type": "dash",
+    "keyId": "c154c12b5f8336cc9cbef82fb5cc0ab4",
+    "key": "5c365427c75eacf217255effcb5fff3e",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "Animal Planet",
+    "category": "documentary",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/AnimalPlanet/sa_dash_vmx/AnimalPlanet.mpd",
+    "type": "dash",
+    "keyId": "ccc52e94c493492773612a04fa3a1ae1",
+    "key": "adf87643eef60a4df18d69044a970d66",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "TLC Southeast Asia",
+    "category": "lifestyle",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/TLC/sa_dash_vmx/TLC.mpd",
+    "type": "dash",
+    "keyId": "b9c123fbf587e6524b2706bd960c7f67",
+    "key": "d2aaac6845b33627cdce1272feac5acc",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "Lifetime Asia",
+    "category": "lifestyle",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/Lifetime/sa_dash_vmx/Lifetime.mpd",
+    "type": "dash",
+    "keyId": "8bd8efd4840c37f50f8a053f92e9b015",
+    "key": "7f8b3b508bb394919dab1b6e91e7bacf",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "HGTV Asia",
+    "category": "lifestyle",
+    "file": "https://liveaneviadev.mncnow.id/live/eds/HGTV/sa_dash_vmx/HGTV.mpd",
+    "type": "dash",
+    "keyId": "c704a6e7fb9e79809a542dcb04583835",
+    "key": "570a676fa8b2d5433789ebe8a07063cc",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "Asian Food Network",
+    "category": "lifestyle",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/AFN-HD/sa_dash_vmx/AFN-HD.mpd",
+    "type": "dash",
+    "keyId": "57d2ac9210cfbca3596cc679a01c8b29",
+    "key": "d5e35c0f39c76adf24853d7ea18c71e7",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "Arirang World",
+    "category": "international",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/Arirang/sa_dash_vmx/Arirang.mpd",
+    "type": "dash",
+    "keyId": "9bc202de2b177ff5bb64dacb0ab3fd8d",
+    "key": "d71b81338f16bf009608665b08a49197",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "ABC Australia Asia",
+    "category": "international",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/AustraliaPlus/sa_dash_vmx/AustraliaPlus.mpd",
+    "type": "dash",
+    "keyId": "a2dd864fc95998efd52979e5f732e029",
+    "key": "4f705ca934ba3ef5513fea618d4f938d",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "TRT World",
+    "category": "news",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/TRTWorld/sa_dash_vmx/TRTWorld.mpd",
+    "type": "dash",
+    "keyId": "2664cc86dfb0f48e6b3f792dd4e8983c",
+    "key": "5fc5b980db05c4450482b4bd7cda39fe",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "TV ONE",
+    "category": "news",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/TVOne-2/sa_dash_vmx/TVOne-2.mpd",
+    "type": "dash",
+    "keyId": "90204c05545f95a262bb0d3ac45de870",
+    "key": "0e80f2a19fdf8da476bf695cd9570bb2",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "Kompas TV",
+    "category": "news",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/KompasTV/sa_dash_vmx/KompasTV.mpd",
+    "type": "dash",
+    "keyId": "493fd10e609dd02ae97964f438e7e530",
+    "key": "695cf9896182c52f1c3a25820e7778f5",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "RT English",
+    "category": "news",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/RTEnglish/sa_dash_vmx/RTEnglish.mpd",
+    "type": "dash",
+    "keyId": "ec5705bb82f3e66b054de048287fd3a4",
+    "key": "7819a6f6427b7c7764a514abe8173b02",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "NHK World Premium",
+    "category": "international",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/NHKWorldPremium/sa_dash_vmx/NHKWorldPremium.mpd",
+    "type": "dash",
+    "keyId": "a56d6a274eb073cdf94754bd0ffe3335",
+    "key": "10ad173ac7249bc42c8390c090ca09e3",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "NHK World Japan",
+    "category": "international",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/NHKWorldTV/sa_dash_vmx/NHKWorldTV.mpd",
+    "type": "dash",
+    "keyId": "62ce01c83653c3f20af6bcafc6979fe6",
+    "key": "f1325e71f440c06f7e93d7551cb4014a",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "France 24 English",
+    "category": "news",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/France24/sa_dash_vmx/France24.mpd",
+    "type": "dash",
+    "keyId": "2968b8d8884c66ebfc54b53bee1070ee",
+    "key": "7182638b386cb06e211b6771c1a10861",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "Fox News Channel",
+    "category": "news",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/FoxNews/sa_dash_vmx/FoxNews.mpd",
+    "type": "dash",
+    "keyId": "a547a31e9c19c36f94d120a83f61f92d",
+    "key": "7e86ccfba721e3297b73fc9e2b07628d",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "EuroNews English",
+    "category": "news",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/EuroNews/sa_dash_vmx/EuroNews.mpd",
+    "type": "dash",
+    "keyId": "9acec565e4d5e994523b3b18e0a7521e",
+    "key": "a16eb03e31229b194ec4b45c3cb80b46",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "DW English",
+    "category": "news",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/DW/sa_dash_vmx/DW.mpd",
+    "type": "dash",
+    "keyId": "4472db9a36186f11703d04a4adbbf279",
+    "key": "f00791bacba0575927de6cf15cfcd9d9",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "CNN International Asia Pacific",
+    "category": "news",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/CNNInternational/sa_dash_vmx/CNNInternational.mpd",
+    "type": "dash",
+    "keyId": "faa79feb03b3ebf0e4566e649cb938f0",
+    "key": "2d5e77223719fb1af573cbeab56bb16a",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "CNBC Asia-Pacific",
+    "category": "news",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/CNBC/sa_dash_vmx/CNBC.mpd",
+    "type": "dash",
+    "keyId": "a6de9ad0c51e2673f543b71ac5a54211",
+    "key": "533886c95819317d48fd079d78c3d757",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "Bloomberg TV Asia",
+    "category": "news",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/Bloomberg/sa_dash_vmx/Bloomberg.mpd",
+    "type": "dash",
+    "keyId": "272401a5b200375e49a4712cf39f369c",
+    "key": "39d7bc2faf1f13b8a2bb106b617e604a",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "BBC World News Asia Pacific",
+    "category": "news",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/BBCWorldNews/sa_dash_vmx/BBCWorldNews.mpd",
+    "type": "dash",
+    "keyId": "82e458dc5613eaaa2608de8d190f1637",
+    "key": "c25659bd78913e93e3fddace99a964c1",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "Aljazeera English",
+    "category": "news",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/AlJazeeraInternational/sa_dash_vmx/AlJazeeraInternational.mpd",
+    "type": "dash",
+    "keyId": "59b86c4bc0dc5de64bdfafe5152cc8f1",
+    "key": "014e41ad9ec2997fe29d3c3bc372491f",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "TV 9 Nusantara",
+    "category": "general",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/TV9/sa_dash_vmx/TV9.mpd",
+    "type": "dash",
+    "keyId": "ce1a653fafa780cd4a8747c08872e3ab",
+    "key": "d83bcf72b3f5a3d09674602b06caaa71",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "RTV",
+    "category": "general",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/RTV/sa_dash_vmx/RTV.mpd",
+    "type": "dash",
+    "keyId": "30384ee5424eab4afdff34d7a59e0ef9",
+    "key": "5f3d2f2c194266ae9a28210f8976cbe0",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "Tawaf TV",
+    "category": "religion",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/TawafTV/sa_dash_vmx/TawafTV.mpd",
+    "type": "dash",
+    "keyId": "52bc18038d025c26ead432fa521f83a",
+    "key": "beab0589d5f15d4a56278c7df913b263",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "MAKKAH",
+    "category": "religion",
+    "file": "https://quraan-enc.edgenextcdn.net/out/v1/c83937d3ef504ec49b5acd0cf7339f29/index.mpd",
+    "type": "dash",
+    "keyId": "5321d2a153ab463dba1c60b9068165c6",
+    "key": "6c8194b07b1f2d114feb594d2ae6ee51",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "MADINAH",
+    "category": "religion",
+    "file": "https://sunna-enc.edgenextcdn.net/out/v1/561f3a49088b47869fffb53d1412fe29/index.mpd",
+    "type": "dash",
+    "keyId": "3084383b39c3452b81ee0535bd381dee",
+    "key": "bf25afb0796a4a73f127f056c206800d",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "MQTV",
+    "category": "religion",
+    "file": "https://5bf7b725107e5.streamlock.net/mqtv/mqtv/playlist.m3u8",
+    "type": "hls",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "Muslim TV",
+    "category": "religion",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/MNCMuslim/sa_dash_vmx/MNCMuslim.mpd",
+    "type": "dash",
+    "keyId": "eefa1c34afba72f8fe902b061632528f",
+    "key": "334cde07f6ebe092c0ae0521591d73cf",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "Celestial Movies Indonesia",
+    "category": "movies",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/CelestialMovie/sa_dash_vmx/CelestialMovie.mpd",
+    "type": "dash",
+    "keyId": "13aecb26aeee22bc86920045f22d134d",
+    "key": "80aa44d998c7c0cc221c96d26730fe9b",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "Crime + Investigation Asia",
+    "category": "documentary",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/CrimeInvestigation/sa_dash_vmx/CrimeInvestigation.mpd",
+    "type": "dash",
+    "keyId": "dc6157edc80fa15e6b6f23e695d461e4",
+    "key": "7c068dd99c87e0ab1efc635bb77adcb4",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "Vision Prime",
+    "category": "entertainment",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/VisionPrime/sa_dash_vmx/VisionPrime.mpd",
+    "type": "dash",
+    "keyId": "50056951f6d5f5fbaf286cd99c965379",
+    "key": "4ec78e3b7d66d1db3815a127f792b604",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "ONE",
+    "category": "entertainment",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/SetOne/sa_dash_vmx/SetOne.mpd",
+    "type": "dash",
+    "keyId": "7b212a67ce3e8b056af85b890e3de811",
+    "key": "428a68fac3d97a5fae0f695edcee6346",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "Lifestyle & Fashion",
+    "category": "lifestyle",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/LifeStyleFashion/sa_dash_vmx/LifeStyleFashion.mpd",
+    "type": "dash",
+    "keyId": "eeba2c9c08078d2a729328dbcd1e002b",
+    "key": "19090336609b8f4fee1e7aea837a10d9",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "CNA",
+    "category": "news",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/ChannelNewsAsia/sa_dash_vmx/ChannelNewsAsia.mpd",
+    "type": "dash",
+    "keyId": "e1ae750e09889a610744516182c8e95a",
+    "key": "2f7aa7b21102d05a986a4212c4afa06f",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "SEA Today",
+    "category": "news",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/SEA-Channel/sa_dash_vmx/SEA-Channel.mpd",
+    "type": "dash",
+    "keyId": "dfb76a400a6af053881f7fff14483323",
+    "key": "aa5af1f3edb3abd10a68b8f7e7c0b1ad",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "IDX Channel",
+    "category": "business",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/IDX/sa_dash_vmx/IDX.mpd",
+    "type": "dash",
+    "keyId": "fbdbe252e6354b175852d1929c42d848",
+    "key": "7a8bb14fcf8fd0b896ab41c29a78aae0",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "SCTV",
+    "category": "general",
+    "file": "https://op-group1-swiftservehd-1.dens.tv/h/h217/index.m3u8",
+    "type": "hls",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "Nusantara TV",
+    "category": "general",
+    "file": "https://op-group1-swiftservehd-1.dens.tv/h/h37/index.m3u8",
+    "type": "hls",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "Rodja TV",
+    "category": "general",
+    "file": "https://op-group1-swiftservehd-1.dens.tv/h/h233/index.m3u8",
+    "type": "hls",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "JAKTV",
+    "category": "general",
+    "file": "https://op-group1-swiftservesd-1.dens.tv/s/s123/S4/mnf.m3u8",
+    "type": "hls",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "JOWO CHANNEL",
+    "category": "general",
+    "file": "https://op-group1-swiftservehd-1.dens.tv/h/h208/index.m3u8",
+    "type": "hls",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "Indosiar",
+    "category": "general",
+    "file": "https://op-group1-swiftservehd-1.dens.tv/h/h235/index.m3u8",
+    "type": "hls",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "Moji",
+    "category": "general",
+    "file": "https://op-group1-swiftservehd-1.dens.tv/h/h207/index.m3u8",
+    "type": "hls",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "Bandung TV",
+    "category": "general",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/BandungTV/sa_dash_vmx/BandungTV.mpd",
+    "type": "dash",
+    "keyId": "a7fd43751f24d64a16f6f4d289ebd395",
+    "key": "2ef65773d541ccaf8ba61a3d141711f0",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "Da Ai TV Indonesia",
+    "category": "religion",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/DAAITV/sa_dash_vmx/DAAITV.mpd",
+    "type": "dash",
+    "keyId": "eb7c09e964e89e668266ea31f2710ffa",
+    "key": "0a9832e32206fff46674b8210c9b6897",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "JTV",
+    "category": "general",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/JTV/sa_dash_vmx/JTV.mpd",
+    "type": "dash",
+    "keyId": "10e203f655014b5d18b0c85a6c72c809",
+    "key": "acdcd0b65014e4929c6296171bdfebad",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "CGTN",
+    "category": "international",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/CGTN/sa_dash_vmx/CGTN.mpd",
+    "type": "dash",
+    "keyId": "725ccd861fa88300c0e1d258b20bc9b1",
+    "key": "ab190baece633191b7201cb96d065bbb",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "TVN Movies",
+    "category": "movies",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/tvNMovies/sa_dash_vmx/tvNMovies.mpd",
+    "type": "dash",
+    "keyId": "45c004003b09719751adb885d28d491f",
+    "key": "fe82bc3ffe00477c833812fae74caed7",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "Anhui TV",
+    "category": "international",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/AnhuiTV/sa_dash_vmx/AnhuiTV.mpd",
+    "type": "dash",
+    "keyId": "6935d1a7c21abca8907b1a7b63f2d2c9",
+    "key": "1842c9b39c3558bb4c7dbb6e400561aa",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "Cinema World",
+    "category": "movies",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/CinemaWorld/sa_dash_vmx/CinemaWorld.mpd",
+    "type": "dash",
+    "keyId": "958df746f24f371dffc95e7cd714fbd7",
+    "key": "fbd6e4540b9a917a27da8be01542f53f",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "EWTN",
+    "category": "religion",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/EWTN/sa_dash_vmx/EWTN.mpd",
+    "type": "dash",
+    "keyId": "cb2393dc078c4b708cce148304db1ea7",
+    "key": "78437d7ccfe7a3a220c53180eb5bdeb1",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "Jiangsu TV",
+    "category": "international",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/JiangsuTV/sa_dash_vmx/JiangsuTV.mpd",
+    "type": "dash",
+    "keyId": "ab3b56e3b5bd35ee40d1f18a8e2a73f0",
+    "key": "1ae67b4eeeb450fd430e3540694abc6a",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "Hunan TV",
+    "category": "international",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/HunanTV/sa_dash_vmx/HunanTV.mpd",
+    "type": "dash",
+    "keyId": "0e9df1ff194224dd922a4ee50a083ea8",
+    "key": "1f822977efb4700dfef3aef29ce53d98",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "Thrill",
+    "category": "movies",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/Thrill/sa_dash_vmx/Thrill.mpd",
+    "type": "dash",
+    "keyId": "06e7e95fdb30086d24111f300c9d91f1",
+    "key": "9431050f760f692bfd396bbd84cb5161",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "Zee Bioskop",
+    "category": "movies",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/ZeeBIOSKOP/sa_dash_vmx/ZeeBIOSKOP.mpd",
+    "type": "dash",
+    "keyId": "9e7df70530006bef067327cefde82c0e",
+    "key": "b92b6a2aba522bd9bb2d07cf241e7398",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "AXN",
+    "category": "entertainment",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/AXN/sa_dash_vmx/AXN.mpd",
+    "type": "dash",
+    "keyId": "c5d5297a84f8b2de977f07286345c591",
+    "key": "bdb773d6d25303b75a396b8040cfaf8c",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "FMN",
+    "category": "entertainment",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/FMN/sa_dash_vmx/FMN.mpd",
+    "type": "dash",
+    "keyId": "009a1278e0755ed82e70df01460e90c3",
+    "key": "12d010a918431785676c4fd63ef648bd",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "BBC Earth",
+    "category": "documentary",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/BBCEarth-HD/sa_dash_vmx/BBCEarth-HD.mpd",
+    "type": "dash",
+    "keyId": "c154c12b5f8336cc9cbef82fb5cc0ab4",
+    "key": "5c365427c75eacf217255effcb5fff3e",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "Nat Geo Channel",
+    "category": "documentary",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/NatGeoChannel/sa_dash_vmx/NatGeoChannel.mpd",
+    "type": "dash",
+    "keyId": "05457a5e16a76fe666a22cc7ae2c6548",
+    "key": "626e37901bfb985e994d714e9f9de1b5",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "OK TV",
+    "category": "lifestyle",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/OKTV/sa_dash_vmx/OKTV.mpd",
+    "type": "dash",
+    "keyId": "57d2ac9210cfbca3596cc679a01c8b29",
+    "key": "d5e35c0f39c76adf24853d7ea18c71e7",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "Warner TV",
+    "category": "entertainment",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/WarnerTV/sa_dash_vmx/WarnerTV.mpd",
+    "type": "dash",
+    "keyId": "355764373f8a926534fbc42666ab7b13",
+    "key": "382106ed34f0330b073b1fa940c1516e",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "Hits Movies",
+    "category": "movies",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/HitsMovies/sa_dash_vmx/HitsMovies.mpd",
+    "type": "dash",
+    "keyId": "5d9684b1737e3b68801b4cff7225d4bb",
+    "key": "902e7634820c26a8ff36f3708f0191d4",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "Hits",
+    "category": "entertainment",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/HITS/sa_dash_vmx/HITS.mpd",
+    "type": "dash",
+    "keyId": "78d17d4851a5e9eede96f283b15ec053",
+    "key": "c5ae33f70cc967fe107b35eb7225f52a",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "HBO Family",
+    "category": "movies",
+    "file": "https://av-ch-cdn.mncnow.id/live/eds/HBOFamily2/sa_dash_vmx/HBOFamily2.mpd",
+    "type": "dash",
+    "keyId": "be6190a3cfbbed4ec34e4d9c7a30e1e",
+    "key": "d161b1f737e2aee9501149406c8abe9e",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "HBO Cinemax",
+    "category": "movies",
+    "file": "https://qp-pldt-live-grp-01-prod.akamaized.net/out/u/cg_cinemax.mpd",
+    "type": "dash",
+    "keyId": "b207c44332844523a3a3b0469e5652d7",
+    "key": "fe71aea346db08f8c6fbf0592209f955",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "HBO Signature",
+    "category": "movies",
+    "file": "https://qp-pldt-live-grp-01-prod.akamaized.net/out/u/cg_hbosign.mpd",
+    "type": "dash",
+    "keyId": "a06ca6c275744151895762e0346380f5",
+    "key": "559da1b63eec77b5a942018f14d3f56f",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "HBO Hits",
+    "category": "movies",
+    "file": "https://qp-pldt-live-grp-09-prod.akamaized.net/out/u/cg_hbohits.mpd",
+    "type": "dash",
+    "keyId": "b04ae8017b5b4601a5a0c9060f6d5b7d",
+    "key": "a8795f3bdb8a4778b7e888ee484cc7a1",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "HBO",
+    "category": "movies",
+    "file": "https://qp-pldt-live-grp-03-prod.akamaized.net/out/u/cg_hbohd.mpd",
+    "type": "dash",
+    "keyId": "d47ebabf7a21430b83a8c4b82d9ef6b1",
+    "key": "54c213b2b5f885f1e0290ee4131d425b",
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   }
 ]
