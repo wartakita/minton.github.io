@@ -107,5 +107,4 @@ function filterChannelsBySearch(query, data) {
             channel.style.display = 'none';
         }
     });
-} <
-/script>
+}
