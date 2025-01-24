@@ -302,6 +302,55 @@
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   },
   {
+    "title": "Fox Sports 1",
+    "category": "sports",
+    "file": "https://aw1wcm92zq.fubohd.com/foxsports1_usa/mono.m3u8?md5=IycyyAh3pxh6wFZn1Pch0Q&expires=1737722563",
+    "type": "hls",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "Fox Sports 2",
+    "category": "sports",
+    "file": "https://aw1wcm92zq.fubohd.com/foxsports2_usa/mono.m3u8?md5=moj4Vz-MLlV6zOzdPsWVXg&expires=1737722587",
+    "type": "hls",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "Fox Sports 3",
+    "category": "sports",
+    "file": "https://aw1wcm92zq.fubohd.com/foxsports3/mono.m3u8?md5=yZgULqMdWhSUhhQ5SfJp6Q&expires=1737723064",
+    "type": "hls",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "Fox Deportes",
+    "category": "sports",
+    "file": "https://aw1wcm92zq.fubohd.com/foxdeportes/mono.m3u8?md5=k6fKUwEmJmoIq6UnLttnzw&expires=1737722616",
+    "type": "hls",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "ESPN Deportes",
+    "category": "sports",
+    "file": "https://aw1wcm92zq.fubohd.com/espndeportes/mono.m3u8?md5=XyPBssMwtz9eufy9Hix4vQ&expires=1737722659",
+    "type": "hls",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "TyC Sports",
+    "category": "sports",
+    "file": "https://aw1wcm92zq.fubohd.com/tycsports/mono.m3u8?md5=vMU95H1jojeUml1WiHIliQ&expires=1737722809",
+    "type": "hls",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "ESPN Premium",
+    "category": "sports",
+    "file": "https://aw1wcm92zq.fubohd.com/espnpremium/mono.m3u8?md5=PSl6arnxmhRn0o4t-TQeSA&expires=1737722855",
+    "type": "hls",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
     "title": "SPORT1+ HD",
     "category": "sports",
     "file": "https://ac-009.live.p7s1video.net/c5c609cf/t_009/sport1plus-de-hd/cenc-default.mpd",
