@@ -253,30 +253,45 @@
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   },
   {
-    "title": "DAZN 1",
+    "title": "Dazn Eleven 1",
     "category": "sports",
-    "file": "https://live.ll.ww.aiv-cdn.net/OTTB/dub-nitro/live/clients/dash/enc/bmnelo5c7a/out/v1/3ce2cdc4589f46189322bd3717c77957/cenc.mpd",
-    "type": "dash",
-    "keyId": "44dd9cd370b08a868ead115fe84ecfde",
-    "key": "bff19ab0a51cf14e848389b152913fd0",
+    "file": "https://aw1wcm92zq.fubohd.com/eleven1_pt/mono.m3u8?md5=UVTta_EFCkCw4M9vOlpgHQ&expires=1737715854",
+    "type": "hls",
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   },
   {
-    "title": "DAZN 2",
+    "title": "Dazn Eleven 2",
     "category": "sports",
-    "file": "https://live.ll.ww.aiv-cdn.net/OTTB/dub-nitro/live/clients/dash/enc/xnk4m9bnxt/out/v1/4ced7b7329a54652b9bb0521ed38bd4d/cenc.mpd",
-    "type": "dash",
-    "keyId": "0eab5a3f3e3b4ba5d42d40ca30d17571",
-    "key": "f3f061ded9b70e8160590d5802ecda6d",
+    "file": "https://aw1wcm92zq.fubohd.com/eleven2_pt/mono.m3u8?md5=5HqSyUZ1XHR7PzZAa8hxpA&expires=1737716028",
+    "type": "hls",
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   },
   {
-    "title": "DAZN F1",
+    "title": "Dazn Eleven 3",
     "category": "sports",
-    "file": "https://live.ll.ww.aiv-cdn.net/OTTB/dub-nitro/live/clients/dash/enc/cqbcvgkb83/out/v1/4dbe05ecfb1540448d82d68eeebfbb1c/cenc.mpd",
-    "type": "dash",
-    "keyId": "1061be12d303247426ec25e8369b2647",
-    "key": "bd622b0e610295de3b0bccb850ccaaaa",
+    "file": "https://aw1wcm92zq.fubohd.com/eleven3_pt/mono.m3u8?md5=7BDiopOlm4gaDKu91PtNfA&expires=1737716047",
+    "type": "hls",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "Dazn Eleven 4",
+    "category": "sports",
+    "file": "https://aw1wcm92zq.fubohd.com/eleven4_pt/mono.m3u8?md5=hrx8SSgYqqY9cJIbGq5dDA&expires=1737716073",
+    "type": "hls",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "Dazn Eleven 5",
+    "category": "sports",
+    "file": "https://aw1wcm92zq.fubohd.com/eleven5_pt/mono.m3u8?md5=EqhcMtzLsx_abeCzNBCpyA&expires=1737716094",
+    "type": "hls",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "Dazn Eleven 6",
+    "category": "sports",
+    "file": "https://aw1wcm92zq.fubohd.com/eleven6_pt/mono.m3u8?md5=eMS6VWocHrF3HdCQmgl2aw&expires=1737716117",
+    "type": "hls",
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   },
   {
@@ -553,6 +568,15 @@
     "keyId": "98cfd6fd4812497fb24dc75f7545f2ee",
     "key": "d3006ee69e77b25939728ebf30d3180a",
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
+    "title": "TNT Sports",
+    "category": "sports",
+    "file": "https://live.ll.ww.aiv-cdn.net/OTTB/lhr-nitro/live/clients/dash/enc/wf8usag51e/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd",
+    "type": "dash",
+    "keyId": "ae26845bd33038a9c0774a0981007294",
+    "key": "63ac662dde310cfb4cc6f9b43b34196d",
+    "iframeLink": "https://la12hd.com/vivo/canal.php?stream=tntsports"
   },
   {
     "title": "TNT Sports 1",
