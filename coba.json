@@ -1,0 +1,40 @@
+[
+  {
+    "teams": "Team A vs Team B",
+    "date": "2025-01-25",
+    "time": "14:00",
+    "channels": [
+      {
+        "name": "Channel 1",
+        "videoId": "12345",
+        "m3u8": "https://example.com/channel1.m3u8",
+        "embedLink": "https://example.com/channel1"
+      },
+      {
+        "name": "Channel 2",
+        "videoId": "67890",
+        "m3u8": "https://example.com/channel2.m3u8",
+        "embedLink": "https://example.com/channel2"
+      }
+    ]
+  },
+  {
+    "teams": "Team C vs Team D",
+    "date": "2025-01-26",
+    "time": "15:00",
+    "channels": [
+      {
+        "name": "Channel 1",
+        "videoId": "54321",
+        "m3u8": "https://example.com/channel1.m3u8",
+        "embedLink": "https://example.com/channel1"
+      },
+      {
+        "name": "Channel 2",
+        "videoId": "09876",
+        "m3u8": "https://example.com/channel2.m3u8",
+        "embedLink": "https://example.com/channel2"
+      }
+    ]
+  }
+]
