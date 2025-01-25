@@ -7,26 +7,33 @@
       {
         "name": "Channel 1",
         "videoId": "12345",
-        "m3u8": "https://av-ch-cdn.mncnow.id/live/eds/SPOTV2-HD/sa_dash_vmx/SPOTV2-HD.mpd",
-        "embedLink": "https://example.com/channel1",
-        "drm": {
-          "clearkey": {
-            "key": "d5e35c0f39c76adf24853d7ea18c71e7",
-            "keyId": "57d2ac9210cfbca3596cc679a01c8b29"
-          }
-        }
+        "m3u8": "https://example.com/channel1.m3u8",
+        "embedLink": "https://example.com/channel1"
       },
       {
         "name": "Channel 2",
         "videoId": "67890",
-        "m3u8": "https://hlslive-tx-cdn.ysp.cctv.cn/pecintaminton/2026204501.m3u8",
-        "embedLink": "https://example.com/channel2",
-        "drm": {
-          "clearkey": {
-            "key": "your-clearkey-key",
-            "keyId": "your-clearkey-key-id"
-          }
-        }
+        "m3u8": "https://example.com/channel2.m3u8",
+        "embedLink": "https://example.com/channel2"
+      }
+    ]
+  },
+  {
+    "teams": "Team C vs Team D",
+    "date": "2025-01-26",
+    "time": "15:00",
+    "channels": [
+      {
+        "name": "Channel 1",
+        "videoId": "54321",
+        "m3u8": "https://example.com/channel1.m3u8",
+        "embedLink": "https://example.com/channel1"
+      },
+      {
+        "name": "Channel 2",
+        "videoId": "09876",
+        "m3u8": "https://example.com/channel2.m3u8",
+        "embedLink": "https://example.com/channel2"
       }
     ]
   }
