@@ -7,41 +7,17 @@
       {
         "name": "Channel 1",
         "videoId": "12345",
-        "m3u8": "https://wowowoiy.com/live/v1/YP3BDHv+xWos+JtzXc1hVxfc1B-xSgvvkh071BdB0aEuoC52J1vp5yaKRK9wMfQ-/master.m3u8",
-        "mpd": "https://av-ch-cdn.mncnow.id/live/eds/SPOTV-HD/sa_dash_vmx/SPOTV-HD.mpd",
-        "embedLink": "https://example.com/channel1/embed",
-        "clearkey": {
-          "kid": "NTdkMmFjOTIxMGNmYmNhMzU5NmNjNjc5YTAxYzhiMjk=",
-          "key": "ZDVlMzVjMGYzOWM3NmFkZjI0ODUzZDdlYTE4YzcxZTc="
-        }
+        "m3u8": "https://wowowoiy.com/live/v1/P1pYOLKn2xzopiG684UkHxZWiJBsQ8+kxgG21zIg9X+7NPcJHhpuo848-AUhHmwD/master.m3u8",
+        "embedLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
       },
       {
         "name": "Channel 2",
         "videoId": "67890",
-        "m3u8": "https://example.com/channel2.m3u8",
-        "mpd": "https://example.com/channel2.mpd",
-        "embedLink": "https://example.com/channel2/embed",
+        "mpd": "https://av-ch-cdn.mncnow.id/live/eds/RCTI-DD/sa_dash_vmx/RCTI-DD.mpd",
+        "embedLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4",
         "clearkey": {
-          "kid": "base64-encoded-kid",
-          "key": "base64-encoded-key"
-        }
-      }
-    ]
-  },
-  {
-    "teams": "Team C vs Team D",
-    "date": "2025-02-02",
-    "time": "20:00",
-    "channels": [
-      {
-        "name": "Channel 3",
-        "videoId": "54321",
-        "m3u8": "https://example.com/channel3.m3u8",
-        "mpd": "https://example.com/channel3.mpd",
-        "embedLink": "https://example.com/channel3/embed",
-        "clearkey": {
-          "kid": "base64-encoded-kid",
-          "key": "base64-encoded-key"
+          "kid": "OWJhM2UxNTNlZjg5NTZkNmUyYjA2ODRmY2Y3NGY1OGY=",
+          "key": "ZGJjMjhjYjVjNjQyNjA4MGY5ODRhNWI2ZDQzNmJiMzA="
         }
       }
     ]
