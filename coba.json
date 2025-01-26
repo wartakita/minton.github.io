@@ -1,39 +1,51 @@
 [
   {
     "teams": "Team A vs Team B",
-    "date": "2025-01-25",
-    "time": "14:00",
+    "date": "2025-02-01",
+    "time": "19:00",
     "channels": [
       {
         "name": "Channel 1",
         "videoId": "12345",
-        "m3u8": "https://example.com/channel1.m3u8",
-        "embedLink": "https://example.com/channel1"
+        "m3u8": "https://example.com/video1.m3u8",
+        "mpd": "https://av-ch-cdn.mncnow.id/live/eds/SPOTV2-HD/sa_dash_vmx/SPOTV2-HD.mpd",
+        "embedLink": "https://example.com/embed1",
+        "drm": {
+          "type": "clearkey",
+          "key": "d5e35c0f39c76adf24853d7ea18c71e7",
+          "kid": "57d2ac9210cfbca3596cc679a01c8b29"
+        }
       },
       {
         "name": "Channel 2",
         "videoId": "67890",
-        "m3u8": "https://example.com/channel2.m3u8",
-        "embedLink": "https://example.com/channel2"
+        "m3u8": "https://example.com/video2.m3u8",
+        "mpd": "https://example.com/video2.mpd",
+        "embedLink": "https://example.com/embed2",
+        "drm": {
+          "type": "clearkey",
+          "key": "your-base64-encoded-key",
+          "kid": "your-base64-encoded-kid"
+        }
       }
     ]
   },
   {
     "teams": "Team C vs Team D",
-    "date": "2025-01-26",
-    "time": "15:00",
+    "date": "2025-02-02",
+    "time": "20:00",
     "channels": [
       {
-        "name": "Channel 1",
+        "name": "Channel 3",
         "videoId": "54321",
-        "m3u8": "https://example.com/channel1.m3u8",
-        "embedLink": "https://example.com/channel1"
-      },
-      {
-        "name": "Channel 2",
-        "videoId": "09876",
-        "m3u8": "https://example.com/channel2.m3u8",
-        "embedLink": "https://example.com/channel2"
+        "m3u8": "https://example.com/video3.m3u8",
+        "mpd": "https://example.com/video3.mpd",
+        "embedLink": "https://example.com/embed3",
+        "drm": {
+          "type": "clearkey",
+          "key": "your-base64-encoded-key",
+          "kid": "your-base64-encoded-kid"
+        }
       }
     ]
   }
