@@ -7,17 +7,17 @@
       {
         "name": "Channel 1",
         "videoId": "12345",
-        "m3u8": "https://wowowoiy.com/live/v1/P1pYOLKn2xzopiG684UkHxZWiJBsQ8+kxgG21zIg9X+7NPcJHhpuo848-AUhHmwD/master.m3u8",
+        "m3u8": "https://bcovlive-a.akamaihd.net/r2d2c4ca5bf57456fb1d16255c1a535c8/eu-west-1/6058004203001/playlist.m3u8",
         "embedLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
       },
       {
         "name": "Channel 2",
         "videoId": "67890",
         "mpd": "https://av-ch-cdn.mncnow.id/live/eds/RCTI-DD/sa_dash_vmx/RCTI-DD.mpd",
+        "embedLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4",
         "clearkey": {
           "kid": "OWJhM2UxNTNlZjg5NTZkNmUyYjA2ODRmY2Y3NGY1OGY=",
-          "key": "ZGJjMjhjYjVjNjQyNjA4MGY5ODRhNWI2ZDQzNmJiMzA=",
-        "embedLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+          "key": "ZGJjMjhjYjVjNjQyNjA4MGY5ODRhNWI2ZDQzNmJiMzA="
         }
       }
     ]
