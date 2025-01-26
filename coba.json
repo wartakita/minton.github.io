@@ -12,7 +12,6 @@
       },
       {
         "name": "Channel 2",
-        "videoId": "67890",
         "mpd": "https://av-ch-cdn.mncnow.id/live/eds/RCTI-DD/sa_dash_vmx/RCTI-DD.mpd",
         "embedLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4",
         "clearkey": {
