@@ -8,14 +8,12 @@
         "name": "Channel 1",
         "videoId": "12345",
         "m3u8": "https://bcovlive-a.akamaihd.net/r2d2c4ca5bf57456fb1d16255c1a535c8/eu-west-1/6058004203001/playlist.m3u8",
-        "embedLink": "https://example.com/channel1/embed",
-        "keyId": "your-key-id",
-        "key": "your-key"
+        "embedLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
       },
       {
         "name": "Channel 2",
         "mpd": "https://av-ch-cdn.mncnow.id/live/eds/RCTI-DD/sa_dash_vmx/RCTI-DD.mpd",
-        "embedLink": "https://example.com/channel2/embed",
+        "embedLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4",
         "keyId": "9ba3e153ef8956d6e2b0684fcf74f58f",
         "key": "dbc28cb5c6426080f984a5b6d436bb30"
       }
