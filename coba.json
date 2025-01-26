@@ -16,8 +16,8 @@
         "url": "https://av-ch-cdn.mncnow.id/live/eds/SPOTV2-HD/sa_dash_vmx/SPOTV2-HD.mpd",
         "embedLink": "https://example.com/embed2",
         "clearKey": {
-          "kid": "NTdkMmFjOTIxMGNmYmNhMzU5NmNjNjc5YTAxYzhiMjk=",
-          "key": "ZDVlMzVjMGYzOWM3NmFkZjI0ODUzZDdlYTE4YzcxZTc="
+          "kid": "57d2ac9210cfbca3596cc679a01c8b29",
+          "key": "d5e35c0f39c76adf24853d7ea18c71e7"
         }
       }
     ]
@@ -33,8 +33,8 @@
         "url": "https://example.com/video3.mpd",
         "embedLink": "https://example.com/embed3",
         "clearKey": {
-          "kid": "SGVsbG8gS2lk",
-          "key": "SGVsbG8gS2V5"
+          "kid": "base64-encoded-kid",
+          "key": "base64-encoded-key"
         }
       }
     ]
