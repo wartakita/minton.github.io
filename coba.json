@@ -7,7 +7,7 @@
       {
         "name": "Channel 1",
         "videoId": "12345",
-        "m3u8": "https://example.com/channel1.m3u8",
+        "m3u8": "https://wowowoiy.com/live/v1/YP3BDHv+xWos+JtzXc1hVxfc1B-xSgvvkh071BdB0aEuoC52J1vp5yaKRK9wMfQ-/master.m3u8",
         "mpd": "https://av-ch-cdn.mncnow.id/live/eds/SPOTV-HD/sa_dash_vmx/SPOTV-HD.mpd",
         "embedLink": "https://example.com/channel1/embed",
         "clearkey": {
