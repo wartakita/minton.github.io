@@ -129,7 +129,7 @@ function formatDate(dateString) {
 // Load matches from JSON  
 function loadMatches() {
     const matchesList = document.getElementById('matches-list');
-    fetch('https://wartakita.github.io/minton.github.io/coba.json') // Ganti dengan URL file JSON Anda  
+    fetch('https://wartakita.github.io/minton.github.io/Matches.json') // Ganti dengan URL file JSON Anda  
         .then(response => {
             if (!response.ok) {
                 throw new Error('Network response was not ok ' + response.statusText);
@@ -205,7 +205,7 @@ function updateWIBTime() {
 document.addEventListener('DOMContentLoaded', function() {
     const videoId = getVideoId();
     if (videoId) {
-        fetch('https://wartakita.github.io/minton.github.io/coba.json') // Ganti dengan URL file JSON Anda  
+        fetch('https://wartakita.github.io/minton.github.io/Matches.json') // Ganti dengan URL file JSON Anda  
             .then(response => {
                 if (!response.ok) {
                     throw new Error('Network response was not ok ' + response.statusText);
