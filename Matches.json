@@ -1,27 +1,82 @@
-function _0xdf5c(_0x4bf852, _0x51c361) {
-  var _0x41fdc7 = _0x5c8e();
-  return _0xdf5c = function (_0x4e367b, _0x201524) {
-    _0x4e367b = _0x4e367b - 165;
-    var _0x2260bd = _0x41fdc7[_0x4e367b];
-    return _0x2260bd;
-  }, _0xdf5c(_0x4bf852, _0x51c361);
-}
-function _0x5c8e() {
-  var _0x190da8 = ["poeve.html", "treamoffli", "8956d6e2b0", "dbc28cb5c6", "2696qOOskE", "10191951LzjRMc", "5009291eXPjWC", "https://cd", "026207601.", "taminton/2", "426080f984", "asters 202", "12345", "ve/eds/RCT", "s://vibetv", "https://hl", "m3u8", "407sRsHPZ", "8179672hKGogw", "1403829XgnxsN", "684fcf74f5", "ne.mp4", "Channel 1", "16gfRKiu", "Thailand M", "n.plrjs.co", "124150JxBcXo", "https://av", "6898314gSUrvz", "slive-tx-c", "a5b6d436bb", "sa9hkrkynd", ".github.io", "e7/qqvmenq", "dn.ysp.cct", "m/player/b", "/offline/s", "Channel 2", "-ch-cdn.mn", "sh_vmx/RCT", "5 - COURT ", "?file=http", "2025-01-28", "v.cn/pecin", "9ba3e153ef", "I-DD/sa_da", "I-DD.mpd", "08:00", "cnow.id/li"];
-  _0x5c8e = function () {
-    return _0x190da8;
-  };
-  return _0x5c8e();
-}
-var _0x1fb158 = _0xdf5c;
-(function (_0x1218d1, _0x584fd3) {
-  var _0x2fb688 = _0xdf5c, _0x5e7947 = _0x1218d1();
-  while (true) {
-    try {
-      var _0x3ae7c7 = -parseInt(_0x2fb688(165)) / 1 * (parseInt(_0x2fb688(201)) / 2) + -parseInt(_0x2fb688(167)) / 3 + -parseInt(_0x2fb688(171)) / 4 * (-parseInt(_0x2fb688(174)) / 5) + parseInt(_0x2fb688(176)) / 6 + parseInt(_0x2fb688(203)) / 7 + parseInt(_0x2fb688(166)) / 8 + -parseInt(_0x2fb688(202)) / 9;
-      if (_0x3ae7c7 === _0x584fd3) break; else _0x5e7947.push(_0x5e7947.shift());
-    } catch (_0x3dbb81) {
-      _0x5e7947.push(_0x5e7947.shift());
-    }
+[
+  {
+    "teams": "Thailand Masters 2025 - COURT 1",
+    "date": "2025-01-28",
+    "time": "08:00",
+    "channels": [
+      {
+        "name": "Channel 1",
+        "videoId": "12345",
+        "m3u8": "https://hlslive-tx-cdn.ysp.cctv.cn/pecintaminton/2026207601.m3u8",
+        "embedLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+      },
+      {
+        "name": "Channel 2",
+        "mpd": "https://av-ch-cdn.mncnow.id/live/eds/RCTI-DD/sa_dash_vmx/RCTI-DD.mpd",
+        "embedLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4",
+        "keyId": "9ba3e153ef8956d6e2b0684fcf74f58f",
+        "key": "dbc28cb5c6426080f984a5b6d436bb30"
+      }
+    ]
+  },
+  {
+    "teams": "Thailand Masters 2025 - COURT 2",
+    "date": "2025-01-28",
+    "time": "08:00",
+    "channels": [
+      {
+        "name": "Channel 1",
+        "videoId": "12345",
+        "m3u8": "https://hlslive-tx-cdn.ysp.cctv.cn/pecintaminton/2026207601.m3u8",
+        "embedLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+      },
+      {
+        "name": "Channel 2",
+        "mpd": "https://av-ch-cdn.mncnow.id/live/eds/RCTI-DD/sa_dash_vmx/RCTI-DD.mpd",
+        "embedLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4",
+        "keyId": "9ba3e153ef8956d6e2b0684fcf74f58f",
+        "key": "dbc28cb5c6426080f984a5b6d436bb30"
+      }
+    ]
+  },
+  {
+    "teams": "Thailand Masters 2025 - COURT 3",
+    "date": "2025-01-28",
+    "time": "08:00",
+    "channels": [
+      {
+        "name": "Channel 1",
+        "videoId": "12345",
+        "m3u8": "https://hlslive-tx-cdn.ysp.cctv.cn/pecintaminton/2026207601.m3u8",
+        "embedLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+      },
+      {
+        "name": "Channel 2",
+        "mpd": "https://av-ch-cdn.mncnow.id/live/eds/RCTI-DD/sa_dash_vmx/RCTI-DD.mpd",
+        "embedLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4",
+        "keyId": "9ba3e153ef8956d6e2b0684fcf74f58f",
+        "key": "dbc28cb5c6426080f984a5b6d436bb30"
+      }
+    ]
+  },
+  {
+    "teams": "Thailand Masters 2025 - COURT 4",
+    "date": "2025-01-28",
+    "time": "08:00",
+    "channels": [
+      {
+        "name": "Channel 1",
+        "videoId": "12345",
+        "m3u8": "https://hlslive-tx-cdn.ysp.cctv.cn/pecintaminton/2026207601.m3u8",
+        "embedLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+      },
+      {
+        "name": "Channel 2",
+        "mpd": "https://av-ch-cdn.mncnow.id/live/eds/RCTI-DD/sa_dash_vmx/RCTI-DD.mpd",
+        "embedLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4",
+        "keyId": "9ba3e153ef8956d6e2b0684fcf74f58f",
+        "key": "dbc28cb5c6426080f984a5b6d436bb30"
+      }
+    ]
   }
-}(_0x5c8e, 838093), [{teams: _0x1fb158(172) + _0x1fb158(208) + _0x1fb158(188) + "1", date: _0x1fb158(190), time: _0x1fb158(195), channels: [{name: _0x1fb158(170), videoId: _0x1fb158(209), m3u8: _0x1fb158(212) + _0x1fb158(177) + _0x1fb158(182) + _0x1fb158(191) + _0x1fb158(206) + _0x1fb158(205) + _0x1fb158(213), embedLink: _0x1fb158(204) + _0x1fb158(173) + _0x1fb158(183) + _0x1fb158(179) + _0x1fb158(181) + _0x1fb158(197) + _0x1fb158(189) + _0x1fb158(211) + _0x1fb158(180) + _0x1fb158(184) + _0x1fb158(198) + _0x1fb158(169)}, {name: _0x1fb158(185), mpd: _0x1fb158(175) + _0x1fb158(186) + _0x1fb158(196) + _0x1fb158(210) + _0x1fb158(193) + _0x1fb158(187) + _0x1fb158(194), embedLink: _0x1fb158(204) + _0x1fb158(173) + _0x1fb158(183) + _0x1fb158(179) + _0x1fb158(181) + _0x1fb158(197) + _0x1fb158(189) + _0x1fb158(211) + _0x1fb158(180) + _0x1fb158(184) + _0x1fb158(198) + _0x1fb158(169), keyId: _0x1fb158(192) + _0x1fb158(199) + _0x1fb158(168) + "8f", key: _0x1fb158(200) + _0x1fb158(207) + _0x1fb158(178) + "30"}]}, {teams: _0x1fb158(172) + _0x1fb158(208) + _0x1fb158(188) + "2", date: _0x1fb158(190), time: _0x1fb158(195), channels: [{name: _0x1fb158(170), videoId: _0x1fb158(209), m3u8: _0x1fb158(212) + _0x1fb158(177) + _0x1fb158(182) + _0x1fb158(191) + _0x1fb158(206) + _0x1fb158(205) + _0x1fb158(213), embedLink: _0x1fb158(204) + _0x1fb158(173) + _0x1fb158(183) + _0x1fb158(179) + _0x1fb158(181) + _0x1fb158(197) + _0x1fb158(189) + _0x1fb158(211) + _0x1fb158(180) + _0x1fb158(184) + _0x1fb158(198) + _0x1fb158(169)}, {name: _0x1fb158(185), mpd: _0x1fb158(175) + _0x1fb158(186) + _0x1fb158(196) + _0x1fb158(210) + _0x1fb158(193) + _0x1fb158(187) + _0x1fb158(194), embedLink: _0x1fb158(204) + _0x1fb158(173) + _0x1fb158(183) + _0x1fb158(179) + _0x1fb158(181) + _0x1fb158(197) + _0x1fb158(189) + _0x1fb158(211) + _0x1fb158(180) + _0x1fb158(184) + _0x1fb158(198) + _0x1fb158(169), keyId: _0x1fb158(192) + _0x1fb158(199) + _0x1fb158(168) + "8f", key: _0x1fb158(200) + _0x1fb158(207) + _0x1fb158(178) + "30"}]}, {teams: _0x1fb158(172) + _0x1fb158(208) + _0x1fb158(188) + "3", date: _0x1fb158(190), time: _0x1fb158(195), channels: [{name: _0x1fb158(170), videoId: _0x1fb158(209), m3u8: _0x1fb158(212) + _0x1fb158(177) + _0x1fb158(182) + _0x1fb158(191) + _0x1fb158(206) + _0x1fb158(205) + _0x1fb158(213), embedLink: _0x1fb158(204) + _0x1fb158(173) + _0x1fb158(183) + _0x1fb158(179) + _0x1fb158(181) + _0x1fb158(197) + _0x1fb158(189) + _0x1fb158(211) + _0x1fb158(180) + _0x1fb158(184) + _0x1fb158(198) + _0x1fb158(169)}, {name: _0x1fb158(185), mpd: _0x1fb158(175) + _0x1fb158(186) + _0x1fb158(196) + _0x1fb158(210) + _0x1fb158(193) + _0x1fb158(187) + _0x1fb158(194), embedLink: _0x1fb158(204) + _0x1fb158(173) + _0x1fb158(183) + _0x1fb158(179) + _0x1fb158(181) + _0x1fb158(197) + _0x1fb158(189) + _0x1fb158(211) + _0x1fb158(180) + _0x1fb158(184) + _0x1fb158(198) + _0x1fb158(169), keyId: _0x1fb158(192) + _0x1fb158(199) + _0x1fb158(168) + "8f", key: _0x1fb158(200) + _0x1fb158(207) + _0x1fb158(178) + "30"}]}, {teams: _0x1fb158(172) + _0x1fb158(208) + _0x1fb158(188) + "4", date: _0x1fb158(190), time: _0x1fb158(195), channels: [{name: _0x1fb158(170), videoId: _0x1fb158(209), m3u8: _0x1fb158(212) + _0x1fb158(177) + _0x1fb158(182) + _0x1fb158(191) + _0x1fb158(206) + _0x1fb158(205) + _0x1fb158(213), embedLink: _0x1fb158(204) + _0x1fb158(173) + _0x1fb158(183) + _0x1fb158(179) + _0x1fb158(181) + _0x1fb158(197) + _0x1fb158(189) + _0x1fb158(211) + _0x1fb158(180) + _0x1fb158(184) + _0x1fb158(198) + _0x1fb158(169)}, {name: _0x1fb158(185), mpd: _0x1fb158(175) + _0x1fb158(186) + _0x1fb158(196) + _0x1fb158(210) + _0x1fb158(193) + _0x1fb158(187) + _0x1fb158(194), embedLink: _0x1fb158(204) + _0x1fb158(173) + _0x1fb158(183) + _0x1fb158(179) + _0x1fb158(181) + _0x1fb158(197) + _0x1fb158(189) + _0x1fb158(211) + _0x1fb158(180) + _0x1fb158(184) + _0x1fb158(198) + _0x1fb158(169), keyId: _0x1fb158(192) + _0x1fb158(199) + _0x1fb158(168) + "8f", key: _0x1fb158(200) + _0x1fb158(207) + _0x1fb158(178) + "30"}]}]);
+]
