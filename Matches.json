@@ -1,10 +1,82 @@
 [
   {
-    "videoId": "30660",
-    "m3u8": "https://hlslive-tx-cdn.ysp.cctv.cn/pecintaminton/2026207601.m3u8",
-    "embedLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4",
-    "teams": "DAIHATSU Indonesia Masters 2025 - COURT 1",
-    "date": "2025-01-26",
-    "time": "13:00"
+    "teams": "PRINCESS SIRIVANNAVARI Thailand Masters 2025 - COURT 1",
+    "date": "2025-01-28",
+    "time": "08:00",
+    "channels": [
+      {
+        "name": "Channel 1",
+        "videoId": "12345",
+        "m3u8": "https://hlslive-tx-cdn.ysp.cctv.cn/pecintaminton/2026207601.m3u8",
+        "embedLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+      },
+      {
+        "name": "Channel 2",
+        "mpd": "https://av-ch-cdn.mncnow.id/live/eds/RCTI-DD/sa_dash_vmx/RCTI-DD.mpd",
+        "embedLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4",
+        "keyId": "9ba3e153ef8956d6e2b0684fcf74f58f",
+        "key": "dbc28cb5c6426080f984a5b6d436bb30"
+      }
+    ]
+  },
+  {
+    "teams": "PRINCESS SIRIVANNAVARI Thailand Masters 2025 - COURT 2",
+    "date": "2025-01-28",
+    "time": "08:00",
+    "channels": [
+      {
+        "name": "Channel 1",
+        "videoId": "12345",
+        "m3u8": "https://hlslive-tx-cdn.ysp.cctv.cn/pecintaminton/2026207601.m3u8",
+        "embedLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+      },
+      {
+        "name": "Channel 2",
+        "mpd": "https://av-ch-cdn.mncnow.id/live/eds/RCTI-DD/sa_dash_vmx/RCTI-DD.mpd",
+        "embedLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4",
+        "keyId": "9ba3e153ef8956d6e2b0684fcf74f58f",
+        "key": "dbc28cb5c6426080f984a5b6d436bb30"
+      }
+    ]
+  },
+  {
+    "teams": "PRINCESS SIRIVANNAVARI Thailand Masters 2025 - COURT 3",
+    "date": "2025-01-28",
+    "time": "08:00",
+    "channels": [
+      {
+        "name": "Channel 1",
+        "videoId": "12345",
+        "m3u8": "https://hlslive-tx-cdn.ysp.cctv.cn/pecintaminton/2026207601.m3u8",
+        "embedLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+      },
+      {
+        "name": "Channel 2",
+        "mpd": "https://av-ch-cdn.mncnow.id/live/eds/RCTI-DD/sa_dash_vmx/RCTI-DD.mpd",
+        "embedLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4",
+        "keyId": "9ba3e153ef8956d6e2b0684fcf74f58f",
+        "key": "dbc28cb5c6426080f984a5b6d436bb30"
+      }
+    ]
+  },
+  {
+    "teams": "PRINCESS SIRIVANNAVARI Thailand Masters 2025 - COURT 4",
+    "date": "2025-01-28",
+    "time": "08:00",
+    "channels": [
+      {
+        "name": "Channel 1",
+        "videoId": "12345",
+        "m3u8": "https://hlslive-tx-cdn.ysp.cctv.cn/pecintaminton/2026207601.m3u8",
+        "embedLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+      },
+      {
+        "name": "Channel 2",
+        "mpd": "https://av-ch-cdn.mncnow.id/live/eds/RCTI-DD/sa_dash_vmx/RCTI-DD.mpd",
+        "embedLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4",
+        "keyId": "9ba3e153ef8956d6e2b0684fcf74f58f",
+        "key": "dbc28cb5c6426080f984a5b6d436bb30"
+      }
+    ]
   }
 ]
