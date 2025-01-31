@@ -1,8 +1,8 @@
 [
   {
     "teams": "Thailand Masters 2025 - COURT 1",
-    "date": "2025-01-30",
-    "time": "13:00",
+    "date": "2025-01-31",
+    "time": "14:00",
     "channels": [
       {
         "name": "Channel 1",
@@ -21,8 +21,8 @@
   },
   {
     "teams": "Thailand Masters 2025 - COURT 2",
-    "date": "2025-01-30",
-    "time": "13:00",
+    "date": "2025-01-31",
+    "time": "14:00",
     "channels": [
       {
         "name": "Channel 1",
@@ -41,33 +41,13 @@
   },
   {
     "teams": "Thailand Masters 2025 - COURT 3",
-    "date": "2025-01-30",
-    "time": "13:10",
+    "date": "2025-01-31",
+    "time": "14:10",
     "channels": [
       {
         "name": "Channel 1",
         "videoId": "12345",
         "m3u8": "https://12a001a90a8c45927f7710a6ee02e8e6.v.smtcdns.net/119.28.164.212/play.cbalive.weibisai.com/live/3805402254114061_AiSD.m3u8?txSecret=ae7a394434a9818e0b9392ef8c76e792&txTime=679C3CB0",
-        "embedLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
-      },
-      {
-        "name": "Channel 2",
-        "mpd": "https://av-ch-cdn.mncnow.id/live/eds/RCTI-DD/sa_dash_vmx/RCTI-DD.mpd",
-        "embedLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4",
-        "keyId": "9ba3e153ef8956d6e2b0684fcf74f58f",
-        "key": "dbc28cb5c6426080f984a5b6d436bb30"
-      }
-    ]
-  },
-  {
-    "teams": "Thailand Masters 2025 - COURT 4",
-    "date": "2025-01-30",
-    "time": "13:10",
-    "channels": [
-      {
-        "name": "Channel 1",
-        "videoId": "12345",
-        "m3u8": "https://12a001a90a8c45927f7710a6ee02e8e6.v.smtcdns.net/119.28.164.212/play.cbalive.weibisai.com/live/3805462729595061_AiSD.m3u8?txSecret=d0d7e355ffb3db4622e8b6f4905a94fa&txTime=679C3CB0",
         "embedLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
       },
       {
