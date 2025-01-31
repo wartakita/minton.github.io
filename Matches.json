@@ -2,13 +2,13 @@
   {
     "teams": "Thailand Masters 2025 - COURT 1",
     "date": "2025-01-31",
-    "time": "14:00",
+    "time": "13:00",
     "channels": [
       {
         "name": "Channel 1",
         "videoId": "12345",
-        "m3u8": "https://12a001a90a8c45927f7710a6ee02e8e6.v.smtcdns.net/119.28.164.212/play.cbalive.weibisai.com/live/3805401834008061_AiSD.m3u8?txSecret=b9a0f93145205ddadbfceca6945d6b12&txTime=679C3CB0",
-        "embedLink": "https://inv.nadeko.net/embed/nRIo8MttSBw"
+        "m3u8": "https://12a001a90a8c45927f7710a6ee02e8e6.v.smtcdns.net/203.205.137.202/play1nm.hnyongshun.cn/live/ballbar_24540.m3u8",
+        "embedLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
       },
       {
         "name": "Channel 2",
@@ -22,13 +22,13 @@
   {
     "teams": "Thailand Masters 2025 - COURT 2",
     "date": "2025-01-31",
-    "time": "14:00",
+    "time": "13:00",
     "channels": [
       {
         "name": "Channel 1",
         "videoId": "12345",
-        "m3u8": "https://12a001a90a8c45927f7710a6ee02e8e6.v.smtcdns.net/119.28.164.212/play.cbalive.weibisai.com/live/3805402063621061_AiSD.m3u8?txSecret=d81e7500618d84b18a1cc3644877e52c&txTime=679C3CB0",
-        "embedLink": "https://inv.nadeko.net/embed/yu0Yr_Kt6II"
+        "m3u8": "https://12a001a90a8c45927f7710a6ee02e8e6.v.smtcdns.net/119.28.164.212/play.cbalive.weibisai.com/live/3805402745383061_AiSD.m3u8?txSecret=f354e95d99a50fe96eaa7b7c8bc9aade&txTime=679D9C40",
+        "embedLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
       },
       {
         "name": "Channel 2",
@@ -42,13 +42,13 @@
   {
     "teams": "Thailand Masters 2025 - COURT 3",
     "date": "2025-01-31",
-    "time": "14:10",
+    "time": "13:10",
     "channels": [
       {
         "name": "Channel 1",
         "videoId": "12345",
-        "m3u8": "https://12a001a90a8c45927f7710a6ee02e8e6.v.smtcdns.net/119.28.164.212/play.cbalive.weibisai.com/live/3805402254114061_AiSD.m3u8?txSecret=ae7a394434a9818e0b9392ef8c76e792&txTime=679C3CB0",
-        "embedLink": "https://inv.nadeko.net/embed/2YnFZ_PjTz8"
+        "m3u8": "https://12a001a90a8c45927f7710a6ee02e8e6.v.smtcdns.net/203.205.137.202/play1nm.hnyongshun.cn/live/ballbar_18980.m3u8",
+        "embedLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
       },
       {
         "name": "Channel 2",
