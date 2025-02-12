@@ -1,13 +1,13 @@
 [
   {
     "teams": "Badminton Asia Mixed Team Championship 2025 - COURT 1",
-    "date": "2025-02-11",
-    "time": "08:00",
+    "date": "2025-02-12",
+    "time": "08:30",
     "channels": [
       {
         "name": "Channel 1",
         "videoId": "12345",
-        "m3u8": "https://12a001a90a8c45927f7710a6ee02e8e6.v.smtcdns.net/203.205.136.11/play.cbalive.weibisai.com/live/3821788234298061_AiSD.m3u8?txSecret=ffca2288d08ad3abec67fbca22d441db&txTime=67AC46F0",
+        "m3u8": "https://12a001a90a8c45927f7710a6ee02e8e6.v.smtcdns.net/203.205.136.11/play.cbalive.weibisai.com/live/3821793933894061_AiSD.m3u8?txSecret=46c92795169f6a6b3bd033a53fbe0239&txTime=67AD27F0",
         "embedLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
       },
       {
@@ -21,13 +21,13 @@
   },
   {
     "teams": "Badminton Asia Mixed Team Championship 2025 - COURT 2",
-    "date": "2025-02-11",
-    "time": "08:00",
+    "date": "2025-02-12",
+    "time": "08:30",
     "channels": [
       {
         "name": "Channel 1",
         "videoId": "12345",
-        "m3u8": "https://12a001a90a8c45927f7710a6ee02e8e6.v.smtcdns.net/203.205.136.11/play.cbalive.weibisai.com/live/3821792945869061_AiSD.m3u8?txSecret=8294c0757aca7d9080fa08a0149cc226&txTime=67AC46F0",
+        "m3u8": "https://12a001a90a8c45927f7710a6ee02e8e6.v.smtcdns.net/203.205.136.11/play.cbalive.weibisai.com/live/3821796804135061_AiSD.m3u8?txSecret=e99a05010f733ba89bfd89460d879788&txTime=67AD27F0",
         "embedLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
       },
       {
