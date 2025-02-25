@@ -1,13 +1,73 @@
 [
   {
-    "teams": "Badminton Asia Mixed Team Championship 2025 - COURT 1",
-    "date": "2025-02-16",
-    "time": "13:00",
+    "teams": "YONEX German Open 2025 - COURT 1",
+    "date": "2025-02-25",
+    "time": "20:00",
     "channels": [
       {
         "name": "Channel 1",
         "videoId": "12345",
-        "m3u8": "https://12a001a90a8c45927f7710a6ee02e8e6.v.smtcdns.net/43.152.23.41/play.cbalive.weibisai.com/live/3821814983922061_AiSD.m3u8?txSecret=2cf92bfa92ab04c709a406823550a9f1&amp;txTime=67B2B440",
+        "m3u8": "https://12a001a90a8c45927f7710a6ee02e8e6.v.smtcdns.net/",
+        "embedLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+      },
+      {
+        "name": "Channel 2",
+        "mpd": "https://av-ch-cdn.mncnow.id/live/eds/RCTI-DD/sa_dash_vmx/RCTI-DD.mpd",
+        "embedLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4",
+        "keyId": "9ba3e153ef8956d6e2b0684fcf74f58f",
+        "key": "dbc28cb5c6426080f984a5b6d436bb30"
+      }
+    ]
+  },
+  {
+    "teams": "YONEX German Open 2025 - COURT 2",
+    "date": "2025-02-25",
+    "time": "20:00",
+    "channels": [
+      {
+        "name": "Channel 1",
+        "videoId": "12345",
+        "m3u8": "https://12a001a90a8c45927f7710a6ee02e8e6.v.smtcdns.net/",
+        "embedLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+      },
+      {
+        "name": "Channel 2",
+        "mpd": "https://av-ch-cdn.mncnow.id/live/eds/RCTI-DD/sa_dash_vmx/RCTI-DD.mpd",
+        "embedLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4",
+        "keyId": "9ba3e153ef8956d6e2b0684fcf74f58f",
+        "key": "dbc28cb5c6426080f984a5b6d436bb30"
+      }
+    ]
+  },
+  {
+    "teams": "YONEX German Open 2025 - COURT 3",
+    "date": "2025-02-25",
+    "time": "20:00",
+    "channels": [
+      {
+        "name": "Channel 1",
+        "videoId": "12345",
+        "m3u8": "https://12a001a90a8c45927f7710a6ee02e8e6.v.smtcdns.net/",
+        "embedLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+      },
+      {
+        "name": "Channel 2",
+        "mpd": "https://av-ch-cdn.mncnow.id/live/eds/RCTI-DD/sa_dash_vmx/RCTI-DD.mpd",
+        "embedLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4",
+        "keyId": "9ba3e153ef8956d6e2b0684fcf74f58f",
+        "key": "dbc28cb5c6426080f984a5b6d436bb30"
+      }
+    ]
+  },
+  {
+    "teams": "YONEX German Open 2025 - COURT 4",
+    "date": "2025-02-25",
+    "time": "20:00",
+    "channels": [
+      {
+        "name": "Channel 1",
+        "videoId": "12345",
+        "m3u8": "https://12a001a90a8c45927f7710a6ee02e8e6.v.smtcdns.net/",
         "embedLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
       },
       {
