@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="referrer" content="no-referrer">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ssl.p.jwpcdn.com/player/v/8.36.4/jwplayer.js"></script>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow-y: hidden;
+        }
+
+        #player {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            aspect-ratio: 16 / 9;
+        }
+
+        .watermark-text {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding: 5px 10px;
+            font-size: 20px;
+            font-family: Arial, sans-serif;
+            border-radius: 5px;
+            z-index: 10;
+        }
+
+        .ad-container {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 80%;
+            max-width: 300px;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+            border-radius: 8px;
+            z-index: 20;
+            text-align: center;
+        }
+
+        .close-ad {
+            position: absolute;
+            top: 5px;
+            right: 10px;
+            cursor: pointer;
+            font-size: 16px;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .adsense-top, .adsense-bottom {
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+    </style>
+    <script>
+        jwplayer.key = 'XSuP4qMl+9tK17QNb+4+th2Pm9AWgMO/cYH8CI0HGGr7bdjo';
+
+        function getParameter(name) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(name);
+        }
+
+        function decodeBase64(encodedStr) {
+            try {
+                const binaryString = atob(encodedStr);
+                const bytes = new Uint8Array(binaryString.length);
+                for (let i = 0; i < binaryString.length; i++) {
+                    bytes[i] = binaryString.charCodeAt(i);
+                }
+                return new TextDecoder().decode(bytes);
+            } catch (err) {
+                console.error("Base64 decoding error: ", err);
+                return null;
+            }
+        }
+
+        function isValidBase64(str) {
+            try {
+                return btoa(atob(str)) === str;
+            } catch (err) {
+                return false;
+            }
+        }
+
+        function closeAd() {
+            var adContainer = document.getElementById('adContainer');
+            if (adContainer) {
+                adContainer.style.display = 'none';
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+    <div id="player"></div>
+    <div class="watermark-text">pecintaminton.blogspot.com</div>
+
+    <script>
+        var playerInstance = jwplayer("player");
+
+        var encodedVideoParam = getParameter('video');
+        var videoFile = encodedVideoParam && isValidBase64(encodedVideoParam) ? decodeBase64(encodedVideoParam) : 'default_video_url.mp4';
+
+        playerInstance.setup({
+            playlist: [{
+                title: " ",
+                description: " ",
+                image: " ",
+                sources: [{
+                    default: true,
+                    file: videoFile,
+                    label: "HD Quality"
+                }]
+            }],
+            width: "100%",
+            height: "100%",
+            aspectratio: "16:9",
+            autostart: true,
+            sharing: {
+                link: window.location.href,
+                sites: ["facebook", "twitter", "email", "whatsapp"]
+            }
+        });
+
+        playerInstance.on('error', function(event) {
+            console.error("Error occurred: ", event.message);
+            alert("An error occurred while loading the video. Please try again later. Error: " + event.message);
+        });
+    </script>
+</body>
+
+</html>
