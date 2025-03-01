@@ -1,8 +1,8 @@
 [
   {
     "teams": "YONEX German Open 2025 - COURT 1",
-    "date": "2025-02-28",
-    "time": "21:00",
+    "date": "2025-03-01",
+    "time": "18:00",
     "channels": [
       {
         "name": "Channel 1",
@@ -21,33 +21,13 @@
   },
   {
     "teams": "YONEX German Open 2025 - COURT 2",
-    "date": "2025-02-28",
-    "time": "21:00",
+    "date": "2025-03-01",
+    "time": "18:00",
     "channels": [
       {
         "name": "Channel 1",
         "videoId": "12345",
         "m3u8": "https://040a321a284e77b5bc3a69efbc34b942.v.smtcdns.net/play.cbalive.weibisai.com/live/3821830926558061_AiSD.m3u8?txSecret=3ace1ef99ef21e704f9b2418a8619208&txTime=67C2F6C0",
-        "embedLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
-      },
-      {
-        "name": "Channel 2",
-        "mpd": "https://av-ch-cdn.mncnow.id/live/eds/RCTI-DD/sa_dash_vmx/RCTI-DD.mpd",
-        "embedLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4",
-        "keyId": "9ba3e153ef8956d6e2b0684fcf74f58f",
-        "key": "dbc28cb5c6426080f984a5b6d436bb30"
-      }
-    ]
-  },
-  {
-    "teams": "YONEX German Open 2025 - COURT 3",
-    "date": "2025-02-28",
-    "time": "21:00",
-    "channels": [
-      {
-        "name": "Channel 1",
-        "videoId": "12345",
-        "m3u8": "https://040a321a284e77b5bc3a69efbc34b942.v.smtcdns.net/play.cbalive.weibisai.com/live/3821829644027061_AiSD.m3u8?txSecret=082c9d31b8c0a483eb435277f5636a50&amp;txTime=67C18920",
         "embedLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
       },
       {
