@@ -1,27 +1,7 @@
 [
   {
     "teams": "Orleans Masters Badminton 2025 - COURT 1",
-    "date": "2025-03-08",
-    "time": "17:00",
-    "channels": [
-      {
-        "name": "Channel 1",
-        "videoId": "12345",
-        "m3u8": "https://89eef889586de52fd5caceec0e167ca8.v.smtcdns.net/203.205.136.1/play.cbalive.weibisai.com/live/3836515404083061_AiSD.m3u8?txSecret=85e7827972ab5278ba20706b70f9b9c0&amp;txTime=67CD4A80",
-        "embedLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
-      },
-      {
-        "name": "Channel 2",
-        "mpd": "https://av-ch-cdn.mncnow.id/live/eds/RCTI-DD/sa_dash_vmx/RCTI-DD.mpd",
-        "embedLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4",
-        "keyId": "9ba3e153ef8956d6e2b0684fcf74f58f",
-        "key": "dbc28cb5c6426080f984a5b6d436bb30"
-      }
-    ]
-  },
-  {
-    "teams": "Orleans Masters Badminton 2025 - COURT 2",
-    "date": "2025-03-08",
+    "date": "2025-03-09",
     "time": "17:00",
     "channels": [
       {
