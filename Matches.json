@@ -1,22 +1,11 @@
 [
   {
-    "teams": "Orleans Masters Badminton 2025 - COURT 1",
-    "date": "2025-03-09",
-    "time": "17:00",
-    "channels": [
-      {
-        "name": "Channel 1",
-        "videoId": "12345",
-        "m3u8": "https://epg.provider.plex.tv/library/parts/5e20b730f2f8d5003d739db7-652875586425fdb1f32d2169.m3u8?includeAllStreams=1&X-Plex-Product=Plex+Mediaverse&X-Plex-Token=SMhyFpx25ESz9ZKHjmQ4",
-        "embedLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
-      },
-      {
-        "name": "Channel 2",
-        "mpd": "https://av-ch-cdn.mncnow.id/live/eds/RCTI-DD/sa_dash_vmx/RCTI-DD.mpd",
-        "embedLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4",
-        "keyId": "9ba3e153ef8956d6e2b0684fcf74f58f",
-        "key": "dbc28cb5c6426080f984a5b6d436bb30"
-      }
-    ]
+    "videoId": "00000",
+    "m3u8Url": "",
+    "iframeURL": "",
+    "date": "2025-03-01",
+    "time": "19:00",
+    "teams": "Team A vs Team B",
+    "league": "Premier League"
   }
 ]
