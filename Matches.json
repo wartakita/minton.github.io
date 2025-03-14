@@ -1,7 +1,7 @@
 [
   {
     "videoId": "",
-    "m3u8Url": "https://hlslive-tx-cdn.ysp.cctv.cn/pecintaminton/2026641201.m3u8",
+    "m3u8Url": "https://hlslive-tx-cdn.ysp.cctv.cn/pecintaminton/2026709401.m3u8",
     "iframeURL": "",
     "date": "2025-03-14",
     "time": "17:00",
@@ -15,24 +15,6 @@
     "date": "2025-03-14",
     "time": "17:00",
     "teams": "Court 2",
-    "league": "YONEX All England Open Badminton Championships 2025"
-  },
-  {
-    "videoId": "",
-    "m3u8Url": "https://hlslive-tx-cdn.ysp.cctv.cn/pecintaminton/2026641401.m3u8",
-    "iframeURL": "",
-    "date": "2025-03-14",
-    "time": "17:00",
-    "teams": "Court 3",
-    "league": "YONEX All England Open Badminton Championships 2025"
-  },
-  {
-    "videoId": "",
-    "m3u8Url": "https://hlslive-tx-cdn.ysp.cctv.cn/pecintaminton/2026641501.m3u8",
-    "iframeURL": "",
-    "date": "2025-03-14",
-    "time": "17:00",
-    "teams": "Court 4",
     "league": "YONEX All England Open Badminton Championships 2025"
   }
 ]
