@@ -386,6 +386,15 @@
     "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
   },
   {
+    "title": "DAZN F1",
+    "category": "sports",
+    "file": "https://otte.live.fly.ww.aiv-cdn.net/dub-nitro/live/dash/enc/cqbcvgkb83/out/v1/4dbe05ecfb1540448d82d68eeebfbb1c/cenc.mpd",
+    "type": "dash",
+    "keyId": "1061be12d303247426ec25e8369b2647",
+    "key": "bd622b0e610295de3b0bccb850ccaaaa",
+    "iframeLink": "https://cdn.plrjs.com/player/bsa9hkrkynde7/qqvmenqpoeve.html?file=https://vibetv.github.io/offline/streamoffline.mp4"
+  },
+  {
     "title": "Fox Sports 1",
     "category": "sports",
     "file": "https://aw1wcm92zq.fubohd.com/foxsports1_usa/mono.m3u8?md5=IycyyAh3pxh6wFZn1Pch0Q&expires=1737722563",
@@ -721,16 +730,16 @@
   {
     "title": "TNT Sports",
     "category": "sports",
-    "file": "https://live.ll.ww.aiv-cdn.net/OTTB/lhr-nitro/live/clients/dash/enc/wf8usag51e/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd",
+    "file": "https://otte.live.fly.ww.aiv-cdn.net/dub-nitro/live/dash/enc/wf8usag51e/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd",
     "type": "dash",
-    "keyId": "ae26845bd33038a9c0774a0981007294",
-    "key": "63ac662dde310cfb4cc6f9b43b34196d",
+    "keyId": "6d1708b185c6c4d7b37600520c7cc93c",
+    "key": "1aace05f58d8edef9697fd52cb09f441",
     "iframeLink": "https://la12hd.com/vivo/canal.php?stream=tntsports"
   },
   {
     "title": "TNT Sports 1",
     "category": "sports",
-    "file": "https://live.ll.ww.aiv-cdn.net/OTTB/lhr-nitro/live/clients/dash/enc/wf8usag51e/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd",
+    "file": "https://otte.live.fly.ww.aiv-cdn.net/dub-nitro/live/dash/enc/wf8usag51e/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd",
     "type": "dash",
     "keyId": "ae26845bd33038a9c0774a0981007294",
     "key": "63ac662dde310cfb4cc6f9b43b34196d",
@@ -739,7 +748,7 @@
   {
     "title": "TNT Sports 2",
     "category": "sports",
-    "file": "https://live.ll.ww.aiv-cdn.net/OTTB/lhr-nitro/live/clients/dash/enc/f0qvkrra8j/out/v1/f8fa17f087564f51aa4d5c700be43ec4/cenc.mpd",
+    "file": "https://otte.live.fly.ww.aiv-cdn.net/dub-nitro/live/dash/enc/f0qvkrra8j/out/v1/f8fa17f087564f51aa4d5c700be43ec4/cenc.mpd",
     "type": "dash",
     "keyId": "6d1708b185c6c4d7b37600520c7cc93c",
     "key": "1aace05f58d8edef9697fd52cb09f441",
@@ -748,7 +757,7 @@
   {
     "title": "TNT Sports 3",
     "category": "sports",
-    "file": "https://live.ll.ww.aiv-cdn.net/OTTB/lhr-nitro/live/clients/dash/enc/lsdasbvglv/out/v1/bb548a3626cd4708afbb94a58d71dce9/cenc.mpd",
+    "file": "https://otte.live.fly.ww.aiv-cdn.net/dub-nitro/live/dash/enc/lsdasbvglv/out/v1/bb548a3626cd4708afbb94a58d71dce9/cenc.mpd",
     "type": "dash",
     "keyId": "4e993aa8c1f295f8b94e8e9e6f6d0bfe",
     "key": "86a1ed6e96caab8eb1009fe530d2cf4f",
@@ -757,7 +766,7 @@
   {
     "title": "TNT Sports 4",
     "category": "sports",
-    "file": "https://live.ll.ww.aiv-cdn.net/OTTB/lhr-nitro/live/clients/dash/enc/i2pcjr4pe5/out/v1/912e9db56d75403b8a9ac0a719110f36/cenc.mpd",
+    "file": "https://otte.live.fly.ww.aiv-cdn.net/dub-nitro/live/dash/enc/i2pcjr4pe5/out/v1/912e9db56d75403b8a9ac0a719110f36/cenc.mpd",
     "type": "dash",
     "keyId": "e31a5a81caff5d07ea2411a571fc2e59",
     "key": "96c5ef69479732ae734f962748c19729",
@@ -766,7 +775,7 @@
   {
     "title": "TNT Sports 5",
     "category": "sports",
-    "file": "https://live.ll.ww.aiv-cdn.net/OTTB/lhr-nitro/live/clients/dash/enc/gesdwrdncn/out/v1/79e752f1eccd4e18b6a8904a0bc01f2d/cenc.mpd",
+    "file": "https://otte.live.fly.ww.aiv-cdn.net/dub-nitro/live/dash/enc/gesdwrdncn/out/v1/79e752f1eccd4e18b6a8904a0bc01f2d/cenc.mpd",
     "type": "dash",
     "keyId": "60c0d9b41475e01db4ffb91ed557fbcc",
     "key": "36ee40e58948ca15e3caba8d47b8f34b",
