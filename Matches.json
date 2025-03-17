@@ -22,5 +22,37 @@
     "duration": 600,
     "thumbnail": "https://img.bwfbadminton.com/image/upload/t_Fansite_Homepage_Tourament_Header_big/v1734512089/assets/tournaments/header/47588502-0E12-4E96-9406-B32AF117C11E.png",
     "watch_url": "/"
+  },
+  {
+    "title": "PERODUA Malaysia Masters 2025 [20 - 25 Mei 2025]",
+    "league": "PERODUA Malaysia Masters 2025",
+    "start_time": "2025-05-20T08:00:00",
+    "duration": 600,
+    "thumbnail": "https://img.bwfbadminton.com/image/upload/t_Fansite_Homepage_Tourament_Header_big/v1734512262/assets/tournaments/header/294DE888-25E7-4633-A28B-03825F250F61.png",
+    "watch_url": "/"
+  },
+  {
+    "title": "KFF Singapore Badminton Open 2025 [27 Mei - 01 Juni 2025]",
+    "league": "KFF Singapore Badminton Open 2025",
+    "start_time": "2025-05-27T08:00:00",
+    "duration": 600,
+    "thumbnail": "https://img.bwfbadminton.com/image/upload/t_Fansite_Homepage_Tourament_Header_big/v1734512303/assets/tournaments/header/2B01A412-B4FA-4839-B3ED-3B067519CEB1.png",
+    "watch_url": "/"
+  },
+  {
+    "title": "Indonesia Open 2025 [03 - 08 Juni 2025]",
+    "league": "Indonesia Open 2025",
+    "start_time": "2025-06-03T08:00:00",
+    "duration": 600,
+    "thumbnail": "https://img.bwfbadminton.com/image/upload/t_Fansite_Homepage_Tourament_Header_big/v1734512383/assets/tournaments/header/8E66BAA2-CF0F-4FFA-8798-FF700D1CDBEC.png",
+    "watch_url": "/"
+  },
+  {
+    "title": "YONEX US Open 2025 [24 - 29 Juni 2025]",
+    "league": "YONEX US Open 2025",
+    "start_time": "2025-06-24T08:00:00",
+    "duration": 600,
+    "thumbnail": "https://img.bwfbadminton.com/image/upload/t_Fansite_Homepage_Tourament_Header_big/v1734512438/assets/tournaments/header/C5943063-01C4-4B74-84B8-47B3076A173A.png",
+    "watch_url": "/"
   }
 ]
