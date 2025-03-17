@@ -138,9 +138,49 @@
   {
     "title": "HYLO Open 2025 [28 Oktober - 02 November 2025]",
     "league": "HYLO Open 2025",
-    "start_time": "2025-11-28T08:00:00",
+    "start_time": "2025-10-28T08:00:00",
     "duration": 600,
     "thumbnail": "https://img.bwfbadminton.com/image/upload/t_Fansite_Homepage_Tourament_Header_big/v1734513717/assets/tournaments/header/F208B31A-8008-4D28-8D6B-84328C948A5F.png",
+    "watch_url": "/"
+  },
+  {
+    "title": "Korea Masters 2025 [04 - 09 November 2025]",
+    "league": "Korea Masters 2025",
+    "start_time": "2025-11-04T08:00:00",
+    "duration": 600,
+    "thumbnail": "https://img.bwfbadminton.com/image/upload/t_Fansite_Homepage_Tourament_Header_big/v1734513763/assets/tournaments/header/7121D0BF-99CB-4DDB-97A0-F850E931A907.png",
+    "watch_url": "/"
+  },
+  {
+    "title": "Kumamoto Masters Japan 2025 [11 - 16 November 2025]",
+    "league": "Kumamoto Masters Japan 2025",
+    "start_time": "2025-11-11T08:00:00",
+    "duration": 600,
+    "thumbnail": "https://img.bwfbadminton.com/image/upload/t_Fansite_Homepage_Tourament_Header_big/v1734513810/assets/tournaments/header/FA567308-EBCA-4627-926C-1C663C7BC220.png",
+    "watch_url": "/"
+  },
+  {
+    "title": "SATHIO GROUP Australian Open 2025 [18 - 23 November 2025]",
+    "league": "SATHIO GROUP Australian Open 2025",
+    "start_time": "2025-11-18T08:00:00",
+    "duration": 600,
+    "thumbnail": "https://img.bwfbadminton.com/image/upload/t_Fansite_Homepage_Tourament_Header_big/v1734513848/assets/tournaments/header/5789F115-C018-47E2-81B0-7CA2DC3F5CA8.png",
+    "watch_url": "/"
+  },
+  {
+    "title": "SYED MODI India International 2025 [25 - 30 November 2025]",
+    "league": "SYED MODI India International 2025",
+    "start_time": "2025-11-25T08:00:00",
+    "duration": 600,
+    "thumbnail": "https://img.bwfbadminton.com/image/upload/t_Fansite_Homepage_Tourament_Header_big/v1734513908/assets/tournaments/header/61421943-D582-4768-9BF5-C64316C9A1A7.png",
+    "watch_url": "/"
+  },
+  {
+    "title": "HSBC BWF World Tour Finals 2025 [10 - 14 Desember 2025]",
+    "league": "HSBC BWF World Tour Finals 2025",
+    "start_time": "2025-12-10T08:00:00",
+    "duration": 600,
+    "thumbnail": "https://img.bwfbadminton.com/image/upload/t_Fansite_Homepage_Tourament_Header_big/v1734514073/assets/tournaments/header/F34EBDDB-AA5D-4F1E-A14F-A94473DD1295.png",
     "watch_url": "/"
   }
 ]
