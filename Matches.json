@@ -1,11 +1,10 @@
 [
   {
-    "videoId": "",
-    "m3u8Url": "https://hlslive-tx-cdn.ysp.cctv.cn/pecintaminton/2026640201.m3u8",
-    "iframeURL": "",
-    "date": "2025-03-16",
-    "time": "18:00",
-    "teams": "Court 1",
-    "league": "YONEX All England Open Badminton Championships 2025"
+    "title": "YONEX Swiss Open 2025 [18 - 23 Maret 2025]",
+    "league": "YONEX Swiss Open 2025",
+    "start_time": "2025-03-18T08:00:00",
+    "duration": 110,
+    "thumbnail": "https://img.bwfbadminton.com/image/upload/t_Fansite_Homepage_Tourament_Header_big/v1734511595/assets/tournaments/header/74BD0A45-6308-49DE-A06D-F248A3E8F69C.png",
+    "watch_url": "/"
   }
 ]
