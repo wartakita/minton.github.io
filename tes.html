@@ -176,8 +176,8 @@
     <div class="container">
         <h1>Jadwal Pertandingan</h1>
         <div class="controls d-flex flex-wrap justify-content-center">
-            <input type="date" id="startDatePicker" value="2025-03-16" onchange="fetchMatches()" class="form-control d-inline-block mx-2" style="width: 150px;">
-            <input type="date" id="endDatePicker" value="2025-03-17" onchange="fetchMatches()" class="form-control d-inline-block mx-2" style="width: 150px;">
+            <input type="date" id="datePickerStart" value="2025-03-16" onchange="fetchMatches()" class="form-control d-inline-block mx-2" style="width: 150px;">
+            <input type="date" id="datePickerEnd" value="2025-03-17" onchange="fetchMatches()" class="form-control d-inline-block mx-2" style="width: 150px;">
             <input type="text" id="searchBox" placeholder="Cari tim atau kompetisi" oninput="filterMatches()" class="form-control d-inline-block mx-2" style="width: 200px;">
             <select id="competitionFilter" onchange="filterMatches()" class="form-select d-inline-block mx-2" style="width: 200px;">
                 <option value="">Semua Kompetisi</option>
@@ -219,64 +219,50 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.min.js"></script>
     <script>
         let allMatches = [];
-        let selectedStartDate = '';
-        let selectedEndDate = '';
+        let selectedDateStart = '';
+        let selectedDateEnd = '';
+        let cache = {};
 
         function fetchMatches() {
-            const startDate = document.getElementById('startDatePicker').value;
-            const endDate = document.getElementById('endDatePicker').value;
-            selectedStartDate = startDate;
-            selectedEndDate = endDate;
+            const startDate = document.getElementById('datePickerStart').value;
+            const endDate = document.getElementById('datePickerEnd').value;
+            selectedDateStart = startDate;
+            selectedDateEnd = endDate;
+
+            if (startDate > endDate) {
+                alert('Tanggal awal tidak boleh lebih besar dari tanggal akhir.');
+                return;
+            }
 
             const apiUrl = `https://api.90min.to/v1/match/list?date=${startDate}&timezone=Asia/Jakarta`;
+            const apiUrlEnd = `https://api.90min.to/v1/match/list?date=${endDate}&timezone=Asia/Jakarta`;
+
             document.getElementById('loading').classList.add('active');
-            fetch(apiUrl)
-                .then(response => response.json())
-                .then(data => {
-                    allMatches = data.result;
-                    populateCompetitionFilter();
-                    displayMatches(allMatches);
-                })
-                .catch(error => console.error('Error fetching data:', error))
-                .finally(() => {
-                    document.getElementById('loading').classList.remove('active');
-                });
 
-            // Fetch matches for each date in the range
-            const dateRange = getDatesInRange(startDate, endDate);
-            dateRange.forEach(date => {
-                fetch(`https://api.90min.to/v1/match/list?date=${date}&timezone=Asia/Jakarta`)
-                    .then(response => response.json())
-                    .then(data => {
-                        allMatches = allMatches.concat(data.result);
-                    })
-                    .catch(error => console.error('Error fetching data for date:', date, error))
-                    .finally(() => {
-                        if (date === dateRange[dateRange.length - 1]) {
-                            populateCompetitionFilter();
-                            displayMatches(allMatches);
-                            document.getElementById('loading').classList.remove('active');
-                        }
-                    });
-            });
-        }
-
-        function getDatesInRange(startDate, endDate) {
-            const dateArray = [];
-            let currentDate = new Date(startDate);
-            const stopDate = new Date(endDate);
-            while (currentDate <= stopDate) {
-                dateArray.push(formatDate(currentDate));
-                currentDate.setDate(currentDate.getDate() + 1);
+            if (cache[`${startDate}-${endDate}`]) {
+                allMatches = cache[`${startDate}-${endDate}`];
+                populateCompetitionFilter();
+                displayMatches(allMatches);
+                document.getElementById('loading').classList.remove('active');
+                return;
             }
-            return dateArray;
-        }
 
-        function formatDate(date) {
-            const year = date.getFullYear();
-            const month = String(date.getMonth() + 1).padStart(2, '0');
-            const day = String(date.getDate()).padStart(2, '0');
-            return `${year}-${month}-${day}`;
+            Promise.all([
+                fetch(apiUrl).then(response => response.json()),
+                fetch(apiUrlEnd).then(response => response.json())
+            ])
+            .then(results => {
+                const dataStart = results[0].result;
+                const dataEnd = results[1].result;
+                allMatches = [...dataStart, ...dataEnd];
+                cache[`${startDate}-${endDate}`] = allMatches;
+                populateCompetitionFilter();
+                displayMatches(allMatches);
+            })
+            .catch(error => console.error('Error fetching data:', error))
+            .finally(() => {
+                document.getElementById('loading').classList.remove('active');
+            });
         }
 
         function populateCompetitionFilter() {
@@ -305,7 +291,6 @@
                 
                 const matchDate = new Date(match.match_time * 1000).toLocaleDateString('id-ID');
                 const matchTime = new Date(match.match_time * 1000).toLocaleTimeString('id-ID', { hour: '2-digit', minute: '2-digit', hour12: false });
-                // Mengubah format waktu dari "20.30" menjadi "20:30"
                 const formattedTime = matchTime.replace('.', ':');
                 dateCell.textContent = matchDate;
                 timeCell.textContent = formattedTime;
