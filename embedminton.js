@@ -1,4 +1,16 @@
 document.addEventListener("DOMContentLoaded", function() {
+    // Domain yang diizinkan
+    const allowedDomain = "embedzona.blogspot.com";
+
+    // Periksa apakah halaman sedang di-embed dalam iframe dari domain yang diizinkan
+    if (window.top !== window.self) {
+        if (window.top.location.hostname !== allowedDomain) {
+            // Jika domain tidak sesuai, tampilkan pesan kesalahan dan arahkan ke halaman lain
+            alert("Akses tidak diizinkan. Halaman ini tidak dapat di-embed dari domain ini.");
+            window.top.location.href = "https://" + allowedDomain;
+        }
+    }
+
     const servers = [{
             name: "Server 1",
             embed: "https://example.com/embed1"
