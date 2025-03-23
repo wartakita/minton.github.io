@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     // Domain yang diizinkan
-    const allowedDomain = "embedzona.blogspot.com";
+    const allowedDomain = "embedminton.blogspot.com";
 
     // Periksa apakah halaman sedang di-embed dalam iframe dari domain yang diizinkan
     if (window.top !== window.self) {
