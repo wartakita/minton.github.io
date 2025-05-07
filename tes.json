@@ -15,7 +15,7 @@
       }
     }
   },
-  "match1": {
+  "match2": {
     "title": "YONEX Taipei Open 2025 - COURT 2",
     "servers": {
       "server1": {
@@ -31,7 +31,7 @@
       }
     }
   },
-  "match1": {
+  "match3": {
     "title": "YONEX Taipei Open 2025 - COURT 3",
     "servers": {
       "server1": {
@@ -47,7 +47,7 @@
       }
     }
   },
-  "match1": {
+  "match4": {
     "title": "YONEX Taipei Open 2025 - COURT 4",
     "servers": {
       "server1": {
