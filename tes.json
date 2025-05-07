@@ -1,10 +1,18 @@
 {
   "match1": {
-    "title": "YONEX Taipei Open 2025",
-    "jw": {
-      "file": "https://content.jwplatform.com/manifests/yp34SRmf.m3u8",
-      "image": "https://cdn.jwplayer.com/thumbs/your-thumbnail-id.jpg"
-    },
-    "iframe": "https://your-iframe-stream-url.com"
+    "title": "Final Badminton 2025",
+    "servers": {
+      "server1": {
+        "name": "Server 1",
+        "type": "jw",
+        "file": "https://content.jwplatform.com/manifests/yp34SRmf.m3u8",
+        "image": "https://example.com/thumb-final.jpg"
+      },
+      "server2": {
+        "name": "Server 2",
+        "type": "iframe",
+        "url": "https://vku.youku.com/live/ilpshare?id=8192627"
+      }
+    }
   }
 }
