@@ -1,6 +1,6 @@
 {
   "match1": {
-    "title": "Final Badminton 2025",
+    "title": "YONEX Taipei Open 2025 - COURT 1",
     "servers": {
       "server1": {
         "name": "Server 1",
@@ -12,6 +12,54 @@
         "name": "Server 2",
         "type": "iframe",
         "url": "https://vku.youku.com/live/ilpshare?id=8192627"
+      }
+    }
+  },
+  "match1": {
+    "title": "YONEX Taipei Open 2025 - COURT 2",
+    "servers": {
+      "server1": {
+        "name": "Server 1",
+        "type": "jw",
+        "file": "https://content.jwplatform.com/manifests/yp34SRmf.m3u8",
+        "image": "https://example.com/thumb-final.jpg"
+      },
+      "server2": {
+        "name": "Server 2",
+        "type": "iframe",
+        "url": "https://vku.youku.com/live/ilpshare?id=8192628"
+      }
+    }
+  },
+  "match1": {
+    "title": "YONEX Taipei Open 2025 - COURT 3",
+    "servers": {
+      "server1": {
+        "name": "Server 1",
+        "type": "jw",
+        "file": "https://content.jwplatform.com/manifests/yp34SRmf.m3u8",
+        "image": "https://example.com/thumb-final.jpg"
+      },
+      "server2": {
+        "name": "Server 2",
+        "type": "iframe",
+        "url": "https://vku.youku.com/live/ilpshare?id=8192629"
+      }
+    }
+  },
+  "match1": {
+    "title": "YONEX Taipei Open 2025 - COURT 4",
+    "servers": {
+      "server1": {
+        "name": "Server 1",
+        "type": "jw",
+        "file": "https://content.jwplatform.com/manifests/yp34SRmf.m3u8",
+        "image": "https://example.com/thumb-final.jpg"
+      },
+      "server2": {
+        "name": "Server 2",
+        "type": "iframe",
+        "url": "https://vku.youku.com/live/ilpshare?id=8192630"
       }
     }
   }
