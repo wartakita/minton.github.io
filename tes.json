@@ -1,70 +1,8 @@
-{
-  "match1": {
-    "title": "YONEX Taipei Open 2025",
-    "court": "court1",
-    "servers": {
-      "server1": {
-        "name": "Server 1",
-        "type": "jw",
-        "file": "https://example.com/video-final.m3u8",
-        "image": "https://example.com/thumb-final.jpg"
-      },
-      "server2": {
-        "name": "Server 2",
-        "type": "iframe",
-        "url": "https://vku.youku.com/live/ilpshare?id=8192627"
-      }
-    }
-  },
-  "match2": {
-    "title": "YONEX Taipei Open 2025",
-    "court": "court2",
-    "servers": {
-      "server1": {
-        "name": "Server 1",
-        "type": "jw",
-        "file": "https://example.com/video-semi.m3u8",
-        "image": "https://example.com/thumb-semi.jpg"
-      },
-      "server2": {
-        "name": "Server 2",
-        "type": "iframe",
-        "url": "https://vku.youku.com/live/ilpshare?id=8192628"
-      }
-    }
-  },
-  "match3": {
-    "title": "YONEX Taipei Open 2025",
-    "court": "court3",
-    "servers": {
-      "server1": {
-        "name": "Server 1",
-        "type": "jw",
-        "file": "https://example.com/video-semi.m3u8",
-        "image": "https://example.com/thumb-semi.jpg"
-      },
-      "server2": {
-        "name": "Server 2",
-        "type": "iframe",
-        "url": "https://vku.youku.com/live/ilpshare?id=8192629"
-      }
-    }
-  },
-  "match4": {
-    "title": "YONEX Taipei Open 2025",
-    "court": "court4",
-    "servers": {
-      "server1": {
-        "name": "Server 1",
-        "type": "jw",
-        "file": "https://example.com/video-semi.m3u8",
-        "image": "https://example.com/thumb-semi.jpg"
-      },
-      "server2": {
-        "name": "Server 2",
-        "type": "iframe",
-        "url": "https://vku.youku.com/live/ilpshare?id=8192630"
-      }
-    }
+[
+  {
+    "title": "Indonesia vs Malaysia",
+    "time": "17 Mei 2025 - 18:00 WIB",
+    "videoId": "https://hlslive-tx-cdn.ysp.cctv.cn/pecintaminton/2027234801.m3u8",
+    "thumbId": "VIDEO_ID_1"
   }
-}
+]
