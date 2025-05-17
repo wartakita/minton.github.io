@@ -1,8 +1,23 @@
 [
   {
-    "title": "Indonesia vs Malaysia",
-    "time": "17 Mei 2025 - 18:00 WIB",
-    "videoId": "https://hlslive-tx-cdn.ysp.cctv.cn/pecintaminton/2027234801.m3u8",
-    "thumbId": "VIDEO_ID_1"
+    "title": "Final Tunggal Putra",
+    "time": "2025-05-20 15:00 WIB",
+    "videoId": "abc123xyz",
+    "thumbId": "thumb001",
+    "url": "https://hlslive-tx-cdn.ysp.cctv.cn/pecintaminton/2027234801.m3u8"
+  },
+  {
+    "title": "Semi Final Ganda Putri",
+    "time": "2025-05-21 18:00 WIB",
+    "videoId": "def456uvw",
+    "thumbId": "thumb002",
+    "url": "https://hlslive-tx-cdn.ysp.cctv.cn/pecintaminton/2027234801.m3u8"
+  },
+  {
+    "title": "Perempat Final Tunggal Putri",
+    "time": "2025-05-22 14:00 WIB",
+    "videoId": "ghi789rst",
+    "thumbId": "thumb003",
+    "url": "https://hlslive-tx-cdn.ysp.cctv.cn/pecintaminton/2027234801.m3u8"
   }
 ]
