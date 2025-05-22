@@ -1,379 +1,320 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jadwal Pertandingan</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Font Awesome CSS -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Roboto', sans-serif;
-            background-color: #f8f9fa;
-            color: #343a40;
-        }
-        .container {
-            margin-top: 40px;
-        }
-        h1 {
-            text-align: center;
-            margin-top: 20px;
-            color: #212529;
-        }
-        .controls {
-            text-align: center;
-            margin: 30px 0;
-        }
-        .controls input, .controls select {
-            margin: 0 10px;
-            padding: 10px;
-            border-radius: 5px;
-            border: 1px solid #ced4da;
-        }
-        .controls input:focus, .controls select:focus {
-            border-color: #007bff;
-            box-shadow: 0 0 8px rgba(0, 123, 255, 0.25);
-        }
-        table {
-            width: 100%;
-            margin: 30px 0;
-            border-collapse: collapse;
-            background: white;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            border-radius: 10px;
-            overflow: hidden;
-        }
-        table, th, td {
-            border: 1px solid #ddd;
-        }
-        th, td {
-            padding: 15px;
-            text-align: left;
-        }
-        th {
-            background-color: #007bff;
-            color: white;
-        }
-        tr:nth-child(even) {
-            background-color: #f2f2f2;
-        }
-        tr:hover {
-            background-color: #e9ecef;
-        }
-        .match-info {
-            margin-top: 30px;
-            padding: 20px;
-            background-color: white;
-            border: 1px solid #ddd;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-        .match-info p {
-            margin: 0;
-            padding: 5px 0;
-        }
-        .match-info hr {
-            margin: 15px 0;
-            border: none;
-            border-top: 1px solid #ddd;
-        }
-        @media (max-width: 768px) {
-            .controls input, .controls select {
-                width: 100%;
-                margin: 10px 0;
-            }
-            .controls {
-                flex-direction: column;
-                align-items: center;
-            }
-            .controls input, .controls select {
-                margin: 10px 0;
-            }
-            .match-info p {
-                font-size: 14px;
-            }
-            .match-info hr {
-                margin: 10px 0;
-            }
-        }
-        @media (max-width: 576px) {
-            h1 {
-                font-size: 24px;
-            }
-            .controls input, .controls select {
-                width: 100%;
-                margin: 5px 0;
-            }
-            .match-info p {
-                font-size: 12px;
-            }
-            .match-info hr {
-                margin: 5px 0;
-            }
-        }
-        .loading {
-            display: none;
-            text-align: center;
-            margin-top: 30px;
-        }
-        .loading.active {
-            display: block;
-        }
-        .loading img {
-            width: 50px;
-            height: 50px;
-        }
-        /* Scroll to Top Button */
-        .scroll-to-top {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            display: none;
-            background-color: #007bff;
-            color: white;
-            border: none;
-            border-radius: 50%;
-            width: 50px;
-            height: 50px;
-            font-size: 20px;
-            cursor: pointer;
-            transition: background-color 0.3s;
-        }
-        .scroll-to-top:hover {
-            background-color: #0056b3;
-        }
-        /* Poster Style */
-        .poster {
-            background-color: #ffffff;
-            border: 2px solid #007bff;
-            border-radius: 15px;
-            padding: 20px;
-            margin-top: 30px;
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-            text-align: center;
-        }
-        .poster h2 {
-            color: #007bff;
-            margin-bottom: 10px;
-        }
-        .poster p {
-            color: #343a40;
-            margin: 5px 0;
-        }
-        .poster img {
-            width: 40px;
-            height: 40px;
-            margin: 0 10px;
-            vertical-align: middle;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Data Pertandingan BWF Badminton - Malaysia Masters 2025 (22 Mei 2025)</title>
+  <style>
+    /* Reset dan dasar */
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 1rem;
+      background: #f9f9f9;
+      color: #333;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 1rem;
+      color: #005a9c;
+    }
+    /* Container kartu pertandingan */
+    #matches-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+    }
+    /* Kartu pertandingan */
+    .match-card {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 1rem;
+      width: 100%;
+      max-width: 350px;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      transition: transform 0.2s ease;
+    }
+    .match-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+    }
+    /* Header kartu */
+    .match-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-weight: 600;
+      font-size: 1.1rem;
+      color: #004080;
+    }
+    /* Tim dan pemain */
+    .team {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .player {
+      display: flex;
+      align-items: center;
+      gap: 0.3rem;
+    }
+    .player img {
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 1px solid #ccc;
+    }
+    .flag {
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 1px solid #ccc;
+    }
+    /* Skor */
+    .score {
+      font-weight: 700;
+      font-size: 1.2rem;
+      color: #007acc;
+      margin-top: 0.5rem;
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+    }
+    /* Info tambahan */
+    .match-info {
+      font-size: 0.9rem;
+      color: #555;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem 1rem;
+      justify-content: center;
+    }
+    .info-item {
+      background: #e6f0ff;
+      padding: 0.3rem 0.6rem;
+      border-radius: 12px;
+      font-weight: 600;
+      color: #004080;
+    }
+    /* Status LIVE */
+    .live-badge {
+      background: #d32f2f;
+      color: white;
+      padding: 0.2rem 0.6rem;
+      border-radius: 12px;
+      font-weight: 700;
+      font-size: 0.85rem;
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse {
+      0%, 100% {opacity: 1;}
+      50% {opacity: 0.6;}
+    }
+    /* Responsive */
+    @media (min-width: 480px) {
+      .match-card {
+        width: 48%;
+      }
+    }
+    @media (min-width: 768px) {
+      .match-card {
+        width: 30%;
+      }
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Jadwal Pertandingan</h1>
-        <div class="controls d-flex flex-wrap justify-content-center">
-            <input type="date" id="datePickerStart" value="2025-03-16" onchange="fetchMatches()" class="form-control d-inline-block mx-2" style="width: 150px;">
-            <input type="date" id="datePickerEnd" value="2025-03-17" onchange="fetchMatches()" class="form-control d-inline-block mx-2" style="width: 150px;">
-            <input type="text" id="searchBox" placeholder="Cari tim atau kompetisi" oninput="filterMatches()" class="form-control d-inline-block mx-2" style="width: 200px;">
-            <select id="competitionFilter" onchange="filterMatches()" class="form-select d-inline-block mx-2" style="width: 200px;">
-                <option value="">Semua Kompetisi</option>
-            </select>
-        </div>
-        <div class="loading" id="loading">
-            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRKN16W9bkQjn6N4m7ERXPWkdGuXysNCXKGRf7iQdGIiCQ5yZVIq74sga6YQhJLI7yUfQbhXpBC2VXpmwMjaePzkEUiOfY4nirUlUyaJUiCTa1rBu7_vgwgJEZTeBar3I4b8E0HFzGCZPDBpGWsBccuGzWd3CGpXfMAgfT-DeGwciFGyGV3EiNXURpnpF6/s1600/Reload@1x-1.0s-200px-200px.gif" alt="Loading...">
-        </div>
-        <table id="schedule" class="table table-striped">
-            <thead>
-                <tr>
-                    <th>Tanggal</th>
-                    <th>Waktu</th>
-                    <th>Tim Tuan Rumah</th>
-                    <th>Tim Tamu</th>
-                    <th>Kompetisi</th>
-                </tr>
-            </thead>
-            <tbody>
-                <!-- Jadwal akan dimuat di sini -->
-            </tbody>
-        </table>
-        <div id="matchInfoContainer" class="match-info">
-            <!-- Informasi pertandingan akan dimuat di sini -->
-        </div>
-        <div id="posterContainer" class="poster">
-            <!-- Poster akan dimuat di sini -->
-        </div>
-    </div>
+  <h1>Data Pertandingan BWF Badminton - Malaysia Masters 2025 (22 Mei 2025)</h1>
+  <div id="matches-container">
+    <p>Memuat data pertandingan...</p>
+  </div>
 
-    <!-- Scroll to Top Button -->
-    <button id="scrollToTopButton" class="scroll-to-top" onclick="scrollToTop()">
-        <i class="fas fa-angle-up"></i>
-    </button>
+  <script>
+    const apiUrl = 'https://extranet-lv.bwfbadminton.com/api/tournaments/day-matches?tournamentCode=294DE888-25E7-4633-A28B-03825F250F61&date=2025-05-23';
 
-    <!-- Bootstrap JS and dependencies -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.min.js"></script>
-    <script>
-        let allMatches = [];
-        let selectedDateStart = '';
-        let selectedDateEnd = '';
-        let cache = {};
+    // Fungsi untuk membuat elemen pemain
+    function createPlayerElement(player) {
+      const playerDiv = document.createElement('div');
+      playerDiv.className = 'player';
 
-        function fetchMatches() {
-            const startDate = document.getElementById('datePickerStart').value;
-            const endDate = document.getElementById('datePickerEnd').value;
-            selectedDateStart = startDate;
-            selectedDateEnd = endDate;
+      const img = document.createElement('img');
+      img.src = player.avatar?.thumbnailUrl || '';
+      img.alt = player.nameDisplay || 'Player';
+      img.title = player.nameDisplay || 'Player';
 
-            if (startDate > endDate) {
-                alert('Tanggal awal tidak boleh lebih besar dari tanggal akhir.');
-                return;
-            }
+      const nameSpan = document.createElement('span');
+      nameSpan.textContent = player.nameDisplay;
 
-            const apiUrl = `https://api.90min.to/v1/match/list?date=${startDate}&timezone=Asia/Jakarta`;
-            const apiUrlEnd = `https://api.90min.to/v1/match/list?date=${endDate}&timezone=Asia/Jakarta`;
+      playerDiv.appendChild(img);
+      playerDiv.appendChild(nameSpan);
 
-            document.getElementById('loading').classList.add('active');
+      return playerDiv;
+    }
 
-            if (cache[`${startDate}-${endDate}`]) {
-                allMatches = cache[`${startDate}-${endDate}`];
-                populateCompetitionFilter();
-                displayMatches(allMatches);
-                document.getElementById('loading').classList.remove('active');
-                return;
-            }
+    // Fungsi membuat tim (bendera + pemain)
+    function createTeamElement(team) {
+      const teamDiv = document.createElement('div');
+      teamDiv.className = 'team';
 
-            Promise.all([
-                fetch(apiUrl).then(response => response.json()),
-                fetch(apiUrlEnd).then(response => response.json())
-            ])
-            .then(results => {
-                const dataStart = results[0].result;
-                const dataEnd = results[1].result;
-                allMatches = [...dataStart, ...dataEnd];
-                cache[`${startDate}-${endDate}`] = allMatches;
-                populateCompetitionFilter();
-                displayMatches(allMatches);
-            })
-            .catch(error => console.error('Error fetching data:', error))
-            .finally(() => {
-                document.getElementById('loading').classList.remove('active');
-            });
+      const flagImg = document.createElement('img');
+      flagImg.className = 'flag';
+      flagImg.src = team.countryFlagUrl || '';
+      flagImg.alt = team.countryCode || '';
+      flagImg.title = team.countryCode || '';
+
+      teamDiv.appendChild(flagImg);
+
+      // Tambahkan pemain
+      if (team.players && team.players.length > 0) {
+        team.players.forEach(player => {
+          const playerEl = createPlayerElement(player);
+          teamDiv.appendChild(playerEl);
+        });
+      } else if (team.teamName) {
+        // Jika tim berupa nama tim (tim beregu)
+        const teamNameSpan = document.createElement('span');
+        teamNameSpan.textContent = team.teamName;
+        teamDiv.appendChild(teamNameSpan);
+      }
+
+      return teamDiv;
+    }
+
+    // Fungsi membuat skor per set
+    function createScoreElement(scoreArray) {
+      const scoreDiv = document.createElement('div');
+      scoreDiv.className = 'score';
+
+      scoreArray.forEach(set => {
+        const setSpan = document.createElement('span');
+        setSpan.textContent = `Set ${set.set}: ${set.home} - ${set.away}`;
+        scoreDiv.appendChild(setSpan);
+      });
+
+      return scoreDiv;
+    }
+
+    // Fungsi membuat kartu pertandingan
+    function createMatchCard(match) {
+      const card = document.createElement('div');
+      card.className = 'match-card';
+
+      // Header: Event dan ronde
+      const header = document.createElement('div');
+      header.className = 'match-header';
+      header.textContent = `${match.eventName || ''} - ${match.roundName || ''}`;
+      card.appendChild(header);
+
+      // Tim 1
+      const team1El = createTeamElement(match.team1);
+      card.appendChild(team1El);
+
+      // Tim 2
+      const team2El = createTeamElement(match.team2);
+      card.appendChild(team2El);
+
+      // Skor
+      if (match.score && match.score.length > 0) {
+        const scoreEl = createScoreElement(match.score);
+        card.appendChild(scoreEl);
+      }
+
+      // Info tambahan
+      const infoDiv = document.createElement('div');
+      infoDiv.className = 'match-info';
+
+      // Status pertandingan
+      const statusSpan = document.createElement('span');
+      statusSpan.className = 'info-item';
+      statusSpan.textContent = `Status: ${match.matchStatusValue || match.matchStatus || 'Unknown'}`;
+      infoDiv.appendChild(statusSpan);
+
+      // Jika LIVE, tambahkan badge
+      if (match.matchStatus === 'L') {
+        const liveBadge = document.createElement('span');
+        liveBadge.className = 'live-badge';
+        liveBadge.textContent = 'LIVE';
+        infoDiv.appendChild(liveBadge);
+      }
+
+      // Waktu pertandingan
+      if (match.matchTime) {
+        const timeSpan = document.createElement('span');
+        timeSpan.className = 'info-item';
+        const dateObj = new Date(match.matchTime);
+        timeSpan.textContent = `Waktu: ${dateObj.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})}`;
+        infoDiv.appendChild(timeSpan);
+      }
+
+      // Durasi
+      if (match.duration) {
+        const durationSpan = document.createElement('span');
+        durationSpan.className = 'info-item';
+        durationSpan.textContent = `Durasi: ${match.duration} menit`;
+        infoDiv.appendChild(durationSpan);
+      }
+
+      // Lokasi
+      if (match.locationName) {
+        const locationSpan = document.createElement('span');
+        locationSpan.className = 'info-item';
+        locationSpan.textContent = `Lokasi: ${match.locationName} - ${match.courtName || ''}`;
+        infoDiv.appendChild(locationSpan);
+      }
+
+      // Jenis pertandingan
+      if (match.matchTypeValue) {
+        const typeSpan = document.createElement('span');
+        typeSpan.className = 'info-item';
+        typeSpan.textContent = `Jenis: ${match.matchTypeValue}`;
+        infoDiv.appendChild(typeSpan);
+      }
+
+      card.appendChild(infoDiv);
+
+      return card;
+    }
+
+    // Fungsi utama untuk fetch dan render data
+    async function loadMatches() {
+      const container = document.getElementById('matches-container');
+      container.innerHTML = '<p>Memuat data pertandingan...</p>';
+
+      try {
+        const response = await fetch(apiUrl);
+        if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+
+        const matches = await response.json();
+
+        if (!Array.isArray(matches) || matches.length === 0) {
+          container.innerHTML = '<p>Tidak ada data pertandingan untuk tanggal ini.</p>';
+          return;
         }
 
-        function populateCompetitionFilter() {
-            const competitionFilter = document.getElementById('competitionFilter');
-            competitionFilter.innerHTML = '<option value="">Semua Kompetisi</option>';
-            let competitions = new Set(allMatches.map(match => match.competition.name));
-            competitions.forEach(competition => {
-                const option = document.createElement('option');
-                option.value = competition;
-                option.textContent = competition;
-                competitionFilter.appendChild(option);
-            });
-        }
+        container.innerHTML = ''; // Kosongkan container
 
-        function displayMatches(matches) {
-            const scheduleTable = document.getElementById('schedule').getElementsByTagName('tbody')[0];
-            scheduleTable.innerHTML = '';
-            
-            matches.forEach(match => {
-                const row = scheduleTable.insertRow();
-                const dateCell = row.insertCell(0);
-                const timeCell = row.insertCell(1);
-                const homeTeamCell = row.insertCell(2);
-                const awayTeamCell = row.insertCell(3);
-                const competitionCell = row.insertCell(4);
-                
-                const matchDate = new Date(match.match_time * 1000).toLocaleDateString('id-ID');
-                const matchTime = new Date(match.match_time * 1000).toLocaleTimeString('id-ID', { hour: '2-digit', minute: '2-digit', hour12: false });
-                const formattedTime = matchTime.replace('.', ':');
-                dateCell.textContent = matchDate;
-                timeCell.textContent = formattedTime;
-                homeTeamCell.innerHTML = `<img src="${match.home_team.logo}" width="20" class="me-2"> ${match.home_team.name}`;
-                awayTeamCell.innerHTML = `<img src="${match.away_team.logo}" width="20" class="me-2"> ${match.away_team.name}`;
-                competitionCell.innerHTML = `<img src="${match.competition.logo}" width="20" class="me-2"> ${match.competition.name}`;
-            });
-            
-            displayMatchInfo(matches);
-            displayPoster(matches);
-        }
+        matches.forEach(match => {
+          const card = createMatchCard(match);
+          container.appendChild(card);
+        });
 
-        function filterMatches() {
-            const searchValue = document.getElementById('searchBox').value.toLowerCase();
-            const selectedCompetition = document.getElementById('competitionFilter').value;
-            
-            const filteredMatches = allMatches.filter(match => {
-                const homeTeam = match.home_team.name.toLowerCase();
-                const awayTeam = match.away_team.name.toLowerCase();
-                const competition = match.competition.name;
-                
-                const matchesSearch = homeTeam.includes(searchValue) || awayTeam.includes(searchValue) || competition.toLowerCase().includes(searchValue);
-                const matchesCompetition = selectedCompetition === "" || competition === selectedCompetition;
-                
-                return matchesSearch && matchesCompetition;
-            });
-            
-            displayMatches(filteredMatches);
-        }
+      } catch (error) {
+        container.innerHTML = `<p>Gagal memuat data pertandingan. Silakan coba lagi nanti.<br><small>${error.message}</small></p>`;
+        console.error('Error fetching matches:', error);
+      }
+    }
 
-        function displayMatchInfo(matches) {
-            const matchInfoContainer = document.getElementById('matchInfoContainer');
-            matchInfoContainer.innerHTML = '';
-            
-            if (matches.length === 0) {
-                matchInfoContainer.innerHTML = '<p>Tidak ada pertandingan yang cocok.</p>';
-                return;
-            }
-        }
-
-        function displayPoster(matches) {
-            const posterContainer = document.getElementById('posterContainer');
-            posterContainer.innerHTML = '';
-
-            if (matches.length === 0) {
-                posterContainer.innerHTML = '<p>Tidak ada pertandingan yang cocok untuk poster.</p>';
-                return;
-            }
-
-            matches.forEach(match => {
-                const matchDate = new Date(match.match_time * 1000).toLocaleDateString('id-ID');
-                const matchTime = new Date(match.match_time * 1000).toLocaleTimeString('id-ID', { hour: '2-digit', minute: '2-digit', hour12: false });
-                const formattedTime = matchTime.replace('.', ':');
-                const posterContent = `
-                    <h2>${match.home_team.name} vs ${match.away_team.name}</h2>
-                    <p><img src="${match.home_team.logo}" alt="${match.home_team.name} Logo"> vs <img src="${match.away_team.logo}" alt="${match.away_team.name} Logo"></p>
-                    <p><strong>Tanggal:</strong> ${matchDate}</p>
-                    <p><strong>Waktu:</strong> ${formattedTime}</p>
-                    <p><strong>Kompetisi:</strong> ${match.competition.name}</p>
-                    <hr>
-                `;
-                posterContainer.innerHTML += posterContent;
-            });
-        }
-
-        function scrollToTop() {
-            window.scrollTo({
-                top: 0,
-                behavior: 'smooth'
-            });
-        }
-
-        function handleScroll() {
-            const scrollToTopButton = document.getElementById('scrollToTopButton');
-            if (window.scrollY > 200) {
-                scrollToTopButton.style.display = 'block';
-            } else {
-                scrollToTopButton.style.display = 'none';
-            }
-        }
-
-        document.addEventListener('DOMContentLoaded', fetchMatches);
-        window.addEventListener('scroll', handleScroll);
-    </script>
+    // Load data saat halaman siap
+    window.addEventListener('DOMContentLoaded', loadMatches);
+  </script>
 </body>
 </html>
