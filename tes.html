@@ -1,320 +1,333 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Data Pertandingan BWF Badminton - Malaysia Masters 2025 (22 Mei 2025)</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PECINTAMINTON</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
-    /* Reset dan dasar */
-    * {
-      box-sizing: border-box;
-    }
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-family: 'Inter', sans-serif;
       margin: 0;
-      padding: 1rem;
-      background: #f9f9f9;
+      background: linear-gradient(to right, #f4f7fa, #eef2f6);
       color: #333;
+      padding: 20px;
     }
     h1 {
       text-align: center;
-      margin-bottom: 1rem;
-      color: #005a9c;
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #004085;
     }
-    /* Container kartu pertandingan */
-    #matches-container {
+    .filter-bar {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      gap: 1rem;
+      gap: 10px;
+      margin-bottom: 20px;
+      padding: 10px;
+      background: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
     }
-    /* Kartu pertandingan */
-    .match-card {
+    .filter-bar label, .filter-bar input, .filter-bar select, .filter-bar button {
+      font-size: 1rem;
+    }
+    input, select, button {
+      padding: 8px 12px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+    button#resetBtn {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    button#resetBtn:hover {
+      background-color: #0056b3;
+    }
+    .match-container {
       background: white;
-      border-radius: 8px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-      padding: 1rem;
-      width: 100%;
-      max-width: 350px;
-      display: flex;
-      flex-direction: column;
-      gap: 0.5rem;
-      transition: transform 0.2s ease;
+      margin: 15px auto;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+      max-width: 900px;
+      animation: fadeInUp 0.5s ease;
     }
-    .match-card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+    .match-header, .teams, .score, .match-info {
+      margin-bottom: 15px;
     }
-    /* Header kartu */
     .match-header {
       display: flex;
       justify-content: space-between;
-      align-items: center;
-      font-weight: 600;
-      font-size: 1.1rem;
-      color: #004080;
+      flex-wrap: wrap;
     }
-    /* Tim dan pemain */
-    .team {
+    .teams {
       display: flex;
-      align-items: center;
-      gap: 0.5rem;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .team {
+      flex: 1 1 45%;
+      background: #f8f9fa;
+      border: 1px solid #dee2e6;
+      border-radius: 8px;
+      padding: 10px;
     }
     .player {
       display: flex;
       align-items: center;
-      gap: 0.3rem;
+      gap: 8px;
+      margin-bottom: 5px;
     }
     .player img {
-      width: 28px;
-      height: 28px;
+      width: 32px;
+      height: 32px;
       border-radius: 50%;
+      border: 1px solid #ced4da;
       object-fit: cover;
-      border: 1px solid #ccc;
     }
-    .flag {
-      width: 24px;
-      height: 24px;
-      border-radius: 50%;
-      object-fit: cover;
-      border: 1px solid #ccc;
-    }
-    /* Skor */
     .score {
-      font-weight: 700;
-      font-size: 1.2rem;
-      color: #007acc;
-      margin-top: 0.5rem;
-      display: flex;
-      justify-content: center;
-      gap: 1rem;
+      font-weight: 600;
+      font-size: 1rem;
+      color: #004085;
     }
-    /* Info tambahan */
     .match-info {
       font-size: 0.9rem;
-      color: #555;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.5rem 1rem;
-      justify-content: center;
+      color: #6c757d;
     }
-    .info-item {
-      background: #e6f0ff;
-      padding: 0.3rem 0.6rem;
-      border-radius: 12px;
-      font-weight: 600;
-      color: #004080;
-    }
-    /* Status LIVE */
-    .live-badge {
-      background: #d32f2f;
+    button.watch-btn {
+      background-color: #28a745;
       color: white;
-      padding: 0.2rem 0.6rem;
-      border-radius: 12px;
-      font-weight: 700;
-      font-size: 0.85rem;
-      animation: pulse 2s infinite;
+      padding: 10px 16px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
     }
-    @keyframes pulse {
-      0%, 100% {opacity: 1;}
-      50% {opacity: 0.6;}
+    button.watch-btn:hover {
+      background-color: #218838;
     }
-    /* Responsive */
-    @media (min-width: 480px) {
-      .match-card {
-        width: 48%;
-      }
+    .loading, .error {
+      text-align: center;
+      font-size: 1.2rem;
+      margin-top: 40px;
+      color: #555;
     }
-    @media (min-width: 768px) {
-      .match-card {
-        width: 30%;
-      }
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
     }
   </style>
 </head>
 <body>
-  <h1>Data Pertandingan BWF Badminton - Malaysia Masters 2025 (22 Mei 2025)</h1>
-  <div id="matches-container">
-    <p>Memuat data pertandingan...</p>
+  <h1>PECINTAMINTON - PERODUA Malaysia Masters 2025</h1>
+  <div class="filter-bar">
+    <label for="filterDate">Tanggal:</label>
+    <input type="date" id="filterDate">
+    <label for="filterType">Jenis:</label>
+    <select id="filterType">
+      <option value="">Semua</option>
+      <option value="Men's Singles">MS</option>
+      <option value="Women's Singles">WS</option>
+      <option value="Men's Doubles">MD</option>
+      <option value="Women's Doubles">WD</option>
+      <option value="Mixed Doubles">XD</option>
+    </select>
+    <label for="filterStatus">Status:</label>
+    <select id="filterStatus">
+      <option value="">Semua</option>
+      <option value="Completed">Selesai</option>
+      <option value="Running">Sedang Berlangsung</option>
+      <option value="Not Started">Belum Dimulai</option>
+    </select>
+    <input type="text" id="searchPlayer" placeholder="Cari pemain...">
+    <button id="resetBtn">Reset</button>
   </div>
-
+  <div id="matches"></div>
+  <div id="status" class="loading">Memuat data pertandingan...</div>
   <script>
-    const apiUrl = 'https://extranet-lv.bwfbadminton.com/api/tournaments/day-matches?tournamentCode=294DE888-25E7-4633-A28B-03825F250F61&date=2025-05-22';
+    const VIDEO_JSON_URL = 'https://wartakita.github.io/minton.github.io/tes.json';
+const matchesContainer = document.getElementById('matches');
+const statusDiv = document.getElementById('status');
+const filterSelect = document.getElementById('filterType');
+const statusFilter = document.getElementById('filterStatus');
+const searchInput = document.getElementById('searchPlayer');
+const resetBtn = document.getElementById('resetBtn');
+const dateInput = document.getElementById('filterDate');
 
-    // Fungsi untuk membuat elemen pemain
-    function createPlayerElement(player) {
-      const playerDiv = document.createElement('div');
-      playerDiv.className = 'player';
+let videoLinks = {};
+let allMatches = [];
+let currentDate = new Date().toISOString().split('T')[0];
+dateInput.value = currentDate;
 
-      const img = document.createElement('img');
-      img.src = player.avatar?.thumbnailUrl || '';
-      img.alt = player.nameDisplay || 'Player';
-      img.title = player.nameDisplay || 'Player';
+async function loadVideoLinks() {
+  try {
+    const response = await fetch(VIDEO_JSON_URL);
+    if (!response.ok) throw new Error('Gagal memuat file video JSON');
+    videoLinks = await response.json();
+  } catch (error) {
+    console.warn('Tidak dapat memuat video JSON:', error);
+    videoLinks = {};
+  }
+}
 
-      const nameSpan = document.createElement('span');
-      nameSpan.textContent = player.nameDisplay;
+async function loadMatches(date) {
+  const API_URL = `https://extranet-lv.bwfbadminton.com/api/tournaments/day-matches?tournamentCode=294DE888-25E7-4633-A28B-03825F250F61&date=${date}`;
+  try {
+    const response = await fetch(API_URL);
+    if (!response.ok) throw new Error('Gagal memuat data pertandingan dari API');
+    return await response.json();
+  } catch (error) {
+    throw error;
+  }
+}
 
-      playerDiv.appendChild(img);
-      playerDiv.appendChild(nameSpan);
+function normalizeStatus(value) {
+  if (!value) return '';
+  const val = value.toLowerCase();
+  if (val.includes('completed') || val.includes('finished') || val.includes('done')) return 'Completed';
+  if (val.includes('running') || val.includes('in progress')) return 'Running';
+  if (val.includes('not started') || val.includes('scheduled') || val.includes('upcoming')) return 'Not Started';
+  return value;
+}
 
-      return playerDiv;
+function createPlayerElement(player) {
+  const div = document.createElement('div');
+  div.className = 'player';
+  div.innerHTML = `<img src="${player.avatar?.thumbnailUrl || 'https://via.placeholder.com/30'}" alt="${player.nameDisplay}" title="${player.nameDisplay}"><span>${player.nameDisplay}</span>`;
+  return div;
+}
+
+function createTeamElement(team, seed) {
+  const div = document.createElement('div');
+  div.className = 'team';
+  div.innerHTML = `<h3><img src="${team.countryFlagUrl}" alt="${team.countryCode}" title="${team.countryCode}" width="24" height="24" style="border-radius:50%; margin-right:6px;">${team.countryCode} ${seed ? `(Seed: ${seed})` : ''}</h3>`;
+  team.players.forEach(player => div.appendChild(createPlayerElement(player)));
+  return div;
+}
+
+function formatScore(scoreArray) {
+  if (!scoreArray || scoreArray.length === 0) return 'Belum ada skor';
+  return scoreArray.map(set => `Set ${set.set}: ${set.home} - ${set.away}`).join(' | ');
+}
+
+function createMatchElement(match) {
+  const container = document.createElement('div');
+  container.className = 'match-container';
+  container.innerHTML = `
+    <div class="match-header">
+      <div><strong>Waktu:</strong> ${new Date(match.matchTime).toLocaleString('id-ID', { dateStyle: 'medium', timeStyle: 'short' })}</div>
+      <div><strong>Status:</strong> ${match.matchStatusValue}</div>
+      <div><strong>Round:</strong> ${match.roundName}</div>
+    </div>
+  `;
+  const teamsDiv = document.createElement('div');
+  teamsDiv.className = 'teams';
+  teamsDiv.appendChild(createTeamElement(match.team1, match.team1seed));
+  teamsDiv.appendChild(createTeamElement(match.team2, match.team2seed));
+  container.appendChild(teamsDiv);
+  const scoreDiv = document.createElement('div');
+  scoreDiv.className = 'score';
+  scoreDiv.textContent = `Skor: ${formatScore(match.score)}`;
+  container.appendChild(scoreDiv);
+  const infoDiv = document.createElement('div');
+  infoDiv.className = 'match-info';
+  infoDiv.innerHTML = `
+    <div><strong>Turnamen:</strong> ${match.tournamentName}</div>
+    <div><strong>Jenis Pertandingan:</strong> ${match.matchTypeValue}</div>
+    <div><strong>Lokasi:</strong> ${match.locationName} - ${match.courtName}</div>
+    <div><strong>Durasi:</strong> ${match.duration ? match.duration + ' menit' : '-'}</div>
+  `;
+  container.appendChild(infoDiv);
+  const watchBtn = document.createElement('button');
+  watchBtn.className = 'watch-btn';
+  watchBtn.textContent = 'Tonton';
+  watchBtn.onclick = () => {
+    const videoUrl = videoLinks[match.id];
+    if (videoUrl) window.open(videoUrl, '_blank');
+    else alert('Video untuk pertandingan ini belum tersedia.');
+  };
+  container.appendChild(watchBtn);
+  return container;
+}
+
+function renderMatches(matches) {
+  matchesContainer.innerHTML = '';
+  matches.forEach(match => matchesContainer.appendChild(createMatchElement(match)));
+}
+
+function applyFilters() {
+  const selectedType = filterSelect.value;
+  const selectedStatus = statusFilter.value;
+  const keyword = searchInput.value.toLowerCase();
+
+  const filtered = allMatches.filter(match => {
+    const typeMatch = !selectedType || match.matchTypeValue === selectedType;
+    const statusMatch = !selectedStatus || normalizeStatus(match.matchStatusValue) === selectedStatus;
+    const playerNames = [...match.team1.players, ...match.team2.players].map(p => p.nameDisplay.toLowerCase()).join(' ');
+    const nameMatch = !keyword || playerNames.includes(keyword);
+    return typeMatch && statusMatch && nameMatch;
+  });
+
+  renderMatches(filtered);
+}
+
+filterSelect.addEventListener('change', applyFilters);
+statusFilter.addEventListener('change', applyFilters);
+searchInput.addEventListener('input', applyFilters);
+dateInput.addEventListener('change', async () => {
+  statusDiv.innerHTML = '<div class="spinner"></div><div>Memuat data pertandingan...</div>';
+  currentDate = dateInput.value;
+  allMatches = await loadMatches(currentDate);
+  renderMatches(allMatches);
+});
+
+resetBtn.addEventListener('click', async () => {
+  filterSelect.value = '';
+  statusFilter.value = '';
+  searchInput.value = '';
+  dateInput.value = currentDate;
+  allMatches = await loadMatches(currentDate);
+  renderMatches(allMatches);
+});
+
+async function init() {
+  try {
+    statusDiv.innerHTML = '<div class="spinner"></div><div>Memuat data video...</div>';
+    await loadVideoLinks();
+    statusDiv.textContent = 'Memuat data pertandingan...';
+    allMatches = await loadMatches(currentDate);
+    if (!allMatches || allMatches.length === 0) {
+      statusDiv.textContent = 'Tidak ada data pertandingan untuk tanggal ini.';
+      return;
     }
+    statusDiv.style.display = 'none';
+    renderMatches(allMatches);
 
-    // Fungsi membuat tim (bendera + pemain)
-    function createTeamElement(team) {
-      const teamDiv = document.createElement('div');
-      teamDiv.className = 'team';
-
-      const flagImg = document.createElement('img');
-      flagImg.className = 'flag';
-      flagImg.src = team.countryFlagUrl || '';
-      flagImg.alt = team.countryCode || '';
-      flagImg.title = team.countryCode || '';
-
-      teamDiv.appendChild(flagImg);
-
-      // Tambahkan pemain
-      if (team.players && team.players.length > 0) {
-        team.players.forEach(player => {
-          const playerEl = createPlayerElement(player);
-          teamDiv.appendChild(playerEl);
-        });
-      } else if (team.teamName) {
-        // Jika tim berupa nama tim (tim beregu)
-        const teamNameSpan = document.createElement('span');
-        teamNameSpan.textContent = team.teamName;
-        teamDiv.appendChild(teamNameSpan);
-      }
-
-      return teamDiv;
-    }
-
-    // Fungsi membuat skor per set
-    function createScoreElement(scoreArray) {
-      const scoreDiv = document.createElement('div');
-      scoreDiv.className = 'score';
-
-      scoreArray.forEach(set => {
-        const setSpan = document.createElement('span');
-        setSpan.textContent = `Set ${set.set}: ${set.home} - ${set.away}`;
-        scoreDiv.appendChild(setSpan);
-      });
-
-      return scoreDiv;
-    }
-
-    // Fungsi membuat kartu pertandingan
-    function createMatchCard(match) {
-      const card = document.createElement('div');
-      card.className = 'match-card';
-
-      // Header: Event dan ronde
-      const header = document.createElement('div');
-      header.className = 'match-header';
-      header.textContent = `${match.eventName || ''} - ${match.roundName || ''}`;
-      card.appendChild(header);
-
-      // Tim 1
-      const team1El = createTeamElement(match.team1);
-      card.appendChild(team1El);
-
-      // Tim 2
-      const team2El = createTeamElement(match.team2);
-      card.appendChild(team2El);
-
-      // Skor
-      if (match.score && match.score.length > 0) {
-        const scoreEl = createScoreElement(match.score);
-        card.appendChild(scoreEl);
-      }
-
-      // Info tambahan
-      const infoDiv = document.createElement('div');
-      infoDiv.className = 'match-info';
-
-      // Status pertandingan
-      const statusSpan = document.createElement('span');
-      statusSpan.className = 'info-item';
-      statusSpan.textContent = `Status: ${match.matchStatusValue || match.matchStatus || 'Unknown'}`;
-      infoDiv.appendChild(statusSpan);
-
-      // Jika LIVE, tambahkan badge
-      if (match.matchStatus === 'L') {
-        const liveBadge = document.createElement('span');
-        liveBadge.className = 'live-badge';
-        liveBadge.textContent = 'LIVE';
-        infoDiv.appendChild(liveBadge);
-      }
-
-      // Waktu pertandingan
-      if (match.matchTime) {
-        const timeSpan = document.createElement('span');
-        timeSpan.className = 'info-item';
-        const dateObj = new Date(match.matchTime);
-        timeSpan.textContent = `Waktu: ${dateObj.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})}`;
-        infoDiv.appendChild(timeSpan);
-      }
-
-      // Durasi
-      if (match.duration) {
-        const durationSpan = document.createElement('span');
-        durationSpan.className = 'info-item';
-        durationSpan.textContent = `Durasi: ${match.duration} menit`;
-        infoDiv.appendChild(durationSpan);
-      }
-
-      // Lokasi
-      if (match.locationName) {
-        const locationSpan = document.createElement('span');
-        locationSpan.className = 'info-item';
-        locationSpan.textContent = `Lokasi: ${match.locationName} - ${match.courtName || ''}`;
-        infoDiv.appendChild(locationSpan);
-      }
-
-      // Jenis pertandingan
-      if (match.matchTypeValue) {
-        const typeSpan = document.createElement('span');
-        typeSpan.className = 'info-item';
-        typeSpan.textContent = `Jenis: ${match.matchTypeValue}`;
-        infoDiv.appendChild(typeSpan);
-      }
-
-      card.appendChild(infoDiv);
-
-      return card;
-    }
-
-    // Fungsi utama untuk fetch dan render data
-    async function loadMatches() {
-      const container = document.getElementById('matches-container');
-      container.innerHTML = '<p>Memuat data pertandingan...</p>';
-
+    // Real-time update tiap 1 menit
+    setInterval(async () => {
       try {
-        const response = await fetch(apiUrl);
-        if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
-
-        const matches = await response.json();
-
-        if (!Array.isArray(matches) || matches.length === 0) {
-          container.innerHTML = '<p>Tidak ada data pertandingan untuk tanggal ini.</p>';
-          return;
+        const updatedMatches = await loadMatches(currentDate);
+        if (updatedMatches && updatedMatches.length > 0) {
+          allMatches = updatedMatches;
+          applyFilters();
         }
-
-        container.innerHTML = ''; // Kosongkan container
-
-        matches.forEach(match => {
-          const card = createMatchCard(match);
-          container.appendChild(card);
-        });
-
-      } catch (error) {
-        container.innerHTML = `<p>Gagal memuat data pertandingan. Silakan coba lagi nanti.<br><small>${error.message}</small></p>`;
-        console.error('Error fetching matches:', error);
+      } catch (err) {
+        console.warn('Gagal memperbarui data pertandingan:', err);
       }
-    }
+    }, 30000);
+  } catch (error) {
+    statusDiv.className = 'error';
+    statusDiv.textContent = 'Terjadi kesalahan saat memuat data: ' + error.message;
+  }
+}
 
-    // Load data saat halaman siap
-    window.addEventListener('DOMContentLoaded', loadMatches);
+window.addEventListener('DOMContentLoaded', init);
   </script>
 </body>
 </html>
