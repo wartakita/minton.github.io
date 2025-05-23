@@ -117,6 +117,29 @@
       box-shadow: 0 6px 12px rgba(0,0,0,0.2);
       animation: fadeInOut 2.5s ease-in-out;
     }
+    pre#jsonOutput {
+      margin: 40px auto 12px;
+      max-width: 700px;
+      background: #f3f4f6;
+      padding: 16px;
+      border-radius: 12px;
+      font-size: 14px;
+      overflow: auto;
+    }
+    .copy-json-btn {
+      display: block;
+      margin: 0 auto 40px;
+      padding: 8px 16px;
+      background: var(--primary);
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+    .copy-json-btn:hover {
+      background: #2563eb;
+    }
     @keyframes fadeInUp {
       from { opacity: 0; transform: translateY(20px); }
       to { opacity: 1; transform: translateY(0); }
@@ -139,6 +162,8 @@
     <input type="text" id="searchInput" placeholder="Search by court name..." />
   </div>
   <div id="matchContainer" class="loading">Loading...</div>
+  <pre id="jsonOutput">{}</pre>
+  <button class="copy-json-btn" onclick="copyJsonToClipboard()">Salin JSON</button>
 
   <script>
     let allMatches = [];
@@ -151,6 +176,7 @@
         const data = await res.json();
         allMatches = data;
         renderMatches(data);
+        generateJSON(data);
       } catch (err) {
         container.innerHTML = 'Failed to load match data.';
         console.error(err);
@@ -192,6 +218,19 @@
       });
     }
 
+    function generateJSON(matches) {
+      const output = {};
+      matches.forEach(m => output[m.id] = m.courtName || "N/A");
+      document.getElementById("jsonOutput").textContent = JSON.stringify(output, null, 2);
+    }
+
+    function copyJsonToClipboard() {
+      const json = document.getElementById("jsonOutput").textContent;
+      navigator.clipboard.writeText(json).then(() => {
+        showToast("JSON berhasil disalin!");
+      });
+    }
+
     function showToast(message) {
       const toast = document.createElement('div');
       toast.className = 'toast';
@@ -212,6 +251,7 @@
         (m.courtName || '').toLowerCase().includes(keyword)
       );
       renderMatches(filtered);
+      generateJSON(filtered);
     }
 
     document.getElementById('searchInput').addEventListener('input', filterAndRenderMatches);
