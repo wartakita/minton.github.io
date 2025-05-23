@@ -1,30 +1,5 @@
-[
-  {
-    "title": "TOYOTA Thailand Open 2025 - COURT 1",
-    "time": "2025-05-20 15:00 WIB",
-    "videoId": "abc123xyz",
-    "thumbId": "thumb001",
-    "url": "https://hlslive-tx-cdn.ysp.cctv.cn/pecintaminton/2027234801.m3u8"
-  },
-  {
-    "title": "TOYOTA Thailand Open 2025 - COURT 2",
-    "time": "2025-05-21 18:00 WIB",
-    "videoId": "def456uvw",
-    "thumbId": "thumb002",
-    "url": "https://hlsminton.blogspot.com/?video=aHR0cHM6Ly8zYmU0YmUxOWVmNmQ3M2NkNzQ0MzgzZjJkYTM2YzkzZi52LnNtdGNkbnMubmV0L3BsYXkuY2JhbGl2ZS53ZWliaXNhaS5jb20vbGl2ZS8zODk1MjYyMjMzMTM4MDYxX0FpU0QubTN1OD90eFNlY3JldD1mYjgyMDVmZjQ0OGRhYWU1ZTdmZTJkNTY1MzFmZGMyNiZ0eFRpbWU9NjgyOTREMzA="
-  },
-  {
-    "title": "TOYOTA Thailand Open 2025 - COURT 3",
-    "time": "2025-05-22 14:00 WIB",
-    "videoId": "ghi789rst",
-    "thumbId": "thumb003",
-    "url": "https://vku.youku.com/live/ilpshare?id=8193341"
-  },
-  {
-    "title": "TOYOTA Thailand Open 2025 - COURT 4",
-    "time": "2025-05-22 14:00 WIB",
-    "videoId": "ghi789rst",
-    "thumbId": "thumb003",
-    "url": "https://hlslive-tx-cdn.ysp.cctv.cn/pecintaminton/2027234801.m3u8"
-  }
-]
+{
+  "1433958": "https://hlsminton.blogspot.com/?video=aHR0cHM6Ly9iY292bGl2ZS1hLmFrYW1haWhkLm5ldC9yMmQyYzRjYTViZjU3NDU2ZmIxZDE2MjU1YzFhNTM1YzgvZXUtd2VzdC0xLzYwNTgwMDQyMDMwMDEvcGxheWxpc3QubTN1OA==",
+  "1433959": "https://www.youtube.com/embed/5tOmrXXR0aw",
+  "1433960": "https://www.youtube.com/watch?v=example_video_id_1433960"
+}
