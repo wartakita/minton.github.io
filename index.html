@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Match Court Viewer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #3b82f6;
+      --bg: #f9fafb;
+      --text: #111827;
+    }
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      padding: 20px;
+      margin: 0;
+      background-color: var(--bg);
+      color: var(--text);
+    }
+    h1 {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .controls {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      max-width: 600px;
+      margin: auto;
+      margin-bottom: 20px;
+    }
+    .controls input {
+      padding: 10px 16px;
+      font-size: 16px;
+      border-radius: 12px;
+      border: 1px solid #ccc;
+      outline: none;
+      transition: 0.3s border;
+    }
+    .controls input:focus {
+      border-color: var(--primary);
+    }
+    #matchContainer {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      max-width: 700px;
+      margin: auto;
+    }
+    .match-card {
+      border-radius: 16px;
+      padding: 16px;
+      background-color: white;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      animation: fadeInUp 0.6s ease forwards;
+    }
+    .match-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 24px rgba(0,0,0,0.12);
+    }
+    .team-lineup {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 6px;
+    }
+    .team-player {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      background: #f1f5f9;
+      padding: 4px 8px;
+      border-radius: 8px;
+      font-size: 14px;
+    }
+    .team-player img.flag {
+      width: 18px;
+      height: 18px;
+      border-radius: 50%;
+    }
+    .team-player img.avatar {
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      border: 1px solid #ccc;
+    }
+    .copy-btn {
+      margin-left: 8px;
+      padding: 4px 8px;
+      font-size: 12px;
+      background: var(--primary);
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    .copy-btn:hover {
+      background: #2563eb;
+    }
+    .toast {
+      position: fixed;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: var(--primary);
+      color: white;
+      padding: 10px 20px;
+      border-radius: 8px;
+      font-size: 14px;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+      animation: fadeInOut 2.5s ease-in-out;
+    }
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeInOut {
+      0% { opacity: 0; transform: translateY(10px); }
+      10%, 90% { opacity: 1; transform: translateY(0); }
+      100% { opacity: 0; transform: translateY(-10px); }
+    }
+    @media (max-width: 600px) {
+      .match-card { padding: 12px; }
+      .team-lineup { flex-direction: column; align-items: flex-start; }
+    }
+  </style>
+</head>
+<body>
+  <h1>Match Court Viewer</h1>
+  <div class="controls">
+    <input type="date" id="dateInput" />
+    <input type="text" id="searchInput" placeholder="Search by court name..." />
+  </div>
+  <div id="matchContainer" class="loading">Loading...</div>
+
+  <script>
+    let allMatches = [];
+
+    async function loadMatches(date) {
+      const container = document.getElementById('matchContainer');
+      container.innerHTML = 'Loading...';
+      try {
+        const res = await fetch(`https://extranet-lv.bwfbadminton.com/api/tournaments/day-matches?tournamentCode=294DE888-25E7-4633-A28B-03825F250F61&date=${date}`);
+        const data = await res.json();
+        allMatches = data;
+        renderMatches(data);
+      } catch (err) {
+        container.innerHTML = 'Failed to load match data.';
+        console.error(err);
+      }
+    }
+
+    function renderTeam(team) {
+      return team.players.map(p => `
+        <span class="team-player">
+          <img class="avatar" src="${p.avatar?.thumbnailUrl || ''}" alt="avatar" />
+          <img class="flag" src="${p.countryFlagUrl}" alt="flag" /> ${p.nameDisplay}
+        </span>
+      `).join('');
+    }
+
+    function renderMatches(matches) {
+      const container = document.getElementById('matchContainer');
+      container.innerHTML = '';
+      if (matches.length === 0) {
+        container.innerHTML = '<p>No matches found.</p>';
+        return;
+      }
+      matches.forEach(match => {
+        const team1 = renderTeam(match.team1);
+        const team2 = renderTeam(match.team2);
+        const card = document.createElement('div');
+        card.className = 'match-card';
+        card.innerHTML = `
+          <h3>Match ID: ${match.id} <button class="copy-btn" onclick="copyToClipboard(${match.id})">Copy</button></h3>
+          <p><strong>Court:</strong> ${match.courtName || 'N/A'}</p>
+          <p><strong>Time:</strong> ${match.matchTime || 'N/A'}</p>
+          <p><strong>Event:</strong> ${match.eventName || 'N/A'}</p>
+          <p><strong>Team 1:</strong></p>
+          <div class="team-lineup">${team1}</div>
+          <p><strong>Team 2:</strong></p>
+          <div class="team-lineup">${team2}</div>
+        `;
+        container.appendChild(card);
+      });
+    }
+
+    function showToast(message) {
+      const toast = document.createElement('div');
+      toast.className = 'toast';
+      toast.textContent = message;
+      document.body.appendChild(toast);
+      setTimeout(() => toast.remove(), 2500);
+    }
+
+    function copyToClipboard(text) {
+      navigator.clipboard.writeText(text).then(() => {
+        showToast(`Copied Match ID: ${text}`);
+      });
+    }
+
+    function filterAndRenderMatches() {
+      const keyword = document.getElementById('searchInput').value.toLowerCase();
+      const filtered = allMatches.filter(m =>
+        (m.courtName || '').toLowerCase().includes(keyword)
+      );
+      renderMatches(filtered);
+    }
+
+    document.getElementById('searchInput').addEventListener('input', filterAndRenderMatches);
+
+    document.getElementById('dateInput').addEventListener('change', function() {
+      const date = this.value;
+      if (date) {
+        loadMatches(date);
+      }
+    });
+
+    const today = new Date();
+    const defaultDate = today.toISOString().split('T')[0];
+    document.getElementById('dateInput').value = defaultDate;
+    loadMatches(defaultDate);
+  </script>
+</body>
+</html>
