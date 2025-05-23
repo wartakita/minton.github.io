@@ -1,0 +1,156 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    background: linear-gradient(to right, #f4f7fa, #eef2f6);
+    color: #333;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #004085;
+}
+
+.filter-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.filter-bar label,
+.filter-bar input,
+.filter-bar select,
+.filter-bar button {
+    font-size: 1rem;
+}
+
+input,
+select,
+button {
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+button#resetBtn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button#resetBtn:hover {
+    background-color: #0056b3;
+}
+
+.match-container {
+    background: white;
+    margin: 15px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    max-width: 900px;
+    animation: fadeInUp 0.5s ease;
+}
+
+.match-header,
+.teams,
+.score,
+.match-info {
+    margin-bottom: 15px;
+}
+
+.match-header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.teams {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.team {
+    flex: 1 1 45%;
+    background: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.player {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 5px;
+}
+
+.player img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 1px solid #ced4da;
+    object-fit: cover;
+}
+
+.score {
+    font-weight: 600;
+    font-size: 1rem;
+    color: #004085;
+}
+
+.match-info {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+button.watch-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.watch-btn:hover {
+    background-color: #218838;
+}
+
+.loading,
+.error {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 40px;
+    color: #555;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#histats_counter,
+.no-results {
+    display: none
+}
