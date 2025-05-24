@@ -183,6 +183,10 @@
 </head>
 <body>
 <h1>PECINTAMINTON - PERODUA Malaysia Masters 2025</h1>
+<div style="text-align:center;margin-bottom:10px">
+  <label for="timezoneSelect"><strong>Zona Waktu:</strong> <span title="Waktu pertandingan ditampilkan sesuai zona waktu yang dipilih." style="cursor:help">🛈</span></label>
+  <select id="timezoneSelect" style="padding:6px 10px;margin-left:6px;border-radius:6px;border:1px solid #ccc;font-size:1rem;"></select>
+</div>
 <div class="filter-bar">
   <div>
     <label for="filterDate">Tanggal:</label>
@@ -227,11 +231,26 @@ const statusFilter = document.getElementById('filterStatus');
 const searchInput = document.getElementById('searchPlayer');
 const resetBtn = document.getElementById('resetBtn');
 const dateInput = document.getElementById('filterDate');
+const timezoneSelect = document.getElementById('timezoneSelect');
+let selectedTimezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
 
 let videoLinks = {};
 let allMatches = [];
 let currentDate = new Date().toISOString().split('T')[0];
 dateInput.value = currentDate;
+
+Intl.supportedValuesOf('timeZone').forEach(tz => {
+  const opt = document.createElement('option');
+  opt.value = tz;
+  opt.textContent = tz;
+  if (tz === selectedTimezone) opt.selected = true;
+  timezoneSelect.appendChild(opt);
+});
+
+timezoneSelect.addEventListener('change', () => {
+  selectedTimezone = timezoneSelect.value;
+  renderMatches(allMatches);
+});
 
 function notify(message) {
   if (Notification.permission === 'granted') {
@@ -294,11 +313,12 @@ function formatScore(scores) {
 }
 
 function createMatchElement(match) {
+  const localTime = new Date(match.matchTime).toLocaleString(undefined, { dateStyle: 'medium', timeStyle: 'short', timeZone: selectedTimezone });
   const el = document.createElement('div');
   el.className = 'match-container';
   el.innerHTML = `
     <div class="match-header">
-      <div><strong>Waktu:</strong> ${new Date(match.matchTime).toLocaleString('id-ID')}</div>
+      <div><strong>Waktu:</strong> ${localTime}</div>
       <div><strong>Status:</strong> ${match.matchStatusValue}</div>
       <div><strong>Round:</strong> ${match.roundName}</div>
     </div>`;
@@ -442,7 +462,7 @@ function showDetailModal(match) {
     </div>
     <p><strong>Turnamen:</strong> ${match.tournamentName}</p>
     <p><strong>Jenis:</strong> ${match.matchTypeValue}</p>
-    <p><strong>Waktu:</strong> ${new Date(match.matchTime).toLocaleString('id-ID')}</p>
+    <p><strong>Waktu:</strong> ${new Date(match.matchTime).toLocaleString(undefined, { dateStyle: 'medium', timeStyle: 'short', timeZone: selectedTimezone })}</p>
     <p><strong>Lokasi:</strong> ${match.locationName} - ${match.courtName}</p>
     <p><strong>Status:</strong> ${match.matchStatusValue}</p>
     <p><strong>Durasi:</strong> ${match.duration || '-'} menit</p>
@@ -457,7 +477,67 @@ function showDetailModal(match) {
     </ul>
   `;
   modal.style.display = 'flex';
+
+  const ctx = document.createElement('canvas');
+  ctx.id = 'scoreChart';
+  content.appendChild(ctx);
+
+  const labels = match.score.map((s, i) => `Set ${i + 1}`);
+  const data = {
+    labels,
+    datasets: [
+      {
+        label: `${match.team1.countryCode}`,
+        data: match.score.map(s => s.home),
+        backgroundColor: '#007bff',
+        borderColor: '#007bff',
+        fill: false,
+        tension: 0.3
+      },
+      {
+        label: `${match.team2.countryCode}`,
+        data: match.score.map(s => s.away),
+        backgroundColor: '#28a745',
+        borderColor: '#28a745',
+        fill: false,
+        tension: 0.3
+      }
+    ]
+  };
+
+  const chartType = match.score.length <= 3 ? 'bar' : 'line';
+  new Chart(ctx, {
+    type: chartType,
+    data,
+    options: {
+      responsive: true,
+      plugins: {
+        legend: {
+          position: 'top'
+        },
+        title: {
+          display: true,
+          text: 'Skor per Set'
+        }
+      }
+    }
+  });
 }
+</script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<button id="scrollTopBtn" title="Kembali ke atas" style="position:fixed;bottom:20px;right:20px;width:48px;height:48px;display:none;align-items:center;justify-content:center;border:none;border-radius:50%;background:#007bff;color:white;font-size:1.5rem;cursor:pointer;box-shadow:0 4px 12px rgba(0,0,0,0.2);z-index:999;transition:transform 0.2s ease, opacity 0.3s ease;">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="24" height="24">
+    <polyline points="18 15 12 9 6 15" />
+  </svg>
+</button>
+<script>
+const scrollTopBtn = document.getElementById('scrollTopBtn');
+window.addEventListener('scroll', () => {
+  scrollTopBtn.style.display = window.scrollY > 300 ? 'block' : 'none';
+});
+scrollTopBtn.addEventListener('click', () => {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+});
 </script>
 </body>
 </html>
