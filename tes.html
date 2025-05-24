@@ -6,129 +6,184 @@
   <title>PECINTAMINTON</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
+    :root {
+      --primary: #004085;
+      --secondary: #6c757d;
+      --bg: #f4f7fa;
+      --surface: #ffffff;
+      --accent: #007bff;
+      --success: #28a745;
+      --shadow: rgba(0, 0, 0, 0.05);
+      --radius: 12px;
+    }
+    * { box-sizing: border-box; }
     body {
       font-family: 'Inter', sans-serif;
       margin: 0;
-      background: linear-gradient(to right, #f4f7fa, #eef2f6);
+      background: var(--bg);
       color: #333;
       padding: 20px;
+      transition: background 0.3s ease;
     }
     h1 {
       text-align: center;
-      font-size: 2rem;
-      margin-bottom: 20px;
-      color: #004085;
+      font-size: 2.5rem;
+      margin-bottom: 24px;
+      color: var(--primary);
+      animation: slideDown 0.6s ease-out;
     }
     .filter-bar {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 10px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 12px;
       margin-bottom: 20px;
+      padding: 16px;
+      background: var(--surface);
+      border-radius: var(--radius);
+      box-shadow: 0 2px 8px var(--shadow);
+    }
+    .filter-bar label {
+      display: block;
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+    .filter-bar input,
+    .filter-bar select,
+    .filter-bar button {
+      width: 100%;
       padding: 10px;
-      background: #ffffff;
-      border-radius: 10px;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-    }
-    .filter-bar label, .filter-bar input, .filter-bar select, .filter-bar button {
       font-size: 1rem;
-    }
-    input, select, button {
-      padding: 8px 12px;
       border-radius: 6px;
       border: 1px solid #ccc;
     }
     button#resetBtn {
-      background-color: #007bff;
+      background-color: var(--accent);
       color: white;
       border: none;
       cursor: pointer;
-      transition: background 0.3s;
+      transition: background-color 0.3s ease;
     }
-    button#resetBtn:hover {
-      background-color: #0056b3;
-    }
+    button#resetBtn:hover { background-color: #0056b3; }
     .match-container {
-      background: white;
-      margin: 15px auto;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
-      max-width: 900px;
-      animation: fadeInUp 0.5s ease;
+      background: var(--surface);
+      margin: 20px auto;
+      padding: 24px;
+      border-radius: var(--radius);
+      box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+      max-width: 960px;
+      transition: transform 0.3s;
+      animation: fadeInUp 0.5s ease forwards;
     }
-    .match-header, .teams, .score, .match-info {
-      margin-bottom: 15px;
-    }
+    .match-container:hover { transform: translateY(-4px); }
     .match-header {
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
+      margin-bottom: 16px;
+      font-weight: 600;
     }
     .teams {
       display: flex;
-      justify-content: space-between;
       flex-wrap: wrap;
-      gap: 10px;
+      gap: 16px;
+      margin-bottom: 12px;
     }
     .team {
-      flex: 1 1 45%;
-      background: #f8f9fa;
+      flex: 1 1 48%;
+      background: #f9fbfd;
       border: 1px solid #dee2e6;
-      border-radius: 8px;
-      padding: 10px;
+      border-radius: 10px;
+      padding: 12px;
     }
     .player {
       display: flex;
       align-items: center;
-      gap: 8px;
-      margin-bottom: 5px;
+      gap: 10px;
+      margin-bottom: 6px;
     }
     .player img {
-      width: 32px;
-      height: 32px;
+      width: 36px;
+      height: 36px;
       border-radius: 50%;
-      border: 1px solid #ced4da;
+      border: 1px solid #ccc;
       object-fit: cover;
     }
     .score {
-      font-weight: 600;
-      font-size: 1rem;
-      color: #004085;
+      font-size: 1.1rem;
+      font-weight: bold;
+      color: var(--primary);
+      margin-bottom: 10px;
     }
     .match-info {
-      font-size: 0.9rem;
-      color: #6c757d;
+      font-size: 0.95rem;
+      color: var(--secondary);
+      margin-bottom: 16px;
     }
-    button.watch-btn {
-      background-color: #28a745;
-      color: white;
-      padding: 10px 16px;
+    .watch-btn {
+      background-color: var(--success);
+      color: #fff;
       border: none;
-      border-radius: 5px;
+      padding: 12px 20px;
+      border-radius: 8px;
+      font-size: 1rem;
       cursor: pointer;
-      transition: background-color 0.3s ease;
+      transition: background 0.3s ease;
     }
-    button.watch-btn:hover {
-      background-color: #218838;
-    }
+    .watch-btn:hover { background-color: #218838; }
     .loading, .error {
       text-align: center;
-      font-size: 1.2rem;
+      font-size: 1.25rem;
       margin-top: 40px;
       color: #555;
     }
     @keyframes fadeInUp {
-      from { opacity: 0; transform: translateY(20px); }
+      from { opacity: 0; transform: translateY(30px); }
       to { opacity: 1; transform: translateY(0); }
     }
-  </style>
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes slideDown {
+      from { transform: translateY(-40px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+    @media (max-width: 480px) {
+      h1 { font-size: 1.5rem; }
+      .filter-bar { grid-template-columns: 1fr; }
+      .match-header { flex-direction: column; gap: 10px; }
+      .teams { flex-direction: column; }
+    }
+    @keyframes scaleIn {
+    from { transform: scale(0.8); opacity: 0; }
+    to { transform: scale(1); opacity: 1; }
+  }
+    @keyframes fadeOut {
+      from { opacity: 1; }
+      to { opacity: 0; }
+    }
+    @keyframes scaleOut {
+      from { transform: scale(1); opacity: 1; }
+      to { transform: scale(0.8); opacity: 0; }
+    }
+@media (max-width: 1024px) {
+  .match-header { flex-direction: column; gap: 12px; }
+  .teams { flex-direction: column; }
+}
+
+@media (max-width: 768px) {
+  .team { flex: 1 1 100%; }
+}
+</style>
 </head>
 <body>
-  <h1>PECINTAMINTON - PERODUA Malaysia Masters 2025</h1>
-  <div class="filter-bar">
+<h1>PECINTAMINTON - PERODUA Malaysia Masters 2025</h1>
+<div class="filter-bar">
+  <div>
     <label for="filterDate">Tanggal:</label>
-    <input type="date" id="filterDate">
+    <input id="filterDate" type="date"/>
+  </div>
+  <div>
     <label for="filterType">Jenis:</label>
     <select id="filterType">
       <option value="">Semua</option>
@@ -138,6 +193,8 @@
       <option value="Women's Doubles">WD</option>
       <option value="Mixed Doubles">XD</option>
     </select>
+  </div>
+  <div>
     <label for="filterStatus">Status:</label>
     <select id="filterStatus">
       <option value="">Semua</option>
@@ -145,13 +202,19 @@
       <option value="Running">Sedang Berlangsung</option>
       <option value="Not Started">Belum Dimulai</option>
     </select>
-    <input type="text" id="searchPlayer" placeholder="Cari pemain...">
+  </div>
+  <div>
+    <label for="searchPlayer">Cari pemain:</label>
+    <input id="searchPlayer" type="text" placeholder="Cari pemain..."/>
+  </div>
+  <div style="align-self: end;">
     <button id="resetBtn">Reset</button>
   </div>
-  <div id="matches"></div>
-  <div id="status" class="loading">Memuat data pertandingan...</div>
-  <script>
-    const VIDEO_JSON_URL = 'https://wartakita.github.io/minton.github.io/video.json';
+</div>
+<div id="matches"></div>
+<div class="loading" id="status">Memuat data pertandingan...</div>
+<script>
+const VIDEO_JSON_URL = 'https://wartakita.github.io/minton.github.io/video.json';
 const matchesContainer = document.getElementById('matches');
 const statusDiv = document.getElementById('status');
 const filterSelect = document.getElementById('filterType');
@@ -164,6 +227,15 @@ let videoLinks = {};
 let allMatches = [];
 let currentDate = new Date().toISOString().split('T')[0];
 dateInput.value = currentDate;
+
+function notify(message) {
+  if (Notification.permission === 'granted') {
+    new Notification('PecintaMinton', { body: message });
+  }
+}
+if ('Notification' in window && Notification.permission !== 'granted') {
+  Notification.requestPermission();
+}
 
 async function loadVideoLinks() {
   try {
@@ -180,19 +252,19 @@ async function loadMatches(date) {
   const API_URL = `https://extranet-lv.bwfbadminton.com/api/tournaments/day-matches?tournamentCode=294DE888-25E7-4633-A28B-03825F250F61&date=${date}`;
   try {
     const response = await fetch(API_URL);
-    if (!response.ok) throw new Error('Gagal memuat data pertandingan dari API');
+    if (!response.ok) throw new Error('Gagal memuat data pertandingan');
     return await response.json();
-  } catch (error) {
-    throw error;
+  } catch (err) {
+    throw err;
   }
 }
 
 function normalizeStatus(value) {
   if (!value) return '';
   const val = value.toLowerCase();
-  if (val.includes('completed') || val.includes('finished') || val.includes('done')) return 'Completed';
-  if (val.includes('running') || val.includes('in progress')) return 'Running';
-  if (val.includes('not started') || val.includes('scheduled') || val.includes('upcoming')) return 'Not Started';
+  if (val.includes('completed')) return 'Completed';
+  if (val.includes('running')) return 'Running';
+  if (val.includes('not started')) return 'Not Started';
   return value;
 }
 
@@ -207,73 +279,82 @@ function createTeamElement(team, seed) {
   const div = document.createElement('div');
   div.className = 'team';
   div.innerHTML = `<h3><img src="${team.countryFlagUrl}" alt="${team.countryCode}" title="${team.countryCode}" width="24" height="24" style="border-radius:50%; margin-right:6px;">${team.countryCode} ${seed ? `(Seed: ${seed})` : ''}</h3>`;
-  team.players.forEach(player => div.appendChild(createPlayerElement(player)));
+  team.players.forEach(p => div.appendChild(createPlayerElement(p)));
   return div;
 }
 
-function formatScore(scoreArray) {
-  if (!scoreArray || scoreArray.length === 0) return 'Belum ada skor';
-  return scoreArray.map(set => `Set ${set.set}: ${set.home} - ${set.away}`).join(' | ');
+function formatScore(scores) {
+  if (!scores || scores.length === 0) return 'Belum ada skor';
+  return scores.map(s => `Set ${s.set}: ${s.home} - ${s.away}`).join(' | ');
 }
 
 function createMatchElement(match) {
-  const container = document.createElement('div');
-  container.className = 'match-container';
-  container.innerHTML = `
+  const el = document.createElement('div');
+  el.className = 'match-container';
+  el.innerHTML = `
     <div class="match-header">
-      <div><strong>Waktu:</strong> ${new Date(match.matchTime).toLocaleString('id-ID', { dateStyle: 'medium', timeStyle: 'short' })}</div>
+      <div><strong>Waktu:</strong> ${new Date(match.matchTime).toLocaleString('id-ID')}</div>
       <div><strong>Status:</strong> ${match.matchStatusValue}</div>
       <div><strong>Round:</strong> ${match.roundName}</div>
-    </div>
-  `;
-  const teamsDiv = document.createElement('div');
-  teamsDiv.className = 'teams';
-  teamsDiv.appendChild(createTeamElement(match.team1, match.team1seed));
-  teamsDiv.appendChild(createTeamElement(match.team2, match.team2seed));
-  container.appendChild(teamsDiv);
-  const scoreDiv = document.createElement('div');
-  scoreDiv.className = 'score';
-  scoreDiv.textContent = `Skor: ${formatScore(match.score)}`;
-  container.appendChild(scoreDiv);
-  const infoDiv = document.createElement('div');
-  infoDiv.className = 'match-info';
-  infoDiv.innerHTML = `
+    </div>`;
+  const teams = document.createElement('div');
+  teams.className = 'teams';
+  teams.appendChild(createTeamElement(match.team1, match.team1seed));
+  teams.appendChild(createTeamElement(match.team2, match.team2seed));
+  el.appendChild(teams);
+  const score = document.createElement('div');
+  score.className = 'score';
+  score.textContent = `Skor: ${formatScore(match.score)}`;
+  el.appendChild(score);
+  const info = document.createElement('div');
+  info.className = 'match-info';
+  info.innerHTML = `
     <div><strong>Turnamen:</strong> ${match.tournamentName}</div>
-    <div><strong>Jenis Pertandingan:</strong> ${match.matchTypeValue}</div>
+    <div><strong>Jenis:</strong> ${match.matchTypeValue}</div>
     <div><strong>Lokasi:</strong> ${match.locationName} - ${match.courtName}</div>
-    <div><strong>Durasi:</strong> ${match.duration ? match.duration + ' menit' : '-'}</div>
-  `;
-  container.appendChild(infoDiv);
-  const watchBtn = document.createElement('button');
-  watchBtn.className = 'watch-btn';
-  watchBtn.textContent = 'Tonton';
-  watchBtn.onclick = () => {
-    const videoUrl = videoLinks[match.id];
-    if (videoUrl) window.open(videoUrl, '_blank');
-    else alert('Video untuk pertandingan ini belum tersedia.');
+    <div><strong>Durasi:</strong> ${match.duration || '-'} menit</div>`;
+  el.appendChild(info);
+  const watch = document.createElement('button');
+  watch.className = 'watch-btn';
+  watch.textContent = 'Tonton';
+  watch.onclick = () => {
+    const link = videoLinks[match.id];
+    if (link) window.open(link, '_blank');
+    else alert('Video belum tersedia.');
   };
-  container.appendChild(watchBtn);
-  return container;
+  el.appendChild(watch);
+
+  const detailBtn = document.createElement('button');
+  detailBtn.className = 'watch-btn';
+  detailBtn.style.marginLeft = '10px';
+  detailBtn.textContent = 'Detail';
+  detailBtn.onclick = () => showDetailModal(match);
+  el.appendChild(detailBtn);
+  return el;
 }
 
 function renderMatches(matches) {
   matchesContainer.innerHTML = '';
-  matches.forEach(match => matchesContainer.appendChild(createMatchElement(match)));
+  if (!matches.length) {
+    const msg = document.createElement('div');
+    msg.className = 'error';
+    msg.textContent = 'Tidak ada pertandingan ditemukan.';
+    matchesContainer.appendChild(msg);
+    return;
+  }
+  matches.forEach(m => matchesContainer.appendChild(createMatchElement(m)));
 }
 
 function applyFilters() {
-  const selectedType = filterSelect.value;
-  const selectedStatus = statusFilter.value;
+  const type = filterSelect.value;
+  const status = statusFilter.value;
   const keyword = searchInput.value.toLowerCase();
-
-  const filtered = allMatches.filter(match => {
-    const typeMatch = !selectedType || match.matchTypeValue === selectedType;
-    const statusMatch = !selectedStatus || normalizeStatus(match.matchStatusValue) === selectedStatus;
-    const playerNames = [...match.team1.players, ...match.team2.players].map(p => p.nameDisplay.toLowerCase()).join(' ');
-    const nameMatch = !keyword || playerNames.includes(keyword);
-    return typeMatch && statusMatch && nameMatch;
+  const filtered = allMatches.filter(m => {
+    const typeMatch = !type || m.matchTypeValue === type;
+    const statusMatch = !status || normalizeStatus(m.matchStatusValue) === status;
+    const playerNames = [...m.team1.players, ...m.team2.players].map(p => p.nameDisplay.toLowerCase()).join(' ');
+    return typeMatch && statusMatch && (!keyword || playerNames.includes(keyword));
   });
-
   renderMatches(filtered);
 }
 
@@ -281,7 +362,7 @@ filterSelect.addEventListener('change', applyFilters);
 statusFilter.addEventListener('change', applyFilters);
 searchInput.addEventListener('input', applyFilters);
 dateInput.addEventListener('change', async () => {
-  statusDiv.innerHTML = '<div class="spinner"></div><div>Memuat data pertandingan...</div>';
+  statusDiv.textContent = 'Memuat ulang...';
   currentDate = dateInput.value;
   allMatches = await loadMatches(currentDate);
   renderMatches(allMatches);
@@ -296,38 +377,81 @@ resetBtn.addEventListener('click', async () => {
   renderMatches(allMatches);
 });
 
-async function init() {
+let lastMatchCount = 0;
+async function updateMatchesLoop() {
   try {
-    statusDiv.innerHTML = '<div class="spinner"></div><div>Memuat data video...</div>';
-    await loadVideoLinks();
-    statusDiv.textContent = 'Memuat data pertandingan...';
-    allMatches = await loadMatches(currentDate);
-    if (!allMatches || allMatches.length === 0) {
-      statusDiv.textContent = 'Tidak ada data pertandingan untuk tanggal ini.';
-      return;
+    const updated = await loadMatches(currentDate);
+    if (updated.length !== lastMatchCount) {
+      notify(`${updated.length - lastMatchCount} pembaruan pertandingan.`);
+      lastMatchCount = updated.length;
     }
-    statusDiv.style.display = 'none';
-    renderMatches(allMatches);
-
-    // Real-time update tiap 1 menit
-    setInterval(async () => {
-      try {
-        const updatedMatches = await loadMatches(currentDate);
-        if (updatedMatches && updatedMatches.length > 0) {
-          allMatches = updatedMatches;
-          applyFilters();
-        }
-      } catch (err) {
-        console.warn('Gagal memperbarui data pertandingan:', err);
-      }
-    }, 30000);
-  } catch (error) {
-    statusDiv.className = 'error';
-    statusDiv.textContent = 'Terjadi kesalahan saat memuat data: ' + error.message;
+    allMatches = updated;
+    applyFilters();
+  } catch (err) {
+    console.warn('Gagal update:', err);
   }
 }
 
+async function init() {
+  statusDiv.textContent = 'Memuat video & data...';
+  await loadVideoLinks();
+  allMatches = await loadMatches(currentDate);
+  lastMatchCount = allMatches.length;
+  statusDiv.style.display = 'none';
+  renderMatches(allMatches);
+  setInterval(updateMatchesLoop, 30000);
+}
+
 window.addEventListener('DOMContentLoaded', init);
-  </script>
+</script>
+<div id="modal" style="position:fixed;top:0;left:0;width:100vw;height:100vh;background:rgba(0,0,0,0.6);display:none;align-items:center;justify-content:center;z-index:9999;animation:fadeIn 0.4s ease-out;padding:10px;">
+  <div style="background:#fff;border-radius:12px;max-width:600px;width:100%;max-height:90vh;padding:20px;position:relative;animation:scaleIn 0.3s ease-in-out;overflow:auto;">
+    <button onclick="const modal = document.getElementById('modal');
+modal.firstElementChild.style.animation = 'scaleOut 0.2s ease';
+modal.style.animation = 'fadeOut 0.3s ease';
+setTimeout(() => modal.style.display = 'none', 250)" style="position:absolute;top:10px;right:10px;background:#ccc;border:none;border-radius:4px;padding:4px 8px;">Tutup</button>
+    <div id="modal-content"></div>
+  </div>
+</div>
+
+<script>
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') document.getElementById('modal').style.display = 'none';
+});
+
+function showDetailModal(match) {
+  const modal = document.getElementById('modal');
+  const content = document.getElementById('modal-content');
+  content.innerHTML = `
+    <h2>Detail Pertandingan</h2>
+    <div style="display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;margin-bottom:1rem">
+      <div style="flex:1;min-width:150px">
+        <h4><img src="${match.team1.countryFlagUrl}" width="20" style="vertical-align:middle"> ${match.team1.countryCode}</h4>
+        ${match.team1.players.map(p => `<div style='display:flex;align-items:center;gap:6px;margin:2px 0'><img src="${p.avatar?.thumbnailUrl || 'https://via.placeholder.com/30'}" width="28" height="28" style="border-radius:50%">${p.nameDisplay}</div>`).join('')}
+      </div>
+      <div style="flex:1">
+        <h4><img src="${match.team2.countryFlagUrl}" width="20" style="vertical-align:middle"> ${match.team2.countryCode}</h4>
+        ${match.team2.players.map(p => `<div style='display:flex;align-items:center;gap:6px;margin:2px 0'><img src="${p.avatar?.thumbnailUrl || 'https://via.placeholder.com/30'}" width="28" height="28" style="border-radius:50%">${p.nameDisplay}</div>`).join('')}
+      </div>
+    </div>
+    <p><strong>Turnamen:</strong> ${match.tournamentName}</p>
+    <p><strong>Jenis:</strong> ${match.matchTypeValue}</p>
+    <p><strong>Waktu:</strong> ${new Date(match.matchTime).toLocaleString('id-ID')}</p>
+    <p><strong>Lokasi:</strong> ${match.locationName} - ${match.courtName}</p>
+    <p><strong>Status:</strong> ${match.matchStatusValue}</p>
+    <p><strong>Durasi:</strong> ${match.duration || '-'} menit</p>
+    <p><strong>Skor:</strong> ${formatScore(match.score)}</p>
+    <hr>
+    <h3>Statistik & Analisis</h3>
+    <ul>
+      <li><strong>Total Pemain:</strong> ${match.team1.players.length + match.team2.players.length}</li>
+      <li><strong>Negara:</strong> ${match.team1.countryCode} vs ${match.team2.countryCode}</li>
+      <li><strong>Skor Tertinggi:</strong> ${Math.max(...match.score.map(s => Math.max(s.home, s.away)) || [0])}</li>
+      <li><strong>Jumlah Set:</strong> ${match.score.length}</li>
+    </ul>
+  `;
+  modal.style.display = 'flex';
+}
+</script>
 </body>
 </html>
