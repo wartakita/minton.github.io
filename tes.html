@@ -179,6 +179,10 @@
       display: block !important;
     }
   }
+#histats_counter,
+.no-results {
+    display: none
+}
 </style>
 </head>
 <body>
@@ -273,7 +277,7 @@ async function loadVideoLinks() {
 }
 
 async function loadMatches(date) {
-  const API_URL = `https://extranet-lv.bwfbadminton.com/api/tournaments/day-matches?tournamentCode=294DE888-25E7-4633-A28B-03825F250F61&date=${date}`;
+  const API_URL = `https://extranet-lv.bwfbadminton.com/api/tournaments/day-matches?tournamentCode=2B01A412-B4FA-4839-B3ED-3B067519CEB1&date=${date}`;
   try {
     const response = await fetch(API_URL);
     if (!response.ok) throw new Error('Gagal memuat data pertandingan');
