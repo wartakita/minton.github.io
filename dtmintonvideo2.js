@@ -1,11 +1,11 @@
 document.addEventListener('keydown', e => {
-  if (e.key === 'Escape') document.getElementById('modal').style.display = 'none';
+    if (e.key === 'Escape') document.getElementById('modal').style.display = 'none';
 });
 
 function showDetailModal(match) {
-  const modal = document.getElementById('modal');
-  const content = document.getElementById('modal-content');
-  content.innerHTML = `
+    const modal = document.getElementById('modal');
+    const content = document.getElementById('modal-content');
+    content.innerHTML = `
     <h2>Detail Pertandingan</h2>
     <div style="display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;margin-bottom:1rem">
       <div style="flex:1;min-width:150px">
@@ -33,50 +33,49 @@ function showDetailModal(match) {
       <li><strong>Jumlah Set:</strong> ${match.score.length}</li>
     </ul>
   `;
-  modal.style.display = 'flex';
+    modal.style.display = 'flex';
 
-  const ctx = document.createElement('canvas');
-  ctx.id = 'scoreChart';
-  content.appendChild(ctx);
+    const ctx = document.createElement('canvas');
+    ctx.id = 'scoreChart';
+    content.appendChild(ctx);
 
-  const labels = match.score.map((s, i) => `Set ${i + 1}`);
-  const data = {
-    labels,
-    datasets: [
-      {
-        label: `${match.team1.countryCode}`,
-        data: match.score.map(s => s.home),
-        backgroundColor: '#007bff',
-        borderColor: '#007bff',
-        fill: false,
-        tension: 0.3
-      },
-      {
-        label: `${match.team2.countryCode}`,
-        data: match.score.map(s => s.away),
-        backgroundColor: '#28a745',
-        borderColor: '#28a745',
-        fill: false,
-        tension: 0.3
-      }
-    ]
-  };
+    const labels = match.score.map((s, i) => `Set ${i + 1}`);
+    const data = {
+        labels,
+        datasets: [{
+                label: `${match.team1.countryCode}`,
+                data: match.score.map(s => s.home),
+                backgroundColor: '#007bff',
+                borderColor: '#007bff',
+                fill: false,
+                tension: 0.3
+            },
+            {
+                label: `${match.team2.countryCode}`,
+                data: match.score.map(s => s.away),
+                backgroundColor: '#28a745',
+                borderColor: '#28a745',
+                fill: false,
+                tension: 0.3
+            }
+        ]
+    };
 
-  const chartType = match.score.length <= 3 ? 'bar' : 'line';
-  new Chart(ctx, {
-    type: chartType,
-    data,
-    options: {
-      responsive: true,
-      plugins: {
-        legend: {
-          position: 'top'
-        },
-        title: {
-          display: true,
-          text: 'Skor per Set'
+    const chartType = match.score.length <= 3 ? 'bar' : 'line';
+    new Chart(ctx, {
+        type: chartType,
+        data,
+        options: {
+            responsive: true,
+            plugins: {
+                legend: {
+                    position: 'top'
+                },
+                title: {
+                    display: true,
+                    text: 'Skor per Set'
+                }
+            }
         }
-      }
-    }
-  });
+    });
 }
