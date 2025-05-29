@@ -1,10 +1,3 @@
 [
-  {
-    "matchId": "1435239",
-    "liveStreamUrl": "https://example.com/stream/123"
-  },
-  {
-    "matchId": "1435240",
-    "liveStreamUrl": "https://example.com/stream/789"
-  }
+  { "matchId": 1435323, "streamUrl": "https://youtube.com/stream1" }
 ]
