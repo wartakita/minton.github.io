@@ -1,0 +1,22 @@
+{
+  "name": "PecintaMinton - Streaming Badminton Terbaik",
+  "short_name": "PecintaMinton",
+  "start_url": "https://pecintaminton.blogspot.com/",
+  "display": "standalone",
+  "background_color": "#1e3c72",
+  "theme_color": "#1e3c72",
+  "orientation": "portrait",
+  "lang": "id",
+  "icons": [
+    {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBsZD7sQKmK3aZp5TiJWxiJN7HGsMlOvdehRRBkZhu0xaK9dmOAqA7TbF_Jsi19yc3q-btoeOKl6L0XzsMys-7KXVnDfwyDSeoVEtBkFij-vUuJpzIBpMqFBm9I7ig74Ncb6gmgdF8UmePUskKHdyN3OtU4jAm-ijWvTaryO8S2Ne4apEZUmj2rQtmLWI/s1600/pecintaminton.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBsZD7sQKmK3aZp5TiJWxiJN7HGsMlOvdehRRBkZhu0xaK9dmOAqA7TbF_Jsi19yc3q-btoeOKl6L0XzsMys-7KXVnDfwyDSeoVEtBkFij-vUuJpzIBpMqFBm9I7ig74Ncb6gmgdF8UmePUskKHdyN3OtU4jAm-ijWvTaryO8S2Ne4apEZUmj2rQtmLWI/s1600/pecintaminton.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
