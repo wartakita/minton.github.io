@@ -172,7 +172,7 @@
       const container = document.getElementById('matchContainer');
       container.innerHTML = 'Loading...';
       try {
-        const res = await fetch(`https://extranet-lv.bwfbadminton.com/api/tournaments/day-matches?tournamentCode=9B0A466D-4601-4B6A-9FDE-60208870A5BC&date=${date}`);
+        const res = await fetch(`https://extranet-lv.bwfbadminton.com/api/tournaments/day-matches?tournamentCode=820AD245-F923-4B4F-8A96-BEDBA1B7A527&date=${date}`);
         const data = await res.json();
         allMatches = data;
         renderMatches(data);
